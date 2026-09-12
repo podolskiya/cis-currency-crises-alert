@@ -1,42 +1,16 @@
-"""
-Phase 1a — World Bank WDI pull for the Frontier/CIS Early Warning System.
-
-Pulls annual macro fundamentals for the 11-country panel via the World Bank
-API (no API key required). Saves one long-format CSV and prints a coverage
-summary so we can see exactly what came back before building anything on
-top of it.
-
-Run:
-    pip install requests pandas
-    python pull_worldbank.py
-"""
-
+import sys
 import time
+from pathlib import Path
+
 import requests
 import pandas as pd
 
-# --- Panel definition -------------------------------------------------
+sys.path.append(str(Path(__file__).resolve().parents[2]))
+from config.countries import ISO3_TO_NAME
 
-COUNTRIES = {
-    "KAZ": "Kazakhstan",
-    "KGZ": "Kyrgyz Republic",
-    "TJK": "Tajikistan",
-    "TKM": "Turkmenistan",
-    "UZB": "Uzbekistan",
-    "ARM": "Armenia",
-    "AZE": "Azerbaijan",
-    "GEO": "Georgia",
-    "RUS": "Russian Federation",
-    "BLR": "Belarus",
-    "MDA": "Moldova",
-}
 
-# WDI indicator code -> our short name
-# NOTE: GC.BAL.CASH.GD.ZS (fiscal balance) deliberately excluded — that
-# series is built on a pre-2000s cash-basis GFS standard the World Bank
-# has effectively stopped populating (no data in any recent vintage, for
-# any country). Fiscal balance will be sourced from IMF WEO in Phase 1c
-# instead of chasing a weaker WDI substitute.
+COUNTRIES = ISO3_TO_NAME
+
 INDICATORS = {
     "NY.GDP.MKTP.KD.ZG": "gdp_growth_pct",
     "BN.CAB.XOKA.GD.ZS": "current_account_pct_gdp",
@@ -48,6 +22,7 @@ INDICATORS = {
 START_YEAR, END_YEAR = 1995, 2025
 BASE_URL = "https://api.worldbank.org/v2/country/{country}/indicator/{indicator}"
 MAX_RETRIES = 3
+OUT_PATH = Path(__file__).resolve().parents[2] / "data" / "raw" / "worldbank" / "worldbank_raw_cis.csv"
 
 
 def fetch_series(country_iso3: str, indicator_code: str) -> list[dict]:
@@ -66,14 +41,13 @@ def fetch_series(country_iso3: str, indicator_code: str) -> list[dict]:
             resp = requests.get(url, params=params, timeout=30)
             resp.raise_for_status()
             payload = resp.json()
-            # WDI returns [metadata, data] on success, or a dict on error
             if not isinstance(payload, list) or len(payload) < 2 or payload[1] is None:
                 return []
             return payload[1]
         except requests.RequestException as exc:
             last_exc = exc
             if attempt < MAX_RETRIES:
-                time.sleep(2 * attempt)  # 2s, then 4s backoff
+                time.sleep(2 * attempt) 
     raise last_exc
 
 
@@ -100,12 +74,13 @@ def main():
                         "value": float(rec["value"]),
                     }
                 )
-            time.sleep(0.2)  # polite pacing, not strictly required by the API
+            time.sleep(0.2)
 
     df = pd.DataFrame(rows)
-    df.to_csv("worldbank_raw_cis.csv", index=False)
+    OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    df.to_csv(OUT_PATH, index=False)
 
-    print(f"\nSaved {len(df)} observations to worldbank_raw_cis.csv\n")
+    print(f"\nSaved {len(df)} observations to {OUT_PATH}\n")
     print("=== Coverage summary (non-null observations, year range) ===")
     if df.empty:
         print("No data returned at all — check network access / indicator codes.")
