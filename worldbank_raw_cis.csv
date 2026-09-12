@@ -1,0 +1,1498 @@
+country_iso3,country_name,indicator_code,indicator,year,value
+KAZ,Kazakhstan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2025,6.5
+KAZ,Kazakhstan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2024,4.99999999996936
+KAZ,Kazakhstan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2023,5.09999999973641
+KAZ,Kazakhstan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2022,3.19999999970734
+KAZ,Kazakhstan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2021,4.29999999729456
+KAZ,Kazakhstan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2020,-2.49999999628
+KAZ,Kazakhstan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2019,4.50000000091883
+KAZ,Kazakhstan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2018,4.09999999309841
+KAZ,Kazakhstan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2017,4.10000000257358
+KAZ,Kazakhstan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2016,1.09999999910173
+KAZ,Kazakhstan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2015,1.20000000053288
+KAZ,Kazakhstan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2014,4.20000000566705
+KAZ,Kazakhstan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2013,5.99999999671084
+KAZ,Kazakhstan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2012,4.79999999528297
+KAZ,Kazakhstan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2011,7.40000000144188
+KAZ,Kazakhstan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2010,7.30000000329814
+KAZ,Kazakhstan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2009,1.19999999942873
+KAZ,Kazakhstan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2008,3.30000000021091
+KAZ,Kazakhstan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2007,8.89999999999405
+KAZ,Kazakhstan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2006,10.7
+KAZ,Kazakhstan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2005,9.69999999922682
+KAZ,Kazakhstan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2004,9.60000000136854
+KAZ,Kazakhstan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2003,9.30000000033759
+KAZ,Kazakhstan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2002,9.79999999960842
+KAZ,Kazakhstan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2001,13.4999999984358
+KAZ,Kazakhstan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2000,9.80000000214156
+KAZ,Kazakhstan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1999,2.69999999784199
+KAZ,Kazakhstan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1998,-1.89999999942479
+KAZ,Kazakhstan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1997,1.69999999949513
+KAZ,Kazakhstan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1996,0.500000002073506
+KAZ,Kazakhstan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1995,-8.2000000011824
+KAZ,Kazakhstan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2025,-4.06579066364776
+KAZ,Kazakhstan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2024,-2.32054721716038
+KAZ,Kazakhstan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2023,-3.16389675969422
+KAZ,Kazakhstan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2022,2.85432700775768
+KAZ,Kazakhstan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2021,-1.35935671668035
+KAZ,Kazakhstan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2020,-6.46182057750936
+KAZ,Kazakhstan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2019,-3.8684220835049
+KAZ,Kazakhstan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2018,-0.984581633983154
+KAZ,Kazakhstan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2017,-2.05429721551443
+KAZ,Kazakhstan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2016,-5.07331546745494
+KAZ,Kazakhstan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2015,-5.4122312771503
+KAZ,Kazakhstan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2014,-1.28837366004242
+KAZ,Kazakhstan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2013,1.91316832797548
+KAZ,Kazakhstan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2012,1.26375902394522
+KAZ,Kazakhstan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2011,7.30301403639311
+KAZ,Kazakhstan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2010,1.80897140296935
+KAZ,Kazakhstan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2009,-0.116464485829439
+KAZ,Kazakhstan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2008,0.964821810457097
+KAZ,Kazakhstan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2007,-4.54619329218056
+KAZ,Kazakhstan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2006,-1.01568463503606
+KAZ,Kazakhstan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2005,0.627462667764142
+KAZ,Kazakhstan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2004,0.777323158524582
+KAZ,Kazakhstan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2003,-0.884199244172019
+KAZ,Kazakhstan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2002,-4.15780223333077
+KAZ,Kazakhstan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2001,-6.27245039510067
+KAZ,Kazakhstan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2000,2.00256762828012
+KAZ,Kazakhstan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1999,-1.01358457125999
+KAZ,Kazakhstan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1998,-5.53370867105319
+KAZ,Kazakhstan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1997,-3.60598416402908
+KAZ,Kazakhstan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1996,-3.57017932498944
+KAZ,Kazakhstan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1995,-1.04592536802769
+KAZ,Kazakhstan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2024,62.6029318152699
+KAZ,Kazakhstan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2023,72.9017800635209
+KAZ,Kazakhstan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2022,84.7932235856559
+KAZ,Kazakhstan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2021,100.270147736422
+KAZ,Kazakhstan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2020,110.819683629583
+KAZ,Kazakhstan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2019,107.373342903391
+KAZ,Kazakhstan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2018,102.472812128434
+KAZ,Kazakhstan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2017,109.692413392467
+KAZ,Kazakhstan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2016,134.847682725523
+KAZ,Kazakhstan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2015,90.3781219318061
+KAZ,Kazakhstan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2014,80.6316289334986
+KAZ,Kazakhstan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2013,71.8109289830663
+KAZ,Kazakhstan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2012,75.5060611702048
+KAZ,Kazakhstan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2011,75.4058752094542
+KAZ,Kazakhstan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2010,92.6005686097178
+KAZ,Kazakhstan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2009,106.657658372815
+KAZ,Kazakhstan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2008,93.5758909579848
+KAZ,Kazakhstan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2007,104.718369407138
+KAZ,Kazakhstan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2006,103.886110915605
+KAZ,Kazakhstan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2005,85.0559410630998
+KAZ,Kazakhstan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2004,82.1972455699714
+KAZ,Kazakhstan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2003,79.4635418241711
+KAZ,Kazakhstan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2002,77.9528010154769
+KAZ,Kazakhstan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2001,72.8453466170761
+KAZ,Kazakhstan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2000,75.148132695024
+KAZ,Kazakhstan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1999,40.4455503446454
+KAZ,Kazakhstan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1998,27.8179231674622
+KAZ,Kazakhstan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1997,18.6544954693959
+KAZ,Kazakhstan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1996,14.0343192466923
+KAZ,Kazakhstan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1995,18.5351082484006
+KAZ,Kazakhstan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2025,0.0773125650490405
+KAZ,Kazakhstan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2024,0.08260553410117
+KAZ,Kazakhstan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2023,0.115996073438374
+KAZ,Kazakhstan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2022,0.213219830288597
+KAZ,Kazakhstan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2021,0.157213071084416
+KAZ,Kazakhstan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2020,0.218836862121885
+KAZ,Kazakhstan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2019,0.278573150811193
+KAZ,Kazakhstan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2018,0.344618856879696
+KAZ,Kazakhstan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2017,0.33597213131325
+KAZ,Kazakhstan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2016,0.27984417174788
+KAZ,Kazakhstan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2015,0.15959228908192
+KAZ,Kazakhstan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2014,0.181279445291607
+KAZ,Kazakhstan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2013,0.144275547930533
+KAZ,Kazakhstan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2012,0.136051344243071
+KAZ,Kazakhstan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2011,0.0932936660895134
+KAZ,Kazakhstan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2010,0.152354119782252
+KAZ,Kazakhstan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2009,0.171887472539219
+KAZ,Kazakhstan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2008,0.0941014656535349
+KAZ,Kazakhstan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2007,0.136377234008485
+KAZ,Kazakhstan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2006,0.103192446831978
+KAZ,Kazakhstan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2005,0.108574815738916
+KAZ,Kazakhstan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2004,0.132966722215831
+KAZ,Kazakhstan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2003,0.136856101332743
+KAZ,Kazakhstan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2002,0.451556685268236
+KAZ,Kazakhstan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2001,0.383878450645308
+KAZ,Kazakhstan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2000,0.368863297858754
+KAZ,Kazakhstan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1999,0.0213386225528418
+KAZ,Kazakhstan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1998,0.0289131647438488
+KAZ,Kazakhstan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1997,0.00541371324513312
+KAZ,Kazakhstan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1996,0.00570468067907766
+KAZ,Kazakhstan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1995,0.569835446546816
+KAZ,Kazakhstan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2024,56.7199106286709
+KAZ,Kazakhstan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2023,58.9305033328289
+KAZ,Kazakhstan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2022,68.0182146754446
+KAZ,Kazakhstan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2021,65.6108725080086
+KAZ,Kazakhstan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2020,65.3889791619589
+KAZ,Kazakhstan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2019,66.2407564398188
+KAZ,Kazakhstan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2018,70.0337201158019
+KAZ,Kazakhstan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2017,63.3269144379605
+KAZ,Kazakhstan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2016,60.7328771938903
+KAZ,Kazakhstan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2015,67.7181648737463
+KAZ,Kazakhstan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2014,76.3925592249518
+KAZ,Kazakhstan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2013,76.2956655965256
+KAZ,Kazakhstan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2012,69.8792646239037
+KAZ,Kazakhstan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2011,72.0210784152868
+KAZ,Kazakhstan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2010,71.6806270855298
+KAZ,Kazakhstan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2009,69.514157362947
+KAZ,Kazakhstan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2008,68.7221352878897
+KAZ,Kazakhstan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2007,66.0104725340561
+KAZ,Kazakhstan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2006,68.714090971935
+KAZ,Kazakhstan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2005,70.1188445046683
+KAZ,Kazakhstan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2004,64.2555866804038
+KAZ,Kazakhstan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2003,61.2210355625118
+KAZ,Kazakhstan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2002,58.2968412422144
+KAZ,Kazakhstan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2001,56.0681629309164
+KAZ,Kazakhstan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2000,50.123791354162
+KAZ,Kazakhstan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,1999,43.6437785324875
+KAZ,Kazakhstan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,1998,36.7043819848245
+KAZ,Kazakhstan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,1997,34.1560510401668
+KAZ,Kazakhstan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,1996,32.9430392621694
+KAZ,Kazakhstan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,1995,24.9891959336264
+KGZ,Kyrgyz Republic,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2025,11.0960203357132
+KGZ,Kyrgyz Republic,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2024,11.5397119406559
+KGZ,Kyrgyz Republic,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2023,9.0132928339342
+KGZ,Kyrgyz Republic,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2022,8.96750520041391
+KGZ,Kyrgyz Republic,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2021,5.50700762671923
+KGZ,Kyrgyz Republic,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2020,-7.14897757727955
+KGZ,Kyrgyz Republic,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2019,4.60062565707598
+KGZ,Kyrgyz Republic,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2018,3.75791013557165
+KGZ,Kyrgyz Republic,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2017,4.73993722377884
+KGZ,Kyrgyz Republic,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2016,4.33585592190116
+KGZ,Kyrgyz Republic,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2015,3.87582544512439
+KGZ,Kyrgyz Republic,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2014,4.02403863083252
+KGZ,Kyrgyz Republic,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2013,10.9154694528045
+KGZ,Kyrgyz Republic,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2012,-0.0881501998439376
+KGZ,Kyrgyz Republic,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2011,5.95627429693504
+KGZ,Kyrgyz Republic,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2010,-0.471566596791618
+KGZ,Kyrgyz Republic,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2009,2.88629457537731
+KGZ,Kyrgyz Republic,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2008,8.40161604861429
+KGZ,Kyrgyz Republic,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2007,8.54287477507607
+KGZ,Kyrgyz Republic,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2006,3.10289874199981
+KGZ,Kyrgyz Republic,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2005,-0.175515404044219
+KGZ,Kyrgyz Republic,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2004,7.02681242497607
+KGZ,Kyrgyz Republic,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2003,7.03029319731168
+KGZ,Kyrgyz Republic,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2002,-0.0173246130360667
+KGZ,Kyrgyz Republic,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2001,5.32162141190466
+KGZ,Kyrgyz Republic,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2000,5.44333663288322
+KGZ,Kyrgyz Republic,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1999,3.655789399748
+KGZ,Kyrgyz Republic,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1998,2.12183528473682
+KGZ,Kyrgyz Republic,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1997,9.91525389550945
+KGZ,Kyrgyz Republic,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1996,7.08450239536558
+KGZ,Kyrgyz Republic,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1995,-5.4238219222602
+KGZ,Kyrgyz Republic,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2024,-22.6410105179248
+KGZ,Kyrgyz Republic,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2023,-44.9281659368624
+KGZ,Kyrgyz Republic,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2022,-42.3794795657648
+KGZ,Kyrgyz Republic,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2021,-7.97583742281609
+KGZ,Kyrgyz Republic,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2020,4.52522127933728
+KGZ,Kyrgyz Republic,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2019,-11.3840798908834
+KGZ,Kyrgyz Republic,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2018,-11.6275560440076
+KGZ,Kyrgyz Republic,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2017,-6.95269622627314
+KGZ,Kyrgyz Republic,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2016,-11.628233310749
+KGZ,Kyrgyz Republic,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2015,-15.7592478411185
+KGZ,Kyrgyz Republic,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2014,-17.4244156605429
+KGZ,Kyrgyz Republic,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2013,-13.7754189892496
+KGZ,Kyrgyz Republic,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2012,-15.5252325924145
+KGZ,Kyrgyz Republic,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2011,-7.69730261933363
+KGZ,Kyrgyz Republic,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2010,-9.89833859355209
+KGZ,Kyrgyz Republic,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2009,-4.31423765842018
+KGZ,Kyrgyz Republic,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2008,-13.8763673181829
+KGZ,Kyrgyz Republic,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2007,-5.98595362572478
+KGZ,Kyrgyz Republic,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2006,-10.0953913600934
+KGZ,Kyrgyz Republic,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2005,-1.52182901572015
+KGZ,Kyrgyz Republic,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2004,1.32375512838834
+KGZ,Kyrgyz Republic,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2003,-2.19733510264456
+KGZ,Kyrgyz Republic,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2002,-1.82590999500267
+KGZ,Kyrgyz Republic,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2001,-1.2453482434873
+KGZ,Kyrgyz Republic,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2000,-5.55490834350205
+KGZ,Kyrgyz Republic,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1999,-14.7114078976096
+KGZ,Kyrgyz Republic,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1998,-22.1096826975893
+KGZ,Kyrgyz Republic,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1997,-7.83516136995408
+KGZ,Kyrgyz Republic,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1996,-23.2415099703837
+KGZ,Kyrgyz Republic,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1995,-14.1298148219336
+KGZ,Kyrgyz Republic,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2024,69.2449937236268
+KGZ,Kyrgyz Republic,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2023,67.8468389010041
+KGZ,Kyrgyz Republic,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2022,82.1427748417892
+KGZ,Kyrgyz Republic,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2021,105.027564630253
+KGZ,Kyrgyz Republic,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2020,108.254915900414
+KGZ,Kyrgyz Republic,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2019,98.3979993938565
+KGZ,Kyrgyz Republic,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2018,101.791028770854
+KGZ,Kyrgyz Republic,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2017,110.883039410088
+KGZ,Kyrgyz Republic,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2016,123.520841603547
+KGZ,Kyrgyz Republic,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2015,120.298263428398
+KGZ,Kyrgyz Republic,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2014,101.757857315114
+KGZ,Kyrgyz Republic,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2013,98.5990223853721
+KGZ,Kyrgyz Republic,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2012,93.7846806920141
+KGZ,Kyrgyz Republic,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2011,99.1762629048855
+KGZ,Kyrgyz Republic,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2010,91.7410935375773
+KGZ,Kyrgyz Republic,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2009,91.3533289075321
+KGZ,Kyrgyz Republic,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2008,73.5437727684918
+KGZ,Kyrgyz Republic,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2007,76.7242289581745
+KGZ,Kyrgyz Republic,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2006,93.1834816644595
+KGZ,Kyrgyz Republic,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2005,95.1289910008908
+KGZ,Kyrgyz Republic,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2004,121.400576320591
+KGZ,Kyrgyz Republic,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2003,115.690013435844
+KGZ,Kyrgyz Republic,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2002,126.466715101522
+KGZ,Kyrgyz Republic,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2001,124.409089324724
+KGZ,Kyrgyz Republic,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2000,150.487956730821
+KGZ,Kyrgyz Republic,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1999,157.626371382984
+KGZ,Kyrgyz Republic,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1998,96.0620695374272
+KGZ,Kyrgyz Republic,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1997,78.7280389404575
+KGZ,Kyrgyz Republic,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1996,63.5839722001378
+KGZ,Kyrgyz Republic,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1995,37.5820164667689
+KGZ,Kyrgyz Republic,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2024,17.6042447290407
+KGZ,Kyrgyz Republic,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2023,18.8591995144866
+KGZ,Kyrgyz Republic,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2022,26.9192445438421
+KGZ,Kyrgyz Republic,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2021,32.5635356064056
+KGZ,Kyrgyz Republic,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2020,31.8069826721848
+KGZ,Kyrgyz Republic,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2019,28.7859049850986
+KGZ,Kyrgyz Republic,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2018,32.5055687336898
+KGZ,Kyrgyz Republic,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2017,32.2705172692664
+KGZ,Kyrgyz Republic,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2016,29.2760903334236
+KGZ,Kyrgyz Republic,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2015,25.2718946040713
+KGZ,Kyrgyz Republic,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2014,30.0320907271748
+KGZ,Kyrgyz Republic,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2013,31.0564092290657
+KGZ,Kyrgyz Republic,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2012,30.7544325527209
+KGZ,Kyrgyz Republic,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2011,27.5695150811653
+KGZ,Kyrgyz Republic,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2010,26.4100938758912
+KGZ,Kyrgyz Republic,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2009,20.9371247573683
+KGZ,Kyrgyz Republic,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2008,23.7992695009347
+KGZ,Kyrgyz Republic,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2007,18.513914681679
+KGZ,Kyrgyz Republic,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2006,16.6917334209106
+KGZ,Kyrgyz Republic,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2005,12.7324731237381
+KGZ,Kyrgyz Republic,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2004,8.09652452257376
+KGZ,Kyrgyz Republic,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2003,3.66479861905155
+KGZ,Kyrgyz Republic,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2002,1.88667073714928
+KGZ,Kyrgyz Republic,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2001,0.297284121287703
+KGZ,Kyrgyz Republic,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2000,0.163812064068962
+KGZ,Kyrgyz Republic,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1999,0.0915487357418349
+KGZ,Kyrgyz Republic,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1998,0.134523011228329
+KGZ,Kyrgyz Republic,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1997,0.154989294687754
+KGZ,Kyrgyz Republic,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1996,0.133510575102674
+KGZ,Kyrgyz Republic,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1995,0.0748278131693207
+KGZ,Kyrgyz Republic,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2025,9.40463737109047
+KGZ,Kyrgyz Republic,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2024,7.31721333967097
+KGZ,Kyrgyz Republic,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2023,5.93991117441845
+KGZ,Kyrgyz Republic,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2022,8.81937517612303
+KGZ,Kyrgyz Republic,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2021,3.63308306570475
+KGZ,Kyrgyz Republic,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2020,4.384725562171
+KGZ,Kyrgyz Republic,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2019,6.0392466709208
+KGZ,Kyrgyz Republic,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2018,7.58951017001161
+KGZ,Kyrgyz Republic,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2017,4.95863467834871
+KGZ,Kyrgyz Republic,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2016,3.43976515656774
+KGZ,Kyrgyz Republic,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2015,5.2179957360277
+KGZ,Kyrgyz Republic,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2014,7.60556472633859
+KGZ,Kyrgyz Republic,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2013,10.7827888923468
+KGZ,Kyrgyz Republic,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2012,12.2201146937536
+KGZ,Kyrgyz Republic,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2011,10.0198366401676
+KGZ,Kyrgyz Republic,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2010,7.42229646661121
+KGZ,Kyrgyz Republic,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2009,3.40065461229958
+KGZ,Kyrgyz Republic,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2008,3.80008942757725
+KGZ,Kyrgyz Republic,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2007,11.7161195680667
+KGZ,Kyrgyz Republic,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2006,12.9258426825477
+KGZ,Kyrgyz Republic,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2005,7.53021666575875
+KGZ,Kyrgyz Republic,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2004,3.13861104105455
+KGZ,Kyrgyz Republic,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2003,3.34268565099241
+KGZ,Kyrgyz Republic,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2002,12.6345861548401
+KGZ,Kyrgyz Republic,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2001,11.4432666212377
+KGZ,Kyrgyz Republic,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2000,16.3595281000071
+KGZ,Kyrgyz Republic,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,1999,11.8191038717159
+KGZ,Kyrgyz Republic,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,1998,5.63715555970328
+KGZ,Kyrgyz Republic,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,1996,15.3126538643143
+KGZ,Kyrgyz Republic,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,1995,11.0567543135484
+TJK,Tajikistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2025,8.40000053390075
+TJK,Tajikistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2024,8.39999980983981
+TJK,Tajikistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2023,8.29999921651935
+TJK,Tajikistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2022,8.00000033846364
+TJK,Tajikistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2021,9.39999955037523
+TJK,Tajikistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2020,4.40000111553493
+TJK,Tajikistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2019,7.40000016310556
+TJK,Tajikistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2018,7.5999988895536
+TJK,Tajikistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2017,7.10000041864309
+TJK,Tajikistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2016,6.89999999999999
+TJK,Tajikistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2015,6.01930331771186
+TJK,Tajikistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2014,6.70000069016253
+TJK,Tajikistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2013,7.39999974700379
+TJK,Tajikistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2012,7.49999946321525
+TJK,Tajikistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2011,7.40000059956711
+TJK,Tajikistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2010,6.49999908585235
+TJK,Tajikistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2009,3.90000114826496
+TJK,Tajikistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2008,7.89999827154939
+TJK,Tajikistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2007,7.80000011872161
+TJK,Tajikistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2006,7.00000321108996
+TJK,Tajikistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2005,6.69999851655409
+TJK,Tajikistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2004,10.2999989410117
+TJK,Tajikistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2003,10.9999990780572
+TJK,Tajikistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2002,10.8000037591665
+TJK,Tajikistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2001,9.58083617842951
+TJK,Tajikistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2000,8.32432449473859
+TJK,Tajikistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1999,3.69955071665851
+TJK,Tajikistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1998,5.31286765940042
+TJK,Tajikistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1997,1.68067413588066
+TJK,Tajikistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1996,-16.6999984353389
+TJK,Tajikistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1995,-12.416322231899
+TJK,Tajikistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2025,17.0983293460641
+TJK,Tajikistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2024,6.42365269759176
+TJK,Tajikistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2023,4.76980054377008
+TJK,Tajikistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2022,15.2573634253921
+TJK,Tajikistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2021,8.22937866606437
+TJK,Tajikistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2020,4.3491809262765
+TJK,Tajikistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2019,-2.23224918510585
+TJK,Tajikistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2018,-4.88966506186355
+TJK,Tajikistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2017,2.10935261893798
+TJK,Tajikistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2016,-5.23235146296922
+TJK,Tajikistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2015,-5.76773865149509
+TJK,Tajikistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2014,-3.47271227917375
+TJK,Tajikistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2013,-10.4728821493758
+TJK,Tajikistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2012,-8.92695486705108
+TJK,Tajikistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2011,-6.33655867344342
+TJK,Tajikistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2010,-10.2987565843148
+TJK,Tajikistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2009,-14.40853186566
+TJK,Tajikistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2008,-20.5138549086729
+TJK,Tajikistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2007,-32.096259393905
+TJK,Tajikistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2006,-13.1584118273093
+TJK,Tajikistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2005,-12.809877638523
+TJK,Tajikistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2004,-2.74745860241597
+TJK,Tajikistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2003,-0.306284579701348
+TJK,Tajikistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2002,-1.23935164268065
+TJK,Tajikistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2024,37.3947720942707
+TJK,Tajikistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2023,43.138609517573
+TJK,Tajikistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2022,47.3124884939827
+TJK,Tajikistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2021,61.2573550692462
+TJK,Tajikistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2020,72.6845862629147
+TJK,Tajikistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2019,68.8669801750646
+TJK,Tajikistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2018,67.6998175368789
+TJK,Tajikistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2017,67.9150165150958
+TJK,Tajikistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2016,64.1008259689526
+TJK,Tajikistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2015,52.5018447634389
+TJK,Tajikistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2014,45.3573000176201
+TJK,Tajikistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2013,43.7543042685222
+TJK,Tajikistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2012,47.4048674756188
+TJK,Tajikistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2011,47.1598032861208
+TJK,Tajikistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2010,51.0948811337161
+TJK,Tajikistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2009,44.785263466694
+TJK,Tajikistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2008,37.5536362491248
+TJK,Tajikistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2007,28.5112652355737
+TJK,Tajikistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2006,30.6534237525021
+TJK,Tajikistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2005,41.9808178458617
+TJK,Tajikistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2004,57.7953347890355
+TJK,Tajikistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2003,85.677772758842
+TJK,Tajikistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2002,106.29896032498
+TJK,Tajikistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2001,112.813187868421
+TJK,Tajikistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2000,138.36241233672
+TJK,Tajikistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1999,129.938023027688
+TJK,Tajikistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1998,95.4702051491546
+TJK,Tajikistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1997,116.973999292285
+TJK,Tajikistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1996,71.7738272140228
+TJK,Tajikistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1995,53.2353686135251
+TJK,Tajikistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2025,57.6648462573476
+TJK,Tajikistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2024,47.1531186167275
+TJK,Tajikistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2023,37.8445781946342
+TJK,Tajikistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2022,49.8953124537059
+TJK,Tajikistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2021,32.6893794785095
+TJK,Tajikistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2020,26.8848943162433
+TJK,Tajikistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2019,27.9717718939678
+TJK,Tajikistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2018,28.1177144978702
+TJK,Tajikistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2017,29.6849721562403
+TJK,Tajikistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2016,26.70605713952
+TJK,Tajikistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2015,27.306557809196
+TJK,Tajikistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2014,37.1359784024863
+TJK,Tajikistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2013,43.7683574907798
+TJK,Tajikistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2012,42.2158394555421
+TJK,Tajikistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2011,41.7379526470592
+TJK,Tajikistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2010,35.8104365109815
+TJK,Tajikistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2009,31.4438313512332
+TJK,Tajikistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2008,44.1265382636326
+TJK,Tajikistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2007,40.6960068537209
+TJK,Tajikistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2006,34.4803707889679
+TJK,Tajikistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2005,24.4070340378686
+TJK,Tajikistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2004,12.1377953734503
+TJK,Tajikistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2003,9.38871507024825
+TJK,Tajikistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2002,6.43374005428851
+TJK,Tajikistan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2023,8.01704211635926
+TJK,Tajikistan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2022,7.0095165575397
+TJK,Tajikistan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2021,6.50457125272094
+TJK,Tajikistan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2020,7.8481141362019
+TJK,Tajikistan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2019,3.98604005919133
+TJK,Tajikistan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2018,7.36617456242305
+TJK,Tajikistan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2017,5.25467690168705
+TJK,Tajikistan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2016,5.81923896321381
+TJK,Tajikistan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2015,5.49192101578871
+TJK,Tajikistan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2014,5.51644345733579
+TJK,Tajikistan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2000,13.306930349854
+TKM,Turkmenistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2025,6.30000003697894
+TKM,Turkmenistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2024,6.28235647996578
+TKM,Turkmenistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2023,6.31879850268643
+TKM,Turkmenistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2022,6.23491365071671
+TKM,Turkmenistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2021,6.15115785574542
+TKM,Turkmenistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2020,5.87065623130427
+TKM,Turkmenistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2019,6.33169567608873
+TKM,Turkmenistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2018,6.20602363832646
+TKM,Turkmenistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2017,6.45138358820188
+TKM,Turkmenistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2016,6.22909997062793
+TKM,Turkmenistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2015,6.45254918531575
+TKM,Turkmenistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2014,10.3497353947965
+TKM,Turkmenistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2013,10.1628450365084
+TKM,Turkmenistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2012,11.0508311776258
+TKM,Turkmenistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2011,14.7183120474814
+TKM,Turkmenistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2010,9.20000007329543
+TKM,Turkmenistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2009,6.10000001746145
+TKM,Turkmenistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2008,14.7000000144534
+TKM,Turkmenistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2007,11.0592995865825
+TKM,Turkmenistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2006,10.9733082952862
+TKM,Turkmenistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2005,13.0340347988606
+TKM,Turkmenistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2004,5.00040735874585
+TKM,Turkmenistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2003,3.2688286670479
+TKM,Turkmenistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2002,0.257179997445405
+TKM,Turkmenistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2001,4.34384545203714
+TKM,Turkmenistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2000,5.46906425232281
+TKM,Turkmenistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1999,16.4999995329385
+TKM,Turkmenistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1998,7.1000003383482
+TKM,Turkmenistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1997,-11.4000001301061
+TKM,Turkmenistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1996,6.69999198681985
+TKM,Turkmenistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1995,-7.20004092656342
+TKM,Turkmenistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2024,5.21661265138383
+TKM,Turkmenistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2023,6.51562475515089
+TKM,Turkmenistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2022,7.98184791210057
+TKM,Turkmenistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2021,10.0332360806775
+TKM,Turkmenistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2020,12.664880108034
+TKM,Turkmenistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2019,14.9151811375499
+TKM,Turkmenistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2018,20.8966214216128
+TKM,Turkmenistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2017,23.795696531403
+TKM,Turkmenistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2016,23.1856898510511
+TKM,Turkmenistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2015,20.7791606059437
+TKM,Turkmenistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2014,18.5866873573514
+TKM,Turkmenistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2013,23.136822646184
+TKM,Turkmenistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2012,20.5679513452169
+TKM,Turkmenistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2011,16.2712810493695
+TKM,Turkmenistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2010,8.12996104896032
+TKM,Turkmenistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2009,4.24042891975606
+TKM,Turkmenistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2008,4.48478145687274
+TKM,Turkmenistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2007,7.13700187700112
+TKM,Turkmenistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2006,10.2692400450782
+TKM,Turkmenistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2005,15.2863835201395
+TKM,Turkmenistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2004,26.9750065274572
+TKM,Turkmenistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2003,32.4906274353972
+TKM,Turkmenistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2002,49.1031997770124
+TKM,Turkmenistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2001,65.3544526035338
+TKM,Turkmenistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2000,96.3196890399462
+TKM,Turkmenistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1999,111.747393963495
+TKM,Turkmenistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1998,90.869610563202
+TKM,Turkmenistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1997,73.6315114243362
+TKM,Turkmenistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1996,31.5583311482188
+TKM,Turkmenistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1995,16.0858976357941
+TKM,Turkmenistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1996,0.185811096774194
+TKM,Turkmenistan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2000,81.0096342435514
+TKM,Turkmenistan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,1999,64.1385878655064
+TKM,Turkmenistan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,1998,58.5146934818278
+TKM,Turkmenistan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,1997,76.5301378305115
+UZB,Uzbekistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2025,7.69962477932913
+UZB,Uzbekistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2024,6.67618796188361
+UZB,Uzbekistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2023,6.31603004201926
+UZB,Uzbekistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2022,6.08592335737373
+UZB,Uzbekistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2021,8.20448512353877
+UZB,Uzbekistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2020,1.62162281640448
+UZB,Uzbekistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2019,6.79331098484522
+UZB,Uzbekistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2018,5.72368380757618
+UZB,Uzbekistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2017,4.70027401956061
+UZB,Uzbekistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2016,6.71108022628
+UZB,Uzbekistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2015,7.94477659311639
+UZB,Uzbekistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2014,7.71373911707978
+UZB,Uzbekistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2013,7.9217749261021
+UZB,Uzbekistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2012,7.35682138899483
+UZB,Uzbekistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2011,8.12793681625645
+UZB,Uzbekistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2010,7.5971679610016
+UZB,Uzbekistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2009,8.05093332733964
+UZB,Uzbekistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2008,9.02916101784781
+UZB,Uzbekistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2007,9.47300530544537
+UZB,Uzbekistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2006,7.45141847621767
+UZB,Uzbekistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2005,6.95000719569107
+UZB,Uzbekistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2004,7.4490006055965
+UZB,Uzbekistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2003,4.23262738154382
+UZB,Uzbekistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2002,3.97348819235708
+UZB,Uzbekistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2001,4.16383824998903
+UZB,Uzbekistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2000,3.83500000014025
+UZB,Uzbekistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1999,4.30000000179402
+UZB,Uzbekistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1998,4.30000000106274
+UZB,Uzbekistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1997,5.19999999656406
+UZB,Uzbekistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1996,1.700000003062
+UZB,Uzbekistan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1995,-0.90000000546128
+UZB,Uzbekistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2025,-3.93381123699979
+UZB,Uzbekistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2024,-4.71597432187069
+UZB,Uzbekistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2023,-7.25129879099619
+UZB,Uzbekistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2022,-3.01865917303125
+UZB,Uzbekistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2021,-6.03366775527398
+UZB,Uzbekistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2020,-4.31770821939444
+UZB,Uzbekistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2019,-4.80432180452473
+UZB,Uzbekistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2018,-5.85985590733897
+UZB,Uzbekistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2017,2.04476697126481
+UZB,Uzbekistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2016,0.217874038430629
+UZB,Uzbekistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2015,0.918048539753847
+UZB,Uzbekistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2014,2.27365092203661
+UZB,Uzbekistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2013,1.59150571044043
+UZB,Uzbekistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2012,1.60515911912695
+UZB,Uzbekistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2011,4.12954871071007
+UZB,Uzbekistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2010,4.10238879075232
+UZB,Uzbekistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2009,5.22767728940485
+UZB,Uzbekistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2008,10.775516002095
+UZB,Uzbekistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2007,8.10827572787105
+UZB,Uzbekistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2006,9.98278095339078
+UZB,Uzbekistan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2005,8.02147599172507
+UZB,Uzbekistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2024,60.5136500172241
+UZB,Uzbekistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2023,59.4107717535195
+UZB,Uzbekistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2022,58.8223840472191
+UZB,Uzbekistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2021,57.7526022783528
+UZB,Uzbekistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2020,55.7841269753241
+UZB,Uzbekistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2019,36.6925126519291
+UZB,Uzbekistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2018,30.3280220309687
+UZB,Uzbekistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2017,23.5509763848597
+UZB,Uzbekistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2016,17.6278326041901
+UZB,Uzbekistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2015,15.4883044347435
+UZB,Uzbekistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2014,14.9082910918395
+UZB,Uzbekistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2013,13.8661401706269
+UZB,Uzbekistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2012,12.517313116097
+UZB,Uzbekistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2011,13.3983031953089
+UZB,Uzbekistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2010,15.7770566776219
+UZB,Uzbekistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2009,21.0964260774202
+UZB,Uzbekistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2008,16.2339042416755
+UZB,Uzbekistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2007,20.0829098757359
+UZB,Uzbekistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2006,26.2167337004859
+UZB,Uzbekistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2005,32.4706790115178
+UZB,Uzbekistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2004,43.5028223447929
+UZB,Uzbekistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2003,53.1856050629554
+UZB,Uzbekistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2002,53.9253936948991
+UZB,Uzbekistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2001,46.5875693718103
+UZB,Uzbekistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2000,36.5762101824344
+UZB,Uzbekistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1999,31.4335092696391
+UZB,Uzbekistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1998,22.6915718774404
+UZB,Uzbekistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1997,20.1433598367369
+UZB,Uzbekistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1996,17.2592883563402
+UZB,Uzbekistan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1995,13.543465691997
+UZB,Uzbekistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2025,14.2840818720217
+UZB,Uzbekistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2024,13.6616648886765
+UZB,Uzbekistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2023,13.1771038486206
+UZB,Uzbekistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2022,16.4521404037101
+UZB,Uzbekistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2021,11.4289013918049
+UZB,Uzbekistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2020,10.1012633712903
+UZB,Uzbekistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2019,12.179098017749
+UZB,Uzbekistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2018,12.4100140915204
+UZB,Uzbekistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2017,9.86511688347538
+UZB,Uzbekistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2016,5.92110004959139
+UZB,Uzbekistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2015,4.9640763777428
+UZB,Uzbekistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2014,7.4633464579014
+UZB,Uzbekistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2013,7.79147129024255
+UZB,Uzbekistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2012,8.0829323297038
+UZB,Uzbekistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2011,7.28053972389326
+UZB,Uzbekistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2010,6.18494354622285
+UZB,Uzbekistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2009,6.46524882083396
+UZB,Uzbekistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2008,12.2843587985737
+UZB,Uzbekistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2007,7.64888686011818
+UZB,Uzbekistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2006,8.180185407437
+UZB,Uzbekistan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2005,7.17193652621924
+UZB,Uzbekistan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2024,6.52845706509898
+UZB,Uzbekistan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2023,4.46396721405799
+UZB,Uzbekistan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2022,7.46412599396005
+UZB,Uzbekistan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2021,6.53139390408132
+UZB,Uzbekistan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2020,5.95874581011308
+UZB,Uzbekistan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2019,16.5598854216671
+UZB,Uzbekistan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2018,24.9394912096299
+UZB,Uzbekistan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2017,16.1883074086756
+ARM,Armenia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2025,7.2
+ARM,Armenia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2024,5.90000000046228
+ARM,Armenia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2023,8.29999999959539
+ARM,Armenia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2022,12.5999999997766
+ARM,Armenia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2021,5.80000000065645
+ARM,Armenia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2020,-7.19999999920631
+ARM,Armenia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2019,7.59999999853918
+ARM,Armenia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2018,5.19999999965324
+ARM,Armenia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2017,7.50000000164144
+ARM,Armenia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2016,0.199999999825991
+ARM,Armenia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2015,3.19999999896625
+ARM,Armenia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2014,3.60000000058993
+ARM,Armenia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2013,3.3
+ARM,Armenia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2012,7.20000000096486
+ARM,Armenia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2011,4.69999999867412
+ARM,Armenia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2010,2.2000000002151
+ARM,Armenia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2009,-14.1000000006998
+ARM,Armenia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2008,6.90000000042959
+ARM,Armenia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2007,13.7000000015467
+ARM,Armenia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2006,13.1999999994661
+ARM,Armenia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2005,13.8999999991133
+ARM,Armenia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2004,10.4999999988202
+ARM,Armenia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2003,14.0000000015501
+ARM,Armenia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2002,13.1999999979356
+ARM,Armenia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2001,9.59999999927597
+ARM,Armenia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2000,5.90000000312092
+ARM,Armenia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1999,3.30000000058166
+ARM,Armenia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1998,7.29999998770998
+ARM,Armenia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1997,3.32107970046953
+ARM,Armenia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1996,5.86540074943565
+ARM,Armenia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1995,6.89999841973659
+ARM,Armenia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2025,-7.21847140363209
+ARM,Armenia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2024,-4.60216691099963
+ARM,Armenia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2023,-2.77026594121126
+ARM,Armenia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2022,0.737867280509603
+ARM,Armenia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2021,-3.3962941866585
+ARM,Armenia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2020,-3.99777390668493
+ARM,Armenia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2019,-7.05686573000043
+ARM,Armenia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2018,-7.2281230237955
+ARM,Armenia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2017,-1.26072402014699
+ARM,Armenia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2016,-0.956577968660234
+ARM,Armenia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2015,-2.66180705584758
+ARM,Armenia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2014,-7.76786633240124
+ARM,Armenia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2013,-7.31624657065382
+ARM,Armenia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2012,-9.96233164214971
+ARM,Armenia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2011,-10.4403281934474
+ARM,Armenia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2010,-13.6219482985734
+ARM,Armenia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2009,-16.4837116405484
+ARM,Armenia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2008,-14.2246479360543
+ARM,Armenia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2007,-7.35660133782848
+ARM,Armenia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2006,-2.39537289745616
+ARM,Armenia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2005,-2.52832414562153
+ARM,Armenia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2004,-2.20435917633131
+ARM,Armenia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2003,-6.18119850537565
+ARM,Armenia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2002,-6.22010459710382
+ARM,Armenia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2001,-10.4398165717153
+ARM,Armenia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2000,-15.7812102966465
+ARM,Armenia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1999,-16.9355704119467
+ARM,Armenia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1998,-21.9751034634071
+ARM,Armenia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1997,-20.4782136117306
+ARM,Armenia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1996,-20.1762879448727
+ARM,Armenia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1995,-15.0292437935751
+ARM,Armenia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2024,65.9870950657396
+ARM,Armenia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2023,67.5888031767855
+ARM,Armenia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2022,83.8849419476276
+ARM,Armenia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2021,104.151886769747
+ARM,Armenia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2020,105.006642730875
+ARM,Armenia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2019,86.0748926105104
+ARM,Armenia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2018,84.732912100644
+ARM,Armenia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2017,85.7142699282465
+ARM,Armenia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2016,91.3302217488821
+ARM,Armenia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2015,80.4154639528465
+ARM,Armenia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2014,70.522973244206
+ARM,Armenia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2013,73.5435614911053
+ARM,Armenia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2012,69.1932584997682
+ARM,Armenia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2011,70.5642908723285
+ARM,Armenia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2010,64.8981549562732
+ARM,Armenia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2009,54.7919777524588
+ARM,Armenia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2008,29.2430682607578
+ARM,Armenia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2007,31.7603379636547
+ARM,Armenia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2006,31.9881885928206
+ARM,Armenia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2005,38.5750336386734
+ARM,Armenia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2004,56.5888045570056
+ARM,Armenia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2003,68.8336104106055
+ARM,Armenia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2002,69.9371558433651
+ARM,Armenia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2001,64.6369814678621
+ARM,Armenia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2000,51.6822939077758
+ARM,Armenia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1999,53.8084288501274
+ARM,Armenia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1998,41.1894948588224
+ARM,Armenia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1997,36.7643608733105
+ARM,Armenia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1996,31.7076435721137
+ARM,Armenia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1995,24.5820006708766
+ARM,Armenia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2025,4.9001453057215
+ARM,Armenia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2024,4.92468775781423
+ARM,Armenia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2023,6.39621098617553
+ARM,Armenia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2022,10.8688335174113
+ARM,Armenia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2021,11.2171827452107
+ARM,Armenia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2020,10.4970552541265
+ARM,Armenia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2019,11.2189210772298
+ARM,Armenia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2018,11.9427034082853
+ARM,Armenia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2017,13.3477446383999
+ARM,Armenia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2016,13.1074628255062
+ARM,Armenia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2015,14.1327414277054
+ARM,Armenia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2014,17.9044398383763
+ARM,Armenia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2013,19.7113773941979
+ARM,Armenia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2012,18.0330178717679
+ARM,Armenia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2011,17.7342226487981
+ARM,Armenia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2010,18.0268391620613
+ARM,Armenia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2009,16.6491640509821
+ARM,Armenia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2008,16.3270491787545
+ARM,Armenia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2007,17.86140864212
+ARM,Armenia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2006,18.3128176140903
+ARM,Armenia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2005,18.6763974290117
+ARM,Armenia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2004,22.0185694314846
+ARM,Armenia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2003,11.9648272324739
+ARM,Armenia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2002,11.1049155369612
+ARM,Armenia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2001,9.87694921780921
+ARM,Armenia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2000,9.52937131880005
+ARM,Armenia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1999,9.8972579995383
+ARM,Armenia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1998,8.80000229815208
+ARM,Armenia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1997,13.9669079129736
+ARM,Armenia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1996,9.62636126157822
+ARM,Armenia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1995,4.85930346459512
+ARM,Armenia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2024,0.679482108248347
+ARM,Armenia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2023,0.893985811730312
+ARM,Armenia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2022,1.90126435030844
+ARM,Armenia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2021,1.84437960576672
+ARM,Armenia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2020,3.0020518152451
+ARM,Armenia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2019,2.85017379117155
+ARM,Armenia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2018,3.7309961281298
+ARM,Armenia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2017,3.58398830414633
+ARM,Armenia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2016,3.48883009523153
+ARM,Armenia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2015,5.9197338745284
+ARM,Armenia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2014,5.94447107873547
+ARM,Armenia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2013,5.74395895307294
+ARM,Armenia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2012,7.4451684844257
+ARM,Armenia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2011,7.83107688026681
+ARM,Armenia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2010,3.02154436932198
+ARM,Armenia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2009,0.0903876860458172
+ARM,Armenia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2008,0.259782913208907
+ARM,Armenia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2007,1.19645999429122
+ARM,Armenia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2006,2.03225317294973
+ARM,Armenia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2005,2.21920980265978
+ARM,Armenia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2004,3.05202767195407
+ARM,Armenia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2003,1.96269179078979
+ARM,Armenia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2002,3.17595536456295
+ARM,Armenia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2001,7.86912485968109
+ARM,Armenia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2000,10.1236750243125
+ARM,Armenia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,1999,8.26798770854123
+ARM,Armenia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,1997,0.733173669192767
+AZE,Azerbaijan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2025,1.44985591122698
+AZE,Azerbaijan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2024,4.15806800428062
+AZE,Azerbaijan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2023,1.35447749115767
+AZE,Azerbaijan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2022,4.71468033247649
+AZE,Azerbaijan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2021,5.61644027150554
+AZE,Azerbaijan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2020,-4.19896065333343
+AZE,Azerbaijan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2019,2.47980879185565
+AZE,Azerbaijan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2018,1.50040167167313
+AZE,Azerbaijan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2017,0.153614661745507
+AZE,Azerbaijan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2016,-3.06359842251706
+AZE,Azerbaijan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2015,1.04954641215085
+AZE,Azerbaijan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2014,2.79758521448559
+AZE,Azerbaijan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2013,5.84341590483928
+AZE,Azerbaijan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2012,2.20293891708398
+AZE,Azerbaijan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2011,-1.5729973511111
+AZE,Azerbaijan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2010,4.78883248761557
+AZE,Azerbaijan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2009,9.36950260277183
+AZE,Azerbaijan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2008,10.591437462476
+AZE,Azerbaijan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2007,25.4632157314482
+AZE,Azerbaijan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2006,34.4662096226792
+AZE,Azerbaijan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2005,27.9615381082131
+AZE,Azerbaijan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2004,9.25380179728907
+AZE,Azerbaijan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2003,10.2082994004776
+AZE,Azerbaijan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2002,9.43891626906561
+AZE,Azerbaijan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2001,9.89999986533643
+AZE,Azerbaijan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2000,11.0999991434346
+AZE,Azerbaijan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1999,7.40000129958564
+AZE,Azerbaijan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1998,9.99999961153691
+AZE,Azerbaijan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1997,5.80000014795783
+AZE,Azerbaijan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1996,1.29999940463827
+AZE,Azerbaijan,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1995,-11.7999991076818
+AZE,Azerbaijan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2025,4.57619393620153
+AZE,Azerbaijan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2024,6.27617767984307
+AZE,Azerbaijan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2023,11.5001296207861
+AZE,Azerbaijan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2022,29.7916946512237
+AZE,Azerbaijan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2021,14.9620003998682
+AZE,Azerbaijan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2020,-0.740874280795448
+AZE,Azerbaijan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2019,8.70455620187564
+AZE,Azerbaijan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2018,12.6823769245212
+AZE,Azerbaijan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2017,4.12208960991814
+AZE,Azerbaijan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2016,-3.60050733417184
+AZE,Azerbaijan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2015,-0.419198909856565
+AZE,Azerbaijan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2014,13.5683574038086
+AZE,Azerbaijan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2013,16.4935876692396
+AZE,Azerbaijan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2012,21.4925357741895
+AZE,Azerbaijan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2011,25.9957665612112
+AZE,Azerbaijan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2010,28.4268313519369
+AZE,Azerbaijan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2009,22.9720443124812
+AZE,Azerbaijan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2008,33.6793638921001
+AZE,Azerbaijan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2007,27.289087539853
+AZE,Azerbaijan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2006,17.670467343915
+AZE,Azerbaijan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2005,1.26319117280894
+AZE,Azerbaijan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2004,-29.8282485551101
+AZE,Azerbaijan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2003,-27.7726673572238
+AZE,Azerbaijan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2002,-12.3213949554144
+AZE,Azerbaijan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2001,-0.906770850609527
+AZE,Azerbaijan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2000,-3.18196904183888
+AZE,Azerbaijan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1999,-13.0903833593547
+AZE,Azerbaijan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1998,-30.6884366040807
+AZE,Azerbaijan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1997,-23.1113389046322
+AZE,Azerbaijan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1996,-29.3146493832248
+AZE,Azerbaijan,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1995,-16.5740632135158
+AZE,Azerbaijan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2024,17.0427856612147
+AZE,Azerbaijan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2023,21.615448196512
+AZE,Azerbaijan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2022,21.0241211321362
+AZE,Azerbaijan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2021,29.0146661756027
+AZE,Azerbaijan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2020,38.6218709117582
+AZE,Azerbaijan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2019,35.4882895436333
+AZE,Azerbaijan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2018,36.7062470497771
+AZE,Azerbaijan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2017,38.9047105034808
+AZE,Azerbaijan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2016,40.6551613615557
+AZE,Azerbaijan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2015,25.6506623442435
+AZE,Azerbaijan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2014,16.5803142224794
+AZE,Azerbaijan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2013,15.0367742964424
+AZE,Azerbaijan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2012,16.5157223576325
+AZE,Azerbaijan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2011,12.5683717083814
+AZE,Azerbaijan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2010,14.6468541228462
+AZE,Azerbaijan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2009,11.1638501179119
+AZE,Azerbaijan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2008,10.3182912677324
+AZE,Azerbaijan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2007,13.9068031577395
+AZE,Azerbaijan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2006,15.2700449073449
+AZE,Azerbaijan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2005,19.3448674587574
+AZE,Azerbaijan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2004,26.8473875403857
+AZE,Azerbaijan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2003,27.8913661531088
+AZE,Azerbaijan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2002,28.1632318051662
+AZE,Azerbaijan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2001,27.3204317935916
+AZE,Azerbaijan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2000,30.6140155929779
+AZE,Azerbaijan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1999,27.0356567298319
+AZE,Azerbaijan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1998,15.8378333067734
+AZE,Azerbaijan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1997,12.8518706781873
+AZE,Azerbaijan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1996,13.838491545296
+AZE,Azerbaijan,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1995,13.2997889166133
+AZE,Azerbaijan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2025,1.965008211071
+AZE,Azerbaijan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2024,1.81613683390213
+AZE,Azerbaijan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2023,2.64096975190127
+AZE,Azerbaijan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2022,5.012251973723
+AZE,Azerbaijan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2021,2.78454087413308
+AZE,Azerbaijan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2020,3.2864567961961
+AZE,Azerbaijan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2019,2.64699324657026
+AZE,Azerbaijan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2018,2.60183768470009
+AZE,Azerbaijan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2017,2.77334116720313
+AZE,Azerbaijan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2016,1.69843941411199
+AZE,Azerbaijan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2015,2.3927167997352
+AZE,Azerbaijan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2014,2.45405271812669
+AZE,Azerbaijan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2013,2.33704815215702
+AZE,Azerbaijan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2012,2.85617334250334
+AZE,Azerbaijan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2011,2.87035592504128
+AZE,Azerbaijan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2010,2.66549763240316
+AZE,Azerbaijan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2009,2.8326399787509
+AZE,Azerbaijan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2008,3.10805893221251
+AZE,Azerbaijan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2007,3.83587676218684
+AZE,Azerbaijan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2006,3.7661645945845
+AZE,Azerbaijan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2005,4.70528614042723
+AZE,Azerbaijan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2004,2.34525903598978
+AZE,Azerbaijan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2003,2.14332251762401
+AZE,Azerbaijan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2002,2.61890157505979
+AZE,Azerbaijan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2001,1.82431677750395
+AZE,Azerbaijan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2000,1.08356085483563
+AZE,Azerbaijan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1999,1.18945739810866
+AZE,Azerbaijan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1998,0.141553717374876
+AZE,Azerbaijan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1997,0.131133894149081
+AZE,Azerbaijan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1996,0.129009618568859
+AZE,Azerbaijan,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1995,0.124103805417565
+AZE,Azerbaijan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2025,85.9240304942722
+AZE,Azerbaijan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2024,87.9785269977749
+AZE,Azerbaijan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2023,91.499871108591
+AZE,Azerbaijan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2022,92.537559408706
+AZE,Azerbaijan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2021,88.4074490811342
+AZE,Azerbaijan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2020,87.2469415054118
+AZE,Azerbaijan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2019,90.654373992013
+AZE,Azerbaijan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2018,91.7363919755309
+AZE,Azerbaijan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2017,90.5986895127131
+AZE,Azerbaijan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2016,91.6996216529
+AZE,Azerbaijan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2015,88.4616496005164
+AZE,Azerbaijan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2014,92.7612993182849
+AZE,Azerbaijan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2013,92.9958063644981
+AZE,Azerbaijan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2012,93.4193317126618
+AZE,Azerbaijan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2011,94.7473907889811
+AZE,Azerbaijan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2010,94.5094608476658
+AZE,Azerbaijan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2009,92.8567081297116
+AZE,Azerbaijan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2008,97.082781910105
+AZE,Azerbaijan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2007,81.3989395177286
+AZE,Azerbaijan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2006,84.5911224641435
+AZE,Azerbaijan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2005,76.7637229555425
+AZE,Azerbaijan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2004,82.2163751465054
+AZE,Azerbaijan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2003,86.0089729413218
+AZE,Azerbaijan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2002,88.9208300128298
+AZE,Azerbaijan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2001,91.3282886838079
+AZE,Azerbaijan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2000,85.0824923536999
+AZE,Azerbaijan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,1999,78.6030408029994
+AZE,Azerbaijan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,1998,68.9329891981753
+AZE,Azerbaijan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,1997,61.4496099387014
+AZE,Azerbaijan,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,1996,66.3947992137644
+GEO,Georgia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2025,7.46161504152039
+GEO,Georgia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2024,9.67979379712661
+GEO,Georgia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2023,7.83220126555726
+GEO,Georgia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2022,10.9585321385624
+GEO,Georgia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2021,10.6442336580969
+GEO,Georgia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2020,-6.2904717853839
+GEO,Georgia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2019,5.38071926589951
+GEO,Georgia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2018,6.062036412677
+GEO,Georgia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2017,5.15990261658827
+GEO,Georgia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2016,3.45021517996871
+GEO,Georgia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2015,3.35102350265353
+GEO,Georgia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2014,4.09049059581743
+GEO,Georgia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2013,5.13288531209382
+GEO,Georgia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2012,6.57883101954195
+GEO,Georgia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2011,7.9343365253078
+GEO,Georgia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2010,6.24640865303363
+GEO,Georgia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2009,-3.65075229596822
+GEO,Georgia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2008,2.42161440960641
+GEO,Georgia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2007,12.5755698246405
+GEO,Georgia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2006,9.42148081189909
+GEO,Georgia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2005,9.59113832853026
+GEO,Georgia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2004,5.79268292682926
+GEO,Georgia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2003,11.0570310020104
+GEO,Georgia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2002,5.47402488700408
+GEO,Georgia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2001,4.80729867243699
+GEO,Georgia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2000,1.84038117927339
+GEO,Georgia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1999,2.86729567454968
+GEO,Georgia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1998,3.10150969616576
+GEO,Georgia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1997,10.5208042446244
+GEO,Georgia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1996,11.2025463861501
+GEO,Georgia,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1995,2.59657506969336
+GEO,Georgia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2025,-2.6492778580462
+GEO,Georgia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2024,-5.29948694239513
+GEO,Georgia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2023,-5.52924307584786
+GEO,Georgia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2022,-2.58183727549166
+GEO,Georgia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2021,-10.2864489440196
+GEO,Georgia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2020,-12.4222857463116
+GEO,Georgia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2019,-5.9937484904192
+GEO,Georgia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2018,-6.65935234039704
+GEO,Georgia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2017,-7.95124743463903
+GEO,Georgia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2016,-12.2417329389245
+GEO,Georgia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2015,-11.6071164150782
+GEO,Georgia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2014,-9.9308784427995
+GEO,Georgia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2013,-5.45445307967912
+GEO,Georgia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2012,-11.1441786727056
+GEO,Georgia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2011,-11.9098234516365
+GEO,Georgia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2010,-9.6468391223966
+GEO,Georgia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2009,-10.5986282901093
+GEO,Georgia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2008,-21.9709187774567
+GEO,Georgia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2007,-19.5819311413511
+GEO,Georgia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2006,-15.3810743163939
+GEO,Georgia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2005,-10.8511554489972
+GEO,Georgia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2004,-6.94983213970616
+GEO,Georgia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2003,-9.57586165079388
+GEO,Georgia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2002,-6.38774221286113
+GEO,Georgia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2001,-6.12197073672488
+GEO,Georgia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2000,-5.75310242328276
+GEO,Georgia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1999,-7.08564878719989
+GEO,Georgia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1998,-7.6297275422632
+GEO,Georgia,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1997,-14.6474016992689
+GEO,Georgia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2024,79.6767852223944
+GEO,Georgia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2023,84.9763847694996
+GEO,Georgia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2022,100.312545728071
+GEO,Georgia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2021,124.40340523108
+GEO,Georgia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2020,131.658303183224
+GEO,Georgia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2019,111.32362234557
+GEO,Georgia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2018,99.3248254843151
+GEO,Georgia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2017,102.048777144568
+GEO,Georgia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2016,107.365205053265
+GEO,Georgia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2015,96.5064072108872
+GEO,Georgia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2014,79.5047029311935
+GEO,Georgia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2013,79.1305184319396
+GEO,Georgia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2012,80.8332989234343
+GEO,Georgia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2011,78.2844595976206
+GEO,Georgia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2010,71.9941407849804
+GEO,Georgia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2009,80.8779132869538
+GEO,Georgia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2008,60.6282124130377
+GEO,Georgia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2007,29.2582035087212
+GEO,Georgia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2006,32.5483419859206
+GEO,Georgia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2005,33.3174467227854
+GEO,Georgia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2004,44.5575413523862
+GEO,Georgia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2003,53.7039866892724
+GEO,Georgia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2002,59.7276370609979
+GEO,Georgia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2001,58.9445103087218
+GEO,Georgia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2000,58.9851173597865
+GEO,Georgia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1999,62.8126318490524
+GEO,Georgia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1998,43.3241744189588
+GEO,Georgia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1997,40.2912673571987
+GEO,Georgia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1996,45.0218422323182
+GEO,Georgia,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1995,48.1849837682768
+GEO,Georgia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2025,11.1702038837053
+GEO,Georgia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2024,11.8704809371441
+GEO,Georgia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2023,13.6504078223071
+GEO,Georgia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2022,15.4242760609985
+GEO,Georgia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2021,14.0238156359641
+GEO,Georgia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2020,13.1764161481873
+GEO,Georgia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2019,12.8028589642654
+GEO,Georgia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2018,11.3631244569541
+GEO,Georgia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2017,10.890132380253
+GEO,Georgia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2016,9.84674425354464
+GEO,Georgia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2015,9.5819813727681
+GEO,Georgia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2014,11.056847673479
+GEO,Georgia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2013,11.1047071149006
+GEO,Georgia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2012,10.4775310757486
+GEO,Georgia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2011,9.99835475121327
+GEO,Georgia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2010,9.52719496152171
+GEO,Georgia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2009,10.3243983088381
+GEO,Georgia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2008,8.3236359191983
+GEO,Georgia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2007,8.68054072402569
+GEO,Georgia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2006,8.09978657953664
+GEO,Georgia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2005,6.95697266099558
+GEO,Georgia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2004,6.99638215069328
+GEO,Georgia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2003,6.22476000287562
+GEO,Georgia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2002,6.66503181205268
+GEO,Georgia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2001,6.79115752466275
+GEO,Georgia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2000,6.73529202312621
+GEO,Georgia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1999,12.8855951734966
+GEO,Georgia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1998,10.319642366739
+GEO,Georgia,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1997,8.08996904432589
+GEO,Georgia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2024,2.33702072065557
+GEO,Georgia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2023,4.09034025162347
+GEO,Georgia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2022,2.60573425303883
+GEO,Georgia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2021,0.790798155963414
+GEO,Georgia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2020,0.379604277824326
+GEO,Georgia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2019,0.719734166289668
+GEO,Georgia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2018,1.97412219775379
+GEO,Georgia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2017,4.10234077225929
+GEO,Georgia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2016,3.43276010987525
+GEO,Georgia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2015,8.13945677108545
+GEO,Georgia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2014,3.7699143071261
+GEO,Georgia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2013,3.26925426936962
+GEO,Georgia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2012,2.9506292384286
+GEO,Georgia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2011,4.13445051636053
+GEO,Georgia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2010,5.03344278022283
+GEO,Georgia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2009,4.37767893286602
+GEO,Georgia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2008,2.95013231247938
+GEO,Georgia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2007,3.72470307672767
+GEO,Georgia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2006,3.14940175095062
+GEO,Georgia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2005,3.23319790144088
+GEO,Georgia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2004,3.52462707764719
+GEO,Georgia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2003,5.05169366048303
+GEO,Georgia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2002,5.45310800002804
+GEO,Georgia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2001,9.12813885756339
+GEO,Georgia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2000,8.12839637330198
+GEO,Georgia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,1999,9.7064859650609
+GEO,Georgia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,1998,11.1696648388203
+GEO,Georgia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,1997,16.7800120640784
+GEO,Georgia,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,1996,18.8418675432238
+RUS,Russian Federation,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2025,1.00117656925738
+RUS,Russian Federation,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2024,4.92167966203073
+RUS,Russian Federation,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2023,4.06661395813023
+RUS,Russian Federation,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2022,-1.43537063467896
+RUS,Russian Federation,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2021,5.866491772979
+RUS,Russian Federation,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2020,-2.65365449695453
+RUS,Russian Federation,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2019,2.19807571381982
+RUS,Russian Federation,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2018,2.80634082046656
+RUS,Russian Federation,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2017,1.82670527549192
+RUS,Russian Federation,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2016,0.193671130698817
+RUS,Russian Federation,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2015,-1.9727192264298
+RUS,Russian Federation,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2014,0.736267221403651
+RUS,Russian Federation,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2013,1.75542214916291
+RUS,Russian Federation,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2012,4.0240861571798
+RUS,Russian Federation,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2011,4.30002918604238
+RUS,Russian Federation,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2010,4.49999999920672
+RUS,Russian Federation,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2009,-7.79999391271275
+RUS,Russian Federation,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2008,5.19996926404957
+RUS,Russian Federation,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2007,8.49997776916511
+RUS,Russian Federation,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2006,8.20006825456321
+RUS,Russian Federation,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2005,6.39996544799469
+RUS,Russian Federation,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2004,7.19994786954857
+RUS,Russian Federation,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2003,7.29995234528189
+RUS,Russian Federation,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2002,4.69999190914258
+RUS,Russian Federation,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2001,5.10005122572568
+RUS,Russian Federation,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2000,10.0000668136515
+RUS,Russian Federation,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1999,6.39991469144101
+RUS,Russian Federation,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1998,-5.2999616266239
+RUS,Russian Federation,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1997,1.3999158052963
+RUS,Russian Federation,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1996,-3.7550694383594
+RUS,Russian Federation,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1995,-4.1435284052602
+RUS,Russian Federation,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2025,1.68127939033566
+RUS,Russian Federation,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2024,2.85909027069263
+RUS,Russian Federation,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2023,2.41395767974471
+RUS,Russian Federation,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2022,10.370132157734
+RUS,Russian Federation,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2021,6.83107025995823
+RUS,Russian Federation,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2020,2.36911533657246
+RUS,Russian Federation,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2019,3.87612476973049
+RUS,Russian Federation,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2018,6.97989872935135
+RUS,Russian Federation,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2017,2.04412673615753
+RUS,Russian Federation,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2016,1.91643731021353
+RUS,Russian Federation,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2015,4.97088857375125
+RUS,Russian Federation,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2014,2.79290979175164
+RUS,Russian Federation,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2013,1.45817388483059
+RUS,Russian Federation,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2012,3.22793090052757
+RUS,Russian Federation,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2011,4.75452652542426
+RUS,Russian Federation,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2010,4.4233366535099
+RUS,Russian Federation,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2009,4.12086933736946
+RUS,Russian Federation,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2008,6.25797161157479
+RUS,Russian Federation,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2007,5.55457619335894
+RUS,Russian Federation,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2006,9.32544491399994
+RUS,Russian Federation,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2005,11.0454169715192
+RUS,Russian Federation,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2004,9.90832254287658
+RUS,Russian Federation,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2003,7.69799200510312
+RUS,Russian Federation,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2002,7.9523289090993
+RUS,Russian Federation,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2001,10.4545347443772
+RUS,Russian Federation,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2000,17.4742424828314
+RUS,Russian Federation,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1999,11.6664565462153
+RUS,Russian Federation,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1998,0.026225709921156
+RUS,Russian Federation,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1997,-0.206268282708236
+RUS,Russian Federation,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1996,2.57898342400441
+RUS,Russian Federation,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1995,1.88045783512905
+RUS,Russian Federation,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2022,16.757438584072
+RUS,Russian Federation,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2021,26.4340953468359
+RUS,Russian Federation,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2020,31.6125814211445
+RUS,Russian Federation,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2019,29.6288697909038
+RUS,Russian Federation,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2018,29.548796109
+RUS,Russian Federation,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2017,33.8872742360339
+RUS,Russian Federation,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2016,43.1184713428485
+RUS,Russian Federation,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2015,37.125952762227
+RUS,Russian Federation,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2014,27.8421875364677
+RUS,Russian Federation,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2013,30.2102878450986
+RUS,Russian Federation,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2012,27.6477290740837
+RUS,Russian Federation,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2011,27.4162213475377
+RUS,Russian Federation,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2010,28.2773715301649
+RUS,Russian Federation,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2009,34.3613166173345
+RUS,Russian Federation,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2008,25.9737563112073
+RUS,Russian Federation,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2007,32.7591854997396
+RUS,Russian Federation,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2006,32.3865885396895
+RUS,Russian Federation,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2005,33.5124776049074
+RUS,Russian Federation,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2004,37.044289752436
+RUS,Russian Federation,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2003,44.5626607613604
+RUS,Russian Federation,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2002,40.8533394581356
+RUS,Russian Federation,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2001,46.6826951160993
+RUS,Russian Federation,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2000,57.9764384368627
+RUS,Russian Federation,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1999,95.6702724203279
+RUS,Russian Federation,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1998,67.8018769206859
+RUS,Russian Federation,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1997,32.3401786460413
+RUS,Russian Federation,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1996,32.8834236780997
+RUS,Russian Federation,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1995,31.1283376666771
+RUS,Russian Federation,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2025,0.0628834422034581
+RUS,Russian Federation,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2024,0.0830341335359767
+RUS,Russian Federation,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2023,0.127863430897728
+RUS,Russian Federation,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2022,0.14155628989734
+RUS,Russian Federation,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2021,0.527388477992061
+RUS,Russian Federation,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2020,0.66406336325159
+RUS,Russian Federation,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2019,0.616170784814508
+RUS,Russian Federation,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2018,0.560375837837153
+RUS,Russian Federation,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2017,0.523123068702963
+RUS,Russian Federation,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2016,0.523867598943551
+RUS,Russian Federation,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2015,0.506305846173427
+RUS,Russian Federation,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2014,0.377640974141187
+RUS,Russian Federation,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2013,0.294477562161684
+RUS,Russian Federation,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2012,0.262090607919179
+RUS,Russian Federation,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2011,0.298313804363493
+RUS,Russian Federation,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2010,0.344282408841521
+RUS,Russian Federation,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2009,0.417541988221401
+RUS,Russian Federation,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2008,0.34542413264832
+RUS,Russian Federation,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2007,0.359030354019774
+RUS,Russian Federation,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2006,0.385923449755519
+RUS,Russian Federation,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2005,0.449802113997943
+RUS,Russian Federation,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2004,0.373382010119783
+RUS,Russian Federation,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2003,0.258790908871147
+RUS,Russian Federation,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2002,0.270929070680024
+RUS,Russian Federation,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2001,0.32172320232662
+RUS,Russian Federation,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2000,0.192503071220407
+RUS,Russian Federation,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1999,0.21704672187237
+RUS,Russian Federation,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1998,0.111151098465445
+RUS,Russian Federation,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1997,0.0559974774963992
+RUS,Russian Federation,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1996,0.025911041753587
+RUS,Russian Federation,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1995,0.0419429590903774
+RUS,Russian Federation,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2021,43.1468587746174
+RUS,Russian Federation,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2020,42.0988979009334
+RUS,Russian Federation,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2019,51.9517105308961
+RUS,Russian Federation,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2018,52.6808355618333
+RUS,Russian Federation,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2017,49.1248783758441
+RUS,Russian Federation,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2016,48.291548108568
+RUS,Russian Federation,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2015,62.8369478990481
+RUS,Russian Federation,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2014,69.5250946236846
+RUS,Russian Federation,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2013,70.5594810320243
+RUS,Russian Federation,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2012,70.2890584289155
+RUS,Russian Federation,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2011,67.028076569532
+RUS,Russian Federation,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2010,65.6482925992393
+RUS,Russian Federation,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2009,63.0130269894952
+RUS,Russian Federation,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2008,65.6784005422627
+RUS,Russian Federation,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2007,61.4635425789649
+RUS,Russian Federation,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2006,62.8821173688846
+RUS,Russian Federation,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2005,61.7805796867657
+RUS,Russian Federation,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2004,54.6966789645053
+RUS,Russian Federation,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2003,54.5075199017182
+RUS,Russian Federation,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2002,52.4883815852667
+RUS,Russian Federation,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2001,51.8103660490427
+RUS,Russian Federation,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2000,50.6010783794118
+RUS,Russian Federation,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,1999,41.7695730347058
+RUS,Russian Federation,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,1998,38.9882468378703
+RUS,Russian Federation,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,1997,46.5695638916281
+RUS,Russian Federation,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,1996,43.1222213192119
+BLR,Belarus,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2025,1.29999999999998
+BLR,Belarus,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2024,4.34999638140579
+BLR,Belarus,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2023,4.12654007153881
+BLR,Belarus,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2022,-4.65839591328999
+BLR,Belarus,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2021,2.43886210234947
+BLR,Belarus,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2020,-0.672742918585868
+BLR,Belarus,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2019,1.44645548204305
+BLR,Belarus,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2018,3.14919758275296
+BLR,Belarus,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2017,2.53218349471909
+BLR,Belarus,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2016,-2.5264464460425
+BLR,Belarus,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2015,-3.82957056812593
+BLR,Belarus,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2014,1.65112470228097
+BLR,Belarus,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2013,0.998719299661161
+BLR,Belarus,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2012,1.70785253368828
+BLR,Belarus,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2011,5.54997471638077
+BLR,Belarus,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2010,7.75001707500896
+BLR,Belarus,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2009,0.199995231733979
+BLR,Belarus,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2008,10.1999994860937
+BLR,Belarus,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2007,8.60000659811426
+BLR,Belarus,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2006,9.99999473022963
+BLR,Belarus,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2005,9.40000151584914
+BLR,Belarus,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2004,11.4497432088167
+BLR,Belarus,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2003,7.04319246586394
+BLR,Belarus,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2002,5.04526758311702
+BLR,Belarus,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2001,4.72530605111095
+BLR,Belarus,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2000,5.80000327485702
+BLR,Belarus,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1999,3.3999992040046
+BLR,Belarus,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1998,8.3999913697987
+BLR,Belarus,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1997,11.4000054007553
+BLR,Belarus,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1996,2.80000456599095
+BLR,Belarus,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1995,-10.4000003781854
+BLR,Belarus,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2025,-1.94415875062152
+BLR,Belarus,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2024,-2.07223267740223
+BLR,Belarus,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2023,-1.03659609651183
+BLR,Belarus,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2022,3.81254519379628
+BLR,Belarus,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2021,3.33503209952537
+BLR,Belarus,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2020,-0.290687853658269
+BLR,Belarus,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2019,-1.9341665879178
+BLR,Belarus,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2018,0.0381469405173492
+BLR,Belarus,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2017,-1.74032515049902
+BLR,Belarus,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2016,-3.37736852773594
+BLR,Belarus,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2015,-3.24348147204404
+BLR,Belarus,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2014,-6.63303695478998
+BLR,Belarus,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2013,-10.0192566839897
+BLR,Belarus,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2012,-2.83500762120659
+BLR,Belarus,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2011,-8.18054584289412
+BLR,Belarus,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2010,-14.4678043936086
+BLR,Belarus,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2009,-12.0546848610717
+BLR,Belarus,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2008,-8.16202153003141
+BLR,Belarus,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2007,-6.6536778047307
+BLR,Belarus,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2006,-3.75494824327905
+BLR,Belarus,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2005,1.518035769229
+BLR,Belarus,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2004,-5.15047246548436
+BLR,Belarus,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2003,-2.55870194011727
+BLR,Belarus,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2002,-2.23160130536418
+BLR,Belarus,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2001,-4.28011087042602
+BLR,Belarus,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2000,-3.60449996573167
+BLR,Belarus,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1999,-1.59575083342586
+BLR,Belarus,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1998,-6.67782915883964
+BLR,Belarus,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1997,-6.08136433770411
+BLR,Belarus,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1996,-3.55782368148984
+BLR,Belarus,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1995,-3.279971291319
+BLR,Belarus,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2024,46.1452886653758
+BLR,Belarus,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2023,52.4376285095848
+BLR,Belarus,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2022,56.3947988685637
+BLR,Belarus,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2021,62.0622832088135
+BLR,Belarus,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2020,70.9847643016215
+BLR,Belarus,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2019,65.1747660547607
+BLR,Belarus,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2018,67.0009807620654
+BLR,Belarus,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2017,75.1554915511371
+BLR,Belarus,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2016,82.5010405969595
+BLR,Belarus,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2015,70.7668231487899
+BLR,Belarus,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2014,52.3407013607064
+BLR,Belarus,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2013,54.3029638313045
+BLR,Belarus,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2012,52.5663191513601
+BLR,Belarus,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2011,55.5543841804718
+BLR,Belarus,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2010,50.6732988610616
+BLR,Belarus,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2009,44.3708130088257
+BLR,Belarus,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2008,25.2698045537289
+BLR,Belarus,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2007,27.9197134817248
+BLR,Belarus,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2006,17.8089875342292
+BLR,Belarus,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2005,17.5122322842616
+BLR,Belarus,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2004,19.8998759713021
+BLR,Belarus,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2003,21.1732557777806
+BLR,Belarus,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2002,23.3372108414943
+BLR,Belarus,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2001,22.7325564113519
+BLR,Belarus,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2000,20.6572694472304
+BLR,Belarus,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1999,22.2496263591837
+BLR,Belarus,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1998,15.6863482818758
+BLR,Belarus,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1997,14.7577622242643
+BLR,Belarus,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1996,13.26037266608
+BLR,Belarus,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1995,12.127012460773
+BLR,Belarus,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2025,2.4711967809362
+BLR,Belarus,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2024,2.34422322962077
+BLR,Belarus,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2023,2.32727539479038
+BLR,Belarus,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2022,2.51903986221285
+BLR,Belarus,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2021,1.95829075886733
+BLR,Belarus,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2020,1.65173922227239
+BLR,Belarus,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2019,2.20275770985534
+BLR,Belarus,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2018,2.40842124890758
+BLR,Belarus,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2017,2.29107483588373
+BLR,Belarus,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2016,2.04636934122529
+BLR,Belarus,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2015,1.64999344176125
+BLR,Belarus,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2014,1.56230434080626
+BLR,Belarus,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2013,1.60669829212816
+BLR,Belarus,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2012,1.60323623987362
+BLR,Belarus,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2011,1.44197805594884
+BLR,Belarus,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2010,1.00520855385655
+BLR,Belarus,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2009,0.990305944135918
+BLR,Belarus,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2008,0.960131319014907
+BLR,Belarus,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2007,0.636765248499207
+BLR,Belarus,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2006,0.725612161429094
+BLR,Belarus,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2005,0.657396214062099
+BLR,Belarus,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2004,1.034502146352
+BLR,Belarus,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2003,0.920594142453945
+BLR,Belarus,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2002,0.552247667216307
+BLR,Belarus,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2001,0.543917266438404
+BLR,Belarus,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2000,0.896610533841336
+BLR,Belarus,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1999,0.510772078845656
+BLR,Belarus,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1998,0.354092465972904
+BLR,Belarus,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1997,0.329124117438596
+BLR,Belarus,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1996,0.643428861180466
+BLR,Belarus,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1995,0.203969412617481
+BLR,Belarus,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2020,12.612946389206
+BLR,Belarus,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2019,20.6985181763427
+BLR,Belarus,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2018,25.1356889584766
+BLR,Belarus,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2017,23.5673852175462
+BLR,Belarus,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2016,20.5995665315743
+BLR,Belarus,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2015,29.1387059964971
+BLR,Belarus,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2014,33.4920515927579
+BLR,Belarus,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2013,32.372417741947
+BLR,Belarus,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2012,35.5859989815444
+BLR,Belarus,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2011,35.0487528909667
+BLR,Belarus,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2010,27.7492513357239
+BLR,Belarus,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2009,37.44466887987
+BLR,Belarus,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2008,37.1188986398407
+BLR,Belarus,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2007,35.0680059075822
+BLR,Belarus,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2006,38.31545746177
+BLR,Belarus,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2005,34.7813440418958
+BLR,Belarus,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2004,26.8898936681252
+BLR,Belarus,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2003,22.0611954944767
+BLR,Belarus,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2002,20.2522119679159
+BLR,Belarus,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2001,17.7781531368295
+BLR,Belarus,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2000,19.8121417383218
+BLR,Belarus,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,1999,9.06345784556698
+BLR,Belarus,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,1998,7.78247560370978
+MDA,Moldova,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2025,2.41649734575068
+MDA,Moldova,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2024,0.270670455512573
+MDA,Moldova,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2023,1.18802067937429
+MDA,Moldova,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2022,-4.64785101037361
+MDA,Moldova,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2021,13.9299997889786
+MDA,Moldova,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2020,-8.27597831976949
+MDA,Moldova,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2019,3.5523140853476
+MDA,Moldova,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2018,4.07559546585034
+MDA,Moldova,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2017,4.17561205106279
+MDA,Moldova,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2016,4.64601436259409
+MDA,Moldova,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2015,-0.338235622387202
+MDA,Moldova,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2014,4.99962585407656
+MDA,Moldova,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2013,9.0438656074181
+MDA,Moldova,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2012,-0.589733954762579
+MDA,Moldova,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2011,5.81816614684824
+MDA,Moldova,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2010,7.10000010705836
+MDA,Moldova,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2009,-6.00000026352828
+MDA,Moldova,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2008,7.80000014541523
+MDA,Moldova,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2007,3.00000022585525
+MDA,Moldova,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2006,4.79999983670831
+MDA,Moldova,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2005,7.5000001493726
+MDA,Moldova,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2004,7.39999973358189
+MDA,Moldova,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2003,6.59999995777716
+MDA,Moldova,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2002,7.79999965773833
+MDA,Moldova,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2001,6.10000039929173
+MDA,Moldova,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,2000,2.10771608200733
+MDA,Moldova,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1999,-3.36825447657218
+MDA,Moldova,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1998,-6.54219207711182
+MDA,Moldova,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1997,1.64706456037401
+MDA,Moldova,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1996,-5.87706028626823
+MDA,Moldova,NY.GDP.MKTP.KD.ZG,gdp_growth_pct,1995,-1.39999905491376
+MDA,Moldova,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2025,-19.6440561573093
+MDA,Moldova,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2024,-16.5470767102724
+MDA,Moldova,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2023,-11.0612264538806
+MDA,Moldova,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2022,-17.0894479797469
+MDA,Moldova,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2021,-12.4095546577967
+MDA,Moldova,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2020,-7.6900486921726
+MDA,Moldova,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2019,-9.42148010949479
+MDA,Moldova,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2018,-10.7699247852566
+MDA,Moldova,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2017,-5.8373598499054
+MDA,Moldova,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2016,-3.61387040187984
+MDA,Moldova,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2015,-5.93562136370789
+MDA,Moldova,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2014,-6.04440067766107
+MDA,Moldova,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2013,-5.16294162285186
+MDA,Moldova,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2012,-7.39016827021289
+MDA,Moldova,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2011,-10.1250094571942
+MDA,Moldova,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2010,-6.90279523078091
+MDA,Moldova,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2009,-8.91986143699657
+MDA,Moldova,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2008,-16.1122760959283
+MDA,Moldova,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2007,-15.2482071673217
+MDA,Moldova,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2006,-11.3377651882737
+MDA,Moldova,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2005,-7.55636173709232
+MDA,Moldova,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2004,-1.7754260708042
+MDA,Moldova,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2003,-6.56921155001991
+MDA,Moldova,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2002,-1.19146609275515
+MDA,Moldova,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2001,-1.80863629279978
+MDA,Moldova,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,2000,-7.62090655684757
+MDA,Moldova,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1999,-5.79782952702232
+MDA,Moldova,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1998,-19.703688169616
+MDA,Moldova,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1997,-14.2424061971689
+MDA,Moldova,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1996,-11.3165884413615
+MDA,Moldova,BN.CAB.XOKA.GD.ZS,current_account_pct_gdp,1995,-4.82658473389648
+MDA,Moldova,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2024,57.1465378506246
+MDA,Moldova,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2023,62.8005085116462
+MDA,Moldova,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2022,66.8632643722402
+MDA,Moldova,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2021,64.9616495706485
+MDA,Moldova,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2020,66.675737691051
+MDA,Moldova,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2019,59.1926642474052
+MDA,Moldova,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2018,61.8063335086727
+MDA,Moldova,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2017,69.1928004139998
+MDA,Moldova,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2016,73.7875330771683
+MDA,Moldova,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2015,73.9000579215744
+MDA,Moldova,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2014,57.2270719133865
+MDA,Moldova,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2013,59.7056085801724
+MDA,Moldova,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2012,55.8879563823311
+MDA,Moldova,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2011,58.0188297176791
+MDA,Moldova,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2010,63.1599967281012
+MDA,Moldova,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2009,64.6578180517962
+MDA,Moldova,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2008,56.0145571260456
+MDA,Moldova,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2007,69.9444036350436
+MDA,Moldova,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2006,68.8263439205978
+MDA,Moldova,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2005,65.4239294635281
+MDA,Moldova,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2004,71.5744260864525
+MDA,Moldova,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2003,95.6952196728422
+MDA,Moldova,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2002,107.512684838733
+MDA,Moldova,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2001,112.472596450816
+MDA,Moldova,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,2000,136.193940391912
+MDA,Moldova,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1999,98.5032226577787
+MDA,Moldova,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1998,61.9782390912996
+MDA,Moldova,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1997,54.3123333064779
+MDA,Moldova,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1996,48.3186934835135
+MDA,Moldova,DT.DOD.DECT.GN.ZS,external_debt_pct_gni,1995,40.0696116828985
+MDA,Moldova,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2025,9.40636563281594
+MDA,Moldova,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2024,10.5333702582967
+MDA,Moldova,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2023,12.0387300286119
+MDA,Moldova,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2022,14.0294158168182
+MDA,Moldova,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2021,15.4787484391198
+MDA,Moldova,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2020,16.274922384411
+MDA,Moldova,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2019,16.2728382462381
+MDA,Moldova,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2018,16.3337386523032
+MDA,Moldova,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2017,17.2146358007248
+MDA,Moldova,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2016,18.3841028050973
+MDA,Moldova,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2015,19.751035292269
+MDA,Moldova,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2014,22.0793458644557
+MDA,Moldova,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2013,23.0768148398865
+MDA,Moldova,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2012,22.8086850294921
+MDA,Moldova,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2011,21.5478268033462
+MDA,Moldova,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2010,25.1302427320706
+MDA,Moldova,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2009,24.8619604986136
+MDA,Moldova,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2008,31.1820776721655
+MDA,Moldova,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2007,33.8832385938611
+MDA,Moldova,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2006,34.4991746381553
+MDA,Moldova,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2005,30.621653152555
+MDA,Moldova,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2004,26.9939428415335
+MDA,Moldova,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2003,24.434256316304
+MDA,Moldova,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2002,19.4118710536305
+MDA,Moldova,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2001,16.3580954622492
+MDA,Moldova,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2000,13.7826722310316
+MDA,Moldova,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1999,9.43044133881165
+MDA,Moldova,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1998,7.19189621965876
+MDA,Moldova,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1997,5.92306695936683
+MDA,Moldova,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1996,5.13709285030372
+MDA,Moldova,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,1995,0.058185987809649
+MDA,Moldova,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2024,2.38321762869108
+MDA,Moldova,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2023,1.63810410209545
+MDA,Moldova,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2022,0.838479793482883
+MDA,Moldova,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2021,0.084563556459401
+MDA,Moldova,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2020,0.0658157051824005
+MDA,Moldova,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2019,0.0159962974276266
+MDA,Moldova,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2018,0.0472646433145928
+MDA,Moldova,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2017,0.0589373532158867
+MDA,Moldova,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2016,0.0593215893309068
+MDA,Moldova,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2015,0.132510817158309
+MDA,Moldova,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2014,0.253826139073276
+MDA,Moldova,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2013,0.19312870034219
+MDA,Moldova,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2012,0.310258427322649
+MDA,Moldova,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2011,0.68502128700707
+MDA,Moldova,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2010,0.335665843311511
+MDA,Moldova,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2009,0.353821508158087
+MDA,Moldova,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2008,0.284927103422403
+MDA,Moldova,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2007,0.238023798249035
+MDA,Moldova,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2006,0.324050217151906
+MDA,Moldova,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2005,0.193435475448262
+MDA,Moldova,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2004,1.60356015061864
+MDA,Moldova,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2003,0.595899462731542
+MDA,Moldova,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2002,0.0237840533804297
+MDA,Moldova,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2001,0.0186294281859855
+MDA,Moldova,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,2000,0.0904257523649786
+MDA,Moldova,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,1999,0.0273905978435647
+MDA,Moldova,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,1998,0.00202821521793324
+MDA,Moldova,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,1996,0.00555187219967975
+MDA,Moldova,TX.VAL.FUEL.ZS.UN,fuel_exports_pct_merch_exports,1995,0.874796691513729
