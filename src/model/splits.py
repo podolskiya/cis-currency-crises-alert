@@ -7,7 +7,8 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[2]))
 HORIZON = 12           # must match target.py
 TEST_MONTHS = 36       # length of each test window
 MIN_TRAIN_MONTHS = 60  # first fold needs this much history
-MIN_TRAIN_POS = 30     # folds below this are listed but not scored
+MIN_TRAIN_POS = 30     # too few positives to fit a classifier
+MIN_TEST_POS = 15      # too few positives for a stable AUC
 
 
 def make_folds(df, horizon=HORIZON, test_months=TEST_MONTHS, min_train=MIN_TRAIN_MONTHS):
@@ -32,6 +33,7 @@ def make_folds(df, horizon=HORIZON, test_months=TEST_MONTHS, min_train=MIN_TRAIN
         te = df.index[(df["date"] >= test_start) & (df["date"] < test_end)]
 
         if len(tr) > 0 and len(te) > 0:
+            pos_train = int(df.loc[tr, "y"].sum())
             pos_test = int(df.loc[te, "y"].sum())
             folds.append((tr, te, {
                 "train_end": str(train_end),
@@ -39,17 +41,17 @@ def make_folds(df, horizon=HORIZON, test_months=TEST_MONTHS, min_train=MIN_TRAIN
                 "test_end": str(test_end),
                 "n_train": len(tr),
                 "n_test": len(te),
-                "pos_train": int(df.loc[tr, "y"].sum()),
+                "pos_train": pos_train,
                 "pos_test": pos_test,
-                "scorable": pos_test > 0,
+                "scorable": pos_train >= MIN_TRAIN_POS and pos_test >= MIN_TEST_POS,
             }))
         cursor = cursor + test_months
     return folds
 
 
-def usable_folds(folds, min_train_pos=MIN_TRAIN_POS):
+def usable_folds(folds):
     """Folds with enough training positives to fit, and test positives to score."""
-    return [f for f in folds if f[2]["pos_train"] >= min_train_pos and f[2]["scorable"]]
+    return [f for f in folds if f[2]["scorable"]]
 
 
 if __name__ == "__main__":
@@ -66,14 +68,14 @@ if __name__ == "__main__":
     print(pd.DataFrame([f[2] for f in folds]).to_string(index=False))
 
     print(f"\nUsable: {len(usable)} of {len(folds)}"
-          f"  (need >= {MIN_TRAIN_POS} train positives and >= 1 test positive)")
+          f"  (need >= {MIN_TRAIN_POS} train positives, >= {MIN_TEST_POS} test positives)")
     for _, _, md in folds:
+        if md["scorable"]:
+            continue
         if md["pos_train"] < MIN_TRAIN_POS:
             why = f"only {md['pos_train']} train positives"
-        elif not md["scorable"]:
-            why = "no crisis onset in the test window"
         else:
-            continue
+            why = f"only {md['pos_test']} test positives"
         print(f"  excluded {md['test_start']}..{md['test_end']}: {why}")
 
     print("\nTEST-FOLD COUNTRY COVERAGE (positives):")

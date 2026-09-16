@@ -1,11 +1,19 @@
+"""Feature construction. Every column uses only information available at month t."""
 import pathlib, sys
 import numpy as np, pandas as pd
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[2]))
+from src.config import COUNTRIES
 
-PUB_LAG = 3   
+PUB_LAG = 3
+PEG_VOL = 0.010   # trailing 24m sd of monthly log FX change below this = de facto peg
 
-p = pd.read_parquet("data/processed/target.parquet").sort_values(["COUNTRY", "date"]).reset_index(drop=True)
+CONTAGION = ["region_emp_loo", "region_stress_share", "rus_empz",
+             "bloc_emp_loo", "region_stress_6m", "region_emp_6m", "rus_empz_6m"]
+
+REGIME = ["anchor_eur", "defacto_peg", "fx_vol_24m", "fx_vol_rel_region",
+          "months_since_regime_flip", "log_res_usd"]
+
 
 def feats(g):
     g = g.copy()
@@ -23,16 +31,30 @@ def feats(g):
 
     g["fx_vol_12m"] = lfx.diff().rolling(12).std()
     g["res_vol_12m"] = lres.diff().rolling(12).std()
-
     g["res_vs_24m_max"] = lres - lres.rolling(24).max()
     g["res_vs_36m_mean"] = lres - lres.rolling(36).mean()
 
     share = (resfx / res).clip(0, 1)
     g["fx_share"] = share
     g["fx_share_chg_6m"] = share.diff(6)
-
     g["fx_vs_36m_trend"] = lfx - lfx.rolling(36).mean()
+
+    # --- regime block: de facto, trailing, never forward-looking ---
+    g["fx_vol_24m"] = lfx.diff().rolling(24).std()
+    g["defacto_peg"] = (g["fx_vol_24m"] < PEG_VOL).astype(float)
+    g.loc[g["fx_vol_24m"].isna(), "defacto_peg"] = np.nan
+    g["log_res_usd"] = lres   # economy-scale proxy; small reserve base = fragile
+
+    flip = g["defacto_peg"].diff().abs().fillna(0) > 0
+    since = np.zeros(len(g)); ctr = 0
+    for i, f in enumerate(flip.to_numpy()):
+        ctr = 0 if f else ctr + 1
+        since[i] = ctr
+    g["months_since_regime_flip"] = since
     return g
+
+
+p = pd.read_parquet("data/processed/target.parquet").sort_values(["COUNTRY", "date"]).reset_index(drop=True)
 
 parts = []
 for country, g in p.groupby("COUNTRY", sort=False):
@@ -41,26 +63,45 @@ for country, g in p.groupby("COUNTRY", sort=False):
     parts.append(out)
 p = pd.concat(parts, ignore_index=True)
 
-FEATURES = [c for c in p.columns if any(
-    c.startswith(s) for s in ("fx_chg", "res_chg", "emp_ma", "fx_vol",
-                              "res_vol", "res_vs", "fx_share_chg", "fx_vs"))] + ["fx_share"]
+p["anchor_eur"] = p["COUNTRY"].map(
+    {c: 1.0 if v["anchor"] == "EUR" else 0.0 for c, v in COUNTRIES.items()})
 
-p["complete"] = p[FEATURES].notna().all(axis=1)
+# Relative flexibility: own trailing vol vs the cross-section that month
+p["fx_vol_rel_region"] = p["fx_vol_24m"] / p.groupby("date")["fx_vol_24m"].transform("median")
+p["fx_vol_rel_region"] = p["fx_vol_rel_region"].replace([np.inf, -np.inf], np.nan)
+
+cg = pd.read_parquet("data/processed/contagion.parquet")
+p = p.merge(cg[["COUNTRY", "date"] + CONTAGION], on=["COUNTRY", "date"], how="left")
+
+COUNTRY_FEATURES = [c for c in p.columns if any(
+    c.startswith(s) for s in ("fx_chg", "res_chg", "emp_ma", "fx_vol_12",
+                              "res_vol", "res_vs", "fx_share_chg", "fx_vs_36"))] + ["fx_share"]
+FEATURES = COUNTRY_FEATURES + CONTAGION + REGIME
+
+for c in CONTAGION:
+    p[c] = p[c].fillna(p.groupby("date")[c].transform("median")).fillna(0.0)
+for c in ("fx_vol_rel_region", "months_since_regime_flip"):
+    p[c] = p[c].fillna(p.groupby("date")[c].transform("median")).fillna(0.0)
+
+CORE = COUNTRY_FEATURES + ["fx_vol_24m", "defacto_peg", "log_res_usd"]
+p["complete"] = p[CORE].notna().all(axis=1)
 p["modelable"] = p["trainable"] & p["complete"]
 p.to_parquet("data/processed/features.parquet", index=False)
 
-print(f"Features ({len(FEATURES)}):")
-for f in FEATURES:
-    print(f"  {f}")
+print(f"Country ({len(COUNTRY_FEATURES)}): {', '.join(COUNTRY_FEATURES)}")
+print(f"Contagion ({len(CONTAGION)}): {', '.join(CONTAGION)}")
+print(f"Regime ({len(REGIME)}): {', '.join(REGIME)}")
 
 m = p[p["modelable"]]
 print(f"\nTrainable: {int(p['trainable'].sum()):,} -> modelable: {len(m):,}")
 print(f"Positives: {int(m['y'].sum()):,} ({100*m['y'].mean():.1f}%)")
 
-print("\nBY COUNTRY:")
-print(m.groupby("COUNTRY").agg(n=("y", "size"), pos=("y", "sum"),
-                               first=("date", "min")).to_string())
+print("\nDE FACTO PEG — share of modelable months classified as pegged:")
+pg = m.groupby("COUNTRY").agg(peg_share=("defacto_peg", "mean"),
+                              flips=("months_since_regime_flip",
+                                     lambda s: int((s == 0).sum())))
+pg["stated"] = [COUNTRIES[c]["regime"] for c in pg.index]
+print(pg.round(3).sort_values("peg_share", ascending=False).to_string())
 
-print("\nMISSINGNESS PER FEATURE (on trainable rows):")
-miss = (100 * p[p["trainable"]][FEATURES].isna().mean()).round(1).sort_values(ascending=False)
-print(miss.to_string())
+print("\nBY COUNTRY:")
+print(m.groupby("COUNTRY").agg(n=("y", "size"), pos=("y", "sum")).to_string())
