@@ -82,3 +82,16 @@ IL = {
 
 PEG_VOL_THRESHOLD = 0.010  
 RESERVE_ONLY_EMP = ["BIH", "MKD"]   # FX term degenerate; pressure appears in reserves #
+
+CPI = {
+    "agency": "IMF.STA",
+    "flow": "CPI",
+    "key_order": ["COUNTRY", "INDEX_TYPE", "COICOP_1999",
+                  "TYPE_OF_TRANSFORMATION", "FREQUENCY"],
+    "index_type": "CPI",
+    "coicop": "_T",
+    "transformation": "IX",
+    "freq": "M",
+    "anchors": {"USD": "USA", "EUR": "DEU"},   
+    "min_index": 1e-4,                          
+}

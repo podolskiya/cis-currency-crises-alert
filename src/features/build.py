@@ -6,13 +6,16 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[2]))
 from src.config import COUNTRIES
 
 PUB_LAG = 3
-PEG_VOL = 0.010   # trailing 24m sd of monthly log FX change below this = de facto peg
+PEG_VOL = 0.010
 
 CONTAGION = ["region_emp_loo", "region_stress_share", "rus_empz",
              "bloc_emp_loo", "region_stress_6m", "region_emp_6m", "rus_empz_6m"]
 
 REGIME = ["anchor_eur", "defacto_peg", "fx_vol_24m", "fx_vol_rel_region",
           "months_since_regime_flip", "log_res_usd"]
+
+REER = ["rer_vs_36m", "rer_vs_60m", "rer_chg_12m",
+        "infl_12m", "infl_diff_anchor", "infl_accel"]
 
 
 def feats(g):
@@ -39,11 +42,10 @@ def feats(g):
     g["fx_share_chg_6m"] = share.diff(6)
     g["fx_vs_36m_trend"] = lfx - lfx.rolling(36).mean()
 
-    # --- regime block: de facto, trailing, never forward-looking ---
     g["fx_vol_24m"] = lfx.diff().rolling(24).std()
     g["defacto_peg"] = (g["fx_vol_24m"] < PEG_VOL).astype(float)
     g.loc[g["fx_vol_24m"].isna(), "defacto_peg"] = np.nan
-    g["log_res_usd"] = lres   # economy-scale proxy; small reserve base = fragile
+    g["log_res_usd"] = lres
 
     flip = g["defacto_peg"].diff().abs().fillna(0) > 0
     since = np.zeros(len(g)); ctr = 0
@@ -65,22 +67,23 @@ p = pd.concat(parts, ignore_index=True)
 
 p["anchor_eur"] = p["COUNTRY"].map(
     {c: 1.0 if v["anchor"] == "EUR" else 0.0 for c, v in COUNTRIES.items()})
-
-# Relative flexibility: own trailing vol vs the cross-section that month
 p["fx_vol_rel_region"] = p["fx_vol_24m"] / p.groupby("date")["fx_vol_24m"].transform("median")
 p["fx_vol_rel_region"] = p["fx_vol_rel_region"].replace([np.inf, -np.inf], np.nan)
 
 cg = pd.read_parquet("data/processed/contagion.parquet")
 p = p.merge(cg[["COUNTRY", "date"] + CONTAGION], on=["COUNTRY", "date"], how="left")
 
+rr = pd.read_parquet("data/processed/reer.parquet")
+p = p.merge(rr[["COUNTRY", "date"] + REER], on=["COUNTRY", "date"], how="left")
+
 COUNTRY_FEATURES = [c for c in p.columns if any(
     c.startswith(s) for s in ("fx_chg", "res_chg", "emp_ma", "fx_vol_12",
                               "res_vol", "res_vs", "fx_share_chg", "fx_vs_36"))] + ["fx_share"]
-FEATURES = COUNTRY_FEATURES + CONTAGION + REGIME
+FEATURES = COUNTRY_FEATURES + REGIME + CONTAGION + REER
 
-for c in CONTAGION:
-    p[c] = p[c].fillna(p.groupby("date")[c].transform("median")).fillna(0.0)
-for c in ("fx_vol_rel_region", "months_since_regime_flip"):
+# Blocks with structural gaps (short CPI series, own-country contagion nulls) are
+# imputed cross-sectionally rather than gating row inclusion.
+for c in CONTAGION + REER + ["fx_vol_rel_region", "months_since_regime_flip"]:
     p[c] = p[c].fillna(p.groupby("date")[c].transform("median")).fillna(0.0)
 
 CORE = COUNTRY_FEATURES + ["fx_vol_24m", "defacto_peg", "log_res_usd"]
@@ -89,19 +92,18 @@ p["modelable"] = p["trainable"] & p["complete"]
 p.to_parquet("data/processed/features.parquet", index=False)
 
 print(f"Country ({len(COUNTRY_FEATURES)}): {', '.join(COUNTRY_FEATURES)}")
-print(f"Contagion ({len(CONTAGION)}): {', '.join(CONTAGION)}")
 print(f"Regime ({len(REGIME)}): {', '.join(REGIME)}")
+print(f"Contagion ({len(CONTAGION)}): {', '.join(CONTAGION)}")
+print(f"REER ({len(REER)}): {', '.join(REER)}")
 
 m = p[p["modelable"]]
 print(f"\nTrainable: {int(p['trainable'].sum()):,} -> modelable: {len(m):,}")
 print(f"Positives: {int(m['y'].sum()):,} ({100*m['y'].mean():.1f}%)")
 
-print("\nDE FACTO PEG — share of modelable months classified as pegged:")
-pg = m.groupby("COUNTRY").agg(peg_share=("defacto_peg", "mean"),
-                              flips=("months_since_regime_flip",
-                                     lambda s: int((s == 0).sum())))
-pg["stated"] = [COUNTRIES[c]["regime"] for c in pg.index]
-print(pg.round(3).sort_values("peg_share", ascending=False).to_string())
+print("\nREER IMPUTATION RATE (share of modelable rows imputed, by country):")
+rr_have = rr.dropna(subset=["rer_vs_36m"])[["COUNTRY", "date"]].assign(have=1)
+chk = m[["COUNTRY", "date"]].merge(rr_have, on=["COUNTRY", "date"], how="left")
+print((1 - chk.groupby("COUNTRY")["have"].mean().fillna(0)).round(3).to_string())
 
 print("\nBY COUNTRY:")
 print(m.groupby("COUNTRY").agg(n=("y", "size"), pos=("y", "sum")).to_string())
