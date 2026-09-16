@@ -13,14 +13,13 @@ warnings.filterwarnings("ignore", category=UserWarning)
 REDUCED = ["fx_chg_3m", "res_chg_3m", "emp_ma_3m", "res_chg_6m", "emp_ma_6m",
            "res_chg_12m", "fx_vol_12m", "res_vs_24m_max", "fx_vs_36m_trend"]
 
-# Deliberately heavily constrained: ~300 positives cannot support a deep forest.
 PARAMS = dict(
     objective="binary",
     n_estimators=300,
     learning_rate=0.03,
-    num_leaves=7,            # very shallow
+    num_leaves=7,            
     max_depth=3,
-    min_child_samples=40,    # no leaf fits a handful of rows
+    min_child_samples=40,    
     subsample=0.7,
     subsample_freq=1,
     colsample_bytree=0.7,
