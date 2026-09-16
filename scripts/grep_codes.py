@@ -18,3 +18,5 @@ hits = [c for c in cl.get("codes", [])
 print(f"{cid}: {len(hits)} of {len(cl.get('codes', []))} match {terms}\n")
 for c in hits:
     print(f"  {c['id']:<28} {str(nm(c))[:60]}")
+
+    

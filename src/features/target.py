@@ -24,11 +24,10 @@ def build(g):
 parts = []
 for country, g in p.groupby("COUNTRY", sort=False):
     out = build(g)
-    out["COUNTRY"] = country          # explicit, never lost
+    out["COUNTRY"] = country     
     parts.append(out)
 p = pd.concat(parts, ignore_index=True)
 
-# Trainable rows: scored, and not inside a crisis/recovery window
 p["trainable"] = p["emp_z"].notna() & ~p["post_crisis"]
 p.to_parquet("data/processed/target.parquet", index=False)
 
@@ -39,8 +38,7 @@ print(f"Positives (y=1): {int(tr['y'].sum()):,}  ({100*tr['y'].mean():.1f}%)")
 print(f"Negatives:       {int((~tr['y']).sum()):,}")
 
 print("\nBY COUNTRY:")
-print(tr.groupby("COUNTRY").agg(n=("y", "size"), pos=("y", "sum"),
-                                rate=("y", "mean")).round(3).to_string())
+print(tr.groupby("COUNTRY").agg(n=("y", "size"), pos=("y", "sum"), rate=("y", "mean")).round(3).to_string())
 
 print("\nPOSITIVES BY YEAR:")
 yr = tr.assign(year=tr["date"].dt.year).groupby("year")["y"].agg(["size", "sum"])
