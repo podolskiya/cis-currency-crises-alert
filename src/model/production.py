@@ -2,17 +2,13 @@
 decompose each score, and write the JSON artifacts the dashboard reads.
 
 Model: logistic regression, country fundamentals + regime conditioning.
-Chosen over gradient boosting, contagion and REER blocks, each of which was
-tested on identical folds and underperformed. See README for the comparison.
+Chosen over gradient boosting, contagion and REER blocks, each tested on
+identical folds and each underperforming. See README for the comparison.
 """
 import json, pathlib, sys
 from datetime import datetime, timezone
 
 import numpy as np, pandas as pd
-from sklearn.linear_model import LogisticRegression
-from sklearn.preprocessing import StandardScaler
-from sklearn.pipeline import Pipeline
-from sklearn.impute import SimpleImputer
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[2]))
 from src.config import COUNTRIES, EXCLUDE_FROM_MODEL
@@ -20,13 +16,24 @@ from src.model.baseline import COUNTRY_FEATURES, REGIME, pipe
 
 FEATURES = COUNTRY_FEATURES + REGIME
 OUT = pathlib.Path("web/public/data")
-RECENT_START = "2016-01"   # window for the peer-relevant percentile
+RECENT_START = "2016-01"
 
 CV = {
     "mean_auc": 0.654, "sd_auc": 0.036, "min_auc": 0.605,
     "mean_ap": 0.233, "mean_base_rate": 0.139,
     "folds": 4, "fold_span": "2011-03 to 2023-03",
     "last_validated": "2023-03",
+}
+
+# Regularisation spreads signal across correlated features, so no single driver
+# dominates. Grouped contributions sum to the full score; a top-N list does not.
+GROUPS = {
+    "Currency pressure": ["fx_chg_3m", "fx_chg_6m", "fx_chg_12m", "fx_vs_36m_trend",
+                          "emp_ma_3m", "emp_ma_6m", "emp_ma_12m"],
+    "Reserve adequacy": ["res_chg_3m", "res_chg_6m", "res_chg_12m", "res_vs_24m_max",
+                         "res_vs_36m_mean", "fx_share", "fx_share_chg_6m", "log_res_usd"],
+    "Volatility": ["fx_vol_12m", "fx_vol_24m", "res_vol_12m", "fx_vol_rel_region"],
+    "Exchange rate regime": ["anchor_eur", "defacto_peg", "months_since_regime_flip"],
 }
 
 READABLE = {
@@ -45,9 +52,10 @@ READABLE = {
     "log_res_usd": "Reserve base (log USD)",
 }
 
+assert sorted(sum(GROUPS.values(), [])) == sorted(FEATURES), "GROUPS must cover FEATURES"
+
 
 def contributions(model, X):
-    """Per-row signed contribution of each feature to the log-odds."""
     imp = model.named_steps["impute"]
     sc = model.named_steps["scale"]
     coef = model.named_steps["clf"].coef_[0]
@@ -61,14 +69,12 @@ def main():
 
     train = p[p["modelable"]].reset_index(drop=True)
     model = pipe().fit(train[FEATURES], train["y"].astype(int))
+    intercept = float(model.named_steps["clf"].intercept_[0])
 
     scor = p[p["complete"]].copy().reset_index(drop=True)
     scor["prob"] = model.predict_proba(scor[FEATURES])[:, 1]
     contrib = contributions(model, scor[FEATURES])
 
-    # Two reference windows. Full history is the honest long-run comparison;
-    # the recent window is the more relevant peer comparison for a decision today,
-    # and is unaffected by the mild upward drift in fitted probabilities.
     scor["pctile"] = scor.groupby("COUNTRY")["prob"].rank(pct=True).mul(100).round(1)
     cutoff = pd.Period(RECENT_START, freq="M")
     rec = scor[scor["date"] >= cutoff].copy()
@@ -90,7 +96,7 @@ def main():
         if g.empty:
             continue
         last = g.iloc[-1]
-        c = contrib.loc[last.name].sort_values(key=abs, ascending=False)
+        c = contrib.loc[last.name]
 
         imputed = [f for f in FEATURES if pd.isna(last[f])]
         if imputed:
@@ -105,14 +111,19 @@ def main():
         pr_full = float(last["pctile"])
         pr_rec = None if pd.isna(last["pctile_recent"]) else float(last["pctile_recent"])
 
-        drivers = [{
-            "feature": k, "label": READABLE.get(k, k),
-            "contribution": round(float(v), 4),
-            "direction": "raises" if v > 0 else "lowers",
-            "value": (None if pd.isna(last[k]) else round(float(last[k]), 4)),
-            "imputed": bool(pd.isna(last[k])),
-        } for k, v in c.head(6).items()]
+        groups = [{
+            "group": name,
+            "contribution": round(float(c[cols].sum()), 4),
+            "direction": "raises" if c[cols].sum() > 0 else "lowers",
+            "items": [{"label": READABLE.get(k, k),
+                       "contribution": round(float(c[k]), 4),
+                       "value": (None if pd.isna(last[k]) else round(float(last[k]), 4)),
+                       "imputed": bool(pd.isna(last[k]))}
+                      for k in sorted(cols, key=lambda x: -abs(c[x]))],
+        } for name, cols in GROUPS.items()]
+        groups.sort(key=lambda gr: -abs(gr["contribution"]))
 
+        total = float(c.sum())
         countries.append({
             "iso3": iso,
             "name": COUNTRIES[iso]["name"],
@@ -133,7 +144,9 @@ def main():
             "defacto_peg": peg,
             "imputed_features": imputed,
             "score_quality": "imputed" if imputed else "complete",
-            "drivers": drivers,
+            "log_odds": round(total + intercept, 4),
+            "contribution_total": round(total, 4),
+            "groups": groups,
         })
 
         for _, r in g.iterrows():
@@ -154,11 +167,10 @@ def main():
             "data_age_months": None, "fx_last": None, "fx_lag_months": None,
             "res_last": None, "res_lag_months": None, "defacto_peg": None,
             "imputed_features": [], "score_quality": "unavailable",
-            "drivers": [], "excluded_reason": "Insufficient IMF data to score",
+            "log_odds": None, "contribution_total": None, "groups": [],
+            "excluded_reason": "Insufficient IMF data to score",
         })
 
-    # Regional stress index: share of the panel above its own 90th percentile,
-    # by year. Validated against known crisis waves (2008, 2014-15).
     h = pd.DataFrame(history)
     h["year"] = pd.PeriodIndex(h["date"], freq="M").year
     regional = [{"year": int(y), "share_above_p90": round(float(v), 3)}
@@ -171,6 +183,7 @@ def main():
         "as_of_month": str(now),
         "model": "Logistic regression (L2, C=0.1, balanced class weights)",
         "features": len(FEATURES),
+        "intercept": round(intercept, 4),
         "horizon_months": 12,
         "publication_lag_months": 3,
         "recent_window_start": RECENT_START,
@@ -193,9 +206,11 @@ def main():
             "rank against the country's own history is the more reliable signal.",
             f"Fitted probabilities drift mildly upward over time, so the "
             f"{RECENT_START}-onward percentile is the fairer current comparison.",
+            "Regularisation spreads signal across correlated features. Contributions "
+            "are shown grouped because no single driver carries a score.",
             "Data freshness varies by country. Check the lag fields before acting on "
             "any single reading.",
-            "This is a research tool, not investment advice.",
+            "Research tool, not investment advice.",
         ],
     }
 
@@ -213,28 +228,24 @@ def main():
     tbl = pd.DataFrame([{
         "country": c["name"][:22], "date": c["score_date"], "prob": c["probability"],
         "pct_full": c["percentile"], "pct_10y": c["percentile_recent"],
-        "gap": c["percentile_gap"], "12m_ago": c["percentile_12m_ago"],
-        "age": c["data_age_months"], "peg": c["defacto_peg"],
+        "gap": c["percentile_gap"], "age": c["data_age_months"], "peg": c["defacto_peg"],
     } for c in countries if c["probability"] is not None])
     print("CURRENT READINGS (ranked by recent-window percentile)")
     print(tbl.sort_values("pct_10y", ascending=False).to_string(index=False))
 
     print("\nTAIL DIAGNOSTIC — features imputed at last scored row:")
-    print("  none — every country scored on complete data" if not tail_issues
+    print("  none" if not tail_issues
           else "\n".join(f"  {k}: {', '.join(v)}" for k, v in sorted(tail_issues.items())))
 
-    print(f"\nREGIONAL STRESS — share of panel above own p90, recent years:")
-    for r in regional[-6:]:
-        bar = "#" * int(r["share_above_p90"] * 50)
-        print(f"  {r['year']}  {r['share_above_p90']:.3f}  {bar}")
-
-    top = max((c for c in countries if c["percentile_recent"] is not None),
-              key=lambda c: c["percentile_recent"])
-    print(f"\nHIGHEST READING — {top['name']} ({top['score_date']}), "
-          f"{top['percentile_recent']}th percentile since {RECENT_START}")
-    for d in top["drivers"]:
-        flag = " [imputed]" if d["imputed"] else ""
-        print(f"  {d['direction']:<6} {d['label']:<28} {d['contribution']:+.3f}{flag}")
+    print("\nGROUPED ATTRIBUTION CHECK — do groups sum to the total?")
+    for c in sorted((c for c in countries if c["groups"]),
+                    key=lambda x: -(x["percentile_recent"] or 0))[:4]:
+        gs = sum(g["contribution"] for g in c["groups"])
+        print(f"\n  {c['name']}  log-odds {c['log_odds']:+.3f} "
+              f"(contrib {c['contribution_total']:+.3f}, groups {gs:+.3f})")
+        for g in c["groups"]:
+            bar = "#" * min(30, int(abs(g["contribution"]) * 20))
+            print(f"    {g['direction']:<6} {g['group']:<22} {g['contribution']:+.3f}  {bar}")
 
 
 if __name__ == "__main__":
