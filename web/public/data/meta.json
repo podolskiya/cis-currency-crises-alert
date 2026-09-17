@@ -1,0 +1,257 @@
+{
+  "generated_utc": "2026-09-17T22:57:54+00:00",
+  "as_of_month": "2026-09",
+  "model": "Logistic regression (L2, C=0.1, balanced class weights)",
+  "features": 22,
+  "horizon_months": 12,
+  "publication_lag_months": 3,
+  "recent_window_start": "2016-01",
+  "training_rows": 4465,
+  "training_positives": 429,
+  "crisis_episodes": 44,
+  "countries_scored": 17,
+  "validation": {
+    "mean_auc": 0.654,
+    "sd_auc": 0.036,
+    "min_auc": 0.605,
+    "mean_ap": 0.233,
+    "mean_base_rate": 0.139,
+    "folds": 4,
+    "fold_span": "2011-03 to 2023-03",
+    "last_validated": "2023-03"
+  },
+  "regional_stress_by_year": [
+    {
+      "year": 1999,
+      "share_above_p90": 0.049
+    },
+    {
+      "year": 2000,
+      "share_above_p90": 0.0
+    },
+    {
+      "year": 2001,
+      "share_above_p90": 0.017
+    },
+    {
+      "year": 2002,
+      "share_above_p90": 0.056
+    },
+    {
+      "year": 2003,
+      "share_above_p90": 0.119
+    },
+    {
+      "year": 2004,
+      "share_above_p90": 0.0
+    },
+    {
+      "year": 2005,
+      "share_above_p90": 0.083
+    },
+    {
+      "year": 2006,
+      "share_above_p90": 0.122
+    },
+    {
+      "year": 2007,
+      "share_above_p90": 0.106
+    },
+    {
+      "year": 2008,
+      "share_above_p90": 0.283
+    },
+    {
+      "year": 2009,
+      "share_above_p90": 0.142
+    },
+    {
+      "year": 2010,
+      "share_above_p90": 0.036
+    },
+    {
+      "year": 2011,
+      "share_above_p90": 0.026
+    },
+    {
+      "year": 2012,
+      "share_above_p90": 0.052
+    },
+    {
+      "year": 2013,
+      "share_above_p90": 0.146
+    },
+    {
+      "year": 2014,
+      "share_above_p90": 0.297
+    },
+    {
+      "year": 2015,
+      "share_above_p90": 0.26
+    },
+    {
+      "year": 2016,
+      "share_above_p90": 0.04
+    },
+    {
+      "year": 2017,
+      "share_above_p90": 0.0
+    },
+    {
+      "year": 2018,
+      "share_above_p90": 0.005
+    },
+    {
+      "year": 2019,
+      "share_above_p90": 0.093
+    },
+    {
+      "year": 2020,
+      "share_above_p90": 0.049
+    },
+    {
+      "year": 2021,
+      "share_above_p90": 0.025
+    },
+    {
+      "year": 2022,
+      "share_above_p90": 0.108
+    },
+    {
+      "year": 2023,
+      "share_above_p90": 0.093
+    },
+    {
+      "year": 2024,
+      "share_above_p90": 0.142
+    },
+    {
+      "year": 2025,
+      "share_above_p90": 0.222
+    },
+    {
+      "year": 2026,
+      "share_above_p90": 0.206
+    }
+  ],
+  "coefficients": [
+    {
+      "feature": "res_vs_24m_max",
+      "label": "Reserves vs 24m peak",
+      "coefficient": -0.9735
+    },
+    {
+      "feature": "fx_vol_24m",
+      "label": "FX volatility, 24m",
+      "coefficient": -0.7885
+    },
+    {
+      "feature": "fx_chg_12m",
+      "label": "FX change, 12m",
+      "coefficient": 0.5541
+    },
+    {
+      "feature": "fx_vol_12m",
+      "label": "FX volatility, 12m",
+      "coefficient": -0.4852
+    },
+    {
+      "feature": "fx_vol_rel_region",
+      "label": "FX flexibility vs region",
+      "coefficient": 0.4426
+    },
+    {
+      "feature": "log_res_usd",
+      "label": "Reserve base (log USD)",
+      "coefficient": 0.43
+    },
+    {
+      "feature": "res_vs_36m_mean",
+      "label": "Reserves vs 36m average",
+      "coefficient": 0.3843
+    },
+    {
+      "feature": "anchor_eur",
+      "label": "EUR-anchored",
+      "coefficient": -0.3531
+    },
+    {
+      "feature": "fx_vs_36m_trend",
+      "label": "FX vs 36m trend",
+      "coefficient": -0.3461
+    },
+    {
+      "feature": "defacto_peg",
+      "label": "De facto peg",
+      "coefficient": -0.3388
+    },
+    {
+      "feature": "res_vol_12m",
+      "label": "Reserve volatility, 12m",
+      "coefficient": -0.3298
+    },
+    {
+      "feature": "fx_chg_3m",
+      "label": "FX change, 3m",
+      "coefficient": -0.1548
+    },
+    {
+      "feature": "res_chg_6m",
+      "label": "Reserves change, 6m",
+      "coefficient": 0.1485
+    },
+    {
+      "feature": "res_chg_12m",
+      "label": "Reserves change, 12m",
+      "coefficient": 0.1343
+    },
+    {
+      "feature": "months_since_regime_flip",
+      "label": "Months in current regime",
+      "coefficient": 0.1306
+    },
+    {
+      "feature": "emp_ma_6m",
+      "label": "Market pressure, 6m avg",
+      "coefficient": 0.1212
+    },
+    {
+      "feature": "emp_ma_3m",
+      "label": "Market pressure, 3m avg",
+      "coefficient": 0.0732
+    },
+    {
+      "feature": "fx_share",
+      "label": "FX share of reserves",
+      "coefficient": -0.0623
+    },
+    {
+      "feature": "fx_chg_6m",
+      "label": "FX change, 6m",
+      "coefficient": -0.0322
+    },
+    {
+      "feature": "fx_share_chg_6m",
+      "label": "FX share change, 6m",
+      "coefficient": -0.0283
+    },
+    {
+      "feature": "res_chg_3m",
+      "label": "Reserves change, 3m",
+      "coefficient": 0.0207
+    },
+    {
+      "feature": "emp_ma_12m",
+      "label": "Market pressure, 12m avg",
+      "coefficient": -0.0099
+    }
+  ],
+  "caveats": [
+    "Scores estimate the probability of a currency crisis beginning within 12 months, given data available three months before the score date.",
+    "No crisis onset has been detected in the panel since July 2022, so the most recent validated test window ends March 2023. Readings after that date are extrapolation.",
+    "Probabilities are not calibrated to observed frequencies. Percentile rank against the country's own history is the more reliable signal.",
+    "Fitted probabilities drift mildly upward over time, so the 2016-01-onward percentile is the fairer current comparison.",
+    "Data freshness varies by country. Check the lag fields before acting on any single reading.",
+    "This is a research tool, not investment advice."
+  ]
+}

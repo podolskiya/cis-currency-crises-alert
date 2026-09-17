@@ -1,0 +1,1232 @@
+[
+  {
+    "iso3": "BLR",
+    "name": "Belarus",
+    "currency": "BYN",
+    "anchor": "USD",
+    "caveat": "2000 redenomination; sanctioned",
+    "score_date": "2026-07",
+    "probability": 0.7055,
+    "percentile": 94.6,
+    "percentile_recent": 100.0,
+    "percentile_gap": 5.4,
+    "percentile_12m_ago": 45.7,
+    "data_age_months": 2,
+    "fx_last": "2026-07",
+    "fx_lag_months": 2,
+    "res_last": "2026-07",
+    "res_lag_months": 2,
+    "defacto_peg": false,
+    "imputed_features": [],
+    "score_quality": "complete",
+    "drivers": [
+      {
+        "feature": "fx_vol_rel_region",
+        "label": "FX flexibility vs region",
+        "contribution": 0.8627,
+        "direction": "raises",
+        "value": 4.0069,
+        "imputed": false
+      },
+      {
+        "feature": "res_vs_24m_max",
+        "label": "Reserves vs 24m peak",
+        "contribution": -0.5088,
+        "direction": "lowers",
+        "value": -0.0078,
+        "imputed": false
+      },
+      {
+        "feature": "fx_chg_12m",
+        "label": "FX change, 12m",
+        "contribution": -0.5026,
+        "direction": "lowers",
+        "value": -0.0777,
+        "imputed": false
+      },
+      {
+        "feature": "fx_vs_36m_trend",
+        "label": "FX vs 36m trend",
+        "contribution": 0.3627,
+        "direction": "raises",
+        "value": -0.0973,
+        "imputed": false
+      },
+      {
+        "feature": "fx_vol_24m",
+        "label": "FX volatility, 24m",
+        "contribution": -0.2978,
+        "direction": "lowers",
+        "value": 0.0297,
+        "imputed": false
+      },
+      {
+        "feature": "defacto_peg",
+        "label": "De facto peg",
+        "contribution": 0.2779,
+        "direction": "raises",
+        "value": 0.0,
+        "imputed": false
+      }
+    ]
+  },
+  {
+    "iso3": "TUR",
+    "name": "Turkiye",
+    "currency": "TRY",
+    "anchor": "USD",
+    "caveat": "2018 and 2021-23 crises; large EM, not frontier",
+    "score_date": "2026-08",
+    "probability": 0.8306,
+    "percentile": 97.9,
+    "percentile_recent": 94.5,
+    "percentile_gap": -3.4,
+    "percentile_12m_ago": 97.3,
+    "data_age_months": 1,
+    "fx_last": "2026-08",
+    "fx_lag_months": 1,
+    "res_last": "2026-08",
+    "res_lag_months": 1,
+    "defacto_peg": false,
+    "imputed_features": [],
+    "score_quality": "complete",
+    "drivers": [
+      {
+        "feature": "res_vs_24m_max",
+        "label": "Reserves vs 24m peak",
+        "contribution": 2.2686,
+        "direction": "raises",
+        "value": -0.6032,
+        "imputed": false
+      },
+      {
+        "feature": "res_vs_36m_mean",
+        "label": "Reserves vs 36m average",
+        "contribution": -0.7411,
+        "direction": "lowers",
+        "value": -0.3801,
+        "imputed": false
+      },
+      {
+        "feature": "res_vol_12m",
+        "label": "Reserve volatility, 12m",
+        "contribution": -0.6079,
+        "direction": "lowers",
+        "value": 0.1665,
+        "imputed": false
+      },
+      {
+        "feature": "log_res_usd",
+        "label": "Reserve base (log USD)",
+        "contribution": 0.5776,
+        "direction": "raises",
+        "value": 24.6978,
+        "imputed": false
+      },
+      {
+        "feature": "fx_chg_12m",
+        "label": "FX change, 12m",
+        "contribution": 0.5405,
+        "direction": "raises",
+        "value": 0.1554,
+        "imputed": false
+      },
+      {
+        "feature": "fx_vol_24m",
+        "label": "FX volatility, 24m",
+        "contribution": 0.4701,
+        "direction": "raises",
+        "value": 0.0071,
+        "imputed": false
+      }
+    ]
+  },
+  {
+    "iso3": "UKR",
+    "name": "Ukraine",
+    "currency": "UAH",
+    "anchor": "USD",
+    "caveat": "wartime capital controls from 2022",
+    "score_date": "2026-08",
+    "probability": 0.6991,
+    "percentile": 81.5,
+    "percentile_recent": 93.0,
+    "percentile_gap": 11.5,
+    "percentile_12m_ago": 77.6,
+    "data_age_months": 1,
+    "fx_last": "2026-08",
+    "fx_lag_months": 1,
+    "res_last": "2026-08",
+    "res_lag_months": 1,
+    "defacto_peg": false,
+    "imputed_features": [],
+    "score_quality": "complete",
+    "drivers": [
+      {
+        "feature": "res_vs_24m_max",
+        "label": "Reserves vs 24m peak",
+        "contribution": 0.592,
+        "direction": "raises",
+        "value": -0.2438,
+        "imputed": false
+      },
+      {
+        "feature": "log_res_usd",
+        "label": "Reserve base (log USD)",
+        "contribution": 0.5225,
+        "direction": "raises",
+        "value": 24.4578,
+        "imputed": false
+      },
+      {
+        "feature": "fx_vol_24m",
+        "label": "FX volatility, 24m",
+        "contribution": 0.4878,
+        "direction": "raises",
+        "value": 0.0066,
+        "imputed": false
+      },
+      {
+        "feature": "defacto_peg",
+        "label": "De facto peg",
+        "contribution": -0.413,
+        "direction": "lowers",
+        "value": 1.0,
+        "imputed": false
+      },
+      {
+        "feature": "anchor_eur",
+        "label": "EUR-anchored",
+        "contribution": 0.2253,
+        "direction": "raises",
+        "value": 0.0,
+        "imputed": false
+      },
+      {
+        "feature": "fx_vol_12m",
+        "label": "FX volatility, 12m",
+        "contribution": 0.2222,
+        "direction": "raises",
+        "value": 0.0071,
+        "imputed": false
+      }
+    ]
+  },
+  {
+    "iso3": "GEO",
+    "name": "Georgia",
+    "currency": "GEL",
+    "anchor": "USD",
+    "caveat": null,
+    "score_date": "2026-08",
+    "probability": 0.7262,
+    "percentile": 96.7,
+    "percentile_recent": 92.2,
+    "percentile_gap": -4.5,
+    "percentile_12m_ago": 98.2,
+    "data_age_months": 1,
+    "fx_last": "2026-08",
+    "fx_lag_months": 1,
+    "res_last": "2026-08",
+    "res_lag_months": 1,
+    "defacto_peg": false,
+    "imputed_features": [],
+    "score_quality": "complete",
+    "drivers": [
+      {
+        "feature": "res_vs_24m_max",
+        "label": "Reserves vs 24m peak",
+        "contribution": -0.5453,
+        "direction": "lowers",
+        "value": 0.0,
+        "imputed": false
+      },
+      {
+        "feature": "fx_vol_24m",
+        "label": "FX volatility, 24m",
+        "contribution": 0.304,
+        "direction": "raises",
+        "value": 0.012,
+        "imputed": false
+      },
+      {
+        "feature": "defacto_peg",
+        "label": "De facto peg",
+        "contribution": 0.2779,
+        "direction": "raises",
+        "value": 0.0,
+        "imputed": false
+      },
+      {
+        "feature": "fx_vol_12m",
+        "label": "FX volatility, 12m",
+        "contribution": 0.2692,
+        "direction": "raises",
+        "value": 0.005,
+        "imputed": false
+      },
+      {
+        "feature": "fx_chg_12m",
+        "label": "FX change, 12m",
+        "contribution": -0.261,
+        "direction": "lowers",
+        "value": -0.0237,
+        "imputed": false
+      },
+      {
+        "feature": "anchor_eur",
+        "label": "EUR-anchored",
+        "contribution": 0.2253,
+        "direction": "raises",
+        "value": 0.0,
+        "imputed": false
+      }
+    ]
+  },
+  {
+    "iso3": "BIH",
+    "name": "Bosnia and Herzegovina",
+    "currency": "BAM",
+    "anchor": "EUR",
+    "caveat": "currency board since 1997; FX term degenerate",
+    "score_date": "2025-06",
+    "probability": 0.3905,
+    "percentile": 88.2,
+    "percentile_recent": 92.1,
+    "percentile_gap": 3.9,
+    "percentile_12m_ago": 64.3,
+    "data_age_months": 15,
+    "fx_last": "2026-05",
+    "fx_lag_months": 4,
+    "res_last": "2025-03",
+    "res_lag_months": 18,
+    "defacto_peg": true,
+    "imputed_features": [],
+    "score_quality": "complete",
+    "drivers": [
+      {
+        "feature": "fx_vol_24m",
+        "label": "FX volatility, 24m",
+        "contribution": 0.5684,
+        "direction": "raises",
+        "value": 0.0042,
+        "imputed": false
+      },
+      {
+        "feature": "anchor_eur",
+        "label": "EUR-anchored",
+        "contribution": -0.5534,
+        "direction": "lowers",
+        "value": 1.0,
+        "imputed": false
+      },
+      {
+        "feature": "defacto_peg",
+        "label": "De facto peg",
+        "contribution": -0.413,
+        "direction": "lowers",
+        "value": 1.0,
+        "imputed": false
+      },
+      {
+        "feature": "months_since_regime_flip",
+        "label": "Months in current regime",
+        "contribution": 0.4078,
+        "direction": "raises",
+        "value": 330.0,
+        "imputed": false
+      },
+      {
+        "feature": "res_vs_24m_max",
+        "label": "Reserves vs 24m peak",
+        "contribution": -0.2869,
+        "direction": "lowers",
+        "value": -0.0554,
+        "imputed": false
+      },
+      {
+        "feature": "fx_vol_12m",
+        "label": "FX volatility, 12m",
+        "contribution": 0.2804,
+        "direction": "raises",
+        "value": 0.0045,
+        "imputed": false
+      }
+    ]
+  },
+  {
+    "iso3": "KAZ",
+    "name": "Kazakhstan",
+    "currency": "KZT",
+    "anchor": "USD",
+    "caveat": null,
+    "score_date": "2026-08",
+    "probability": 0.8246,
+    "percentile": 95.8,
+    "percentile_recent": 91.4,
+    "percentile_gap": -4.4,
+    "percentile_12m_ago": 79.7,
+    "data_age_months": 1,
+    "fx_last": "2026-08",
+    "fx_lag_months": 1,
+    "res_last": "2026-07",
+    "res_lag_months": 2,
+    "defacto_peg": false,
+    "imputed_features": [],
+    "score_quality": "complete",
+    "drivers": [
+      {
+        "feature": "res_vs_24m_max",
+        "label": "Reserves vs 24m peak",
+        "contribution": 1.3573,
+        "direction": "raises",
+        "value": -0.4078,
+        "imputed": false
+      },
+      {
+        "feature": "fx_vol_rel_region",
+        "label": "FX flexibility vs region",
+        "contribution": 0.8603,
+        "direction": "raises",
+        "value": 3.9994,
+        "imputed": false
+      },
+      {
+        "feature": "res_vs_36m_mean",
+        "label": "Reserves vs 36m average",
+        "contribution": -0.458,
+        "direction": "lowers",
+        "value": -0.1653,
+        "imputed": false
+      },
+      {
+        "feature": "fx_chg_12m",
+        "label": "FX change, 12m",
+        "contribution": -0.378,
+        "direction": "lowers",
+        "value": -0.0499,
+        "imputed": false
+      },
+      {
+        "feature": "fx_vol_12m",
+        "label": "FX volatility, 12m",
+        "contribution": -0.286,
+        "direction": "lowers",
+        "value": 0.0297,
+        "imputed": false
+      },
+      {
+        "feature": "log_res_usd",
+        "label": "Reserve base (log USD)",
+        "contribution": 0.2837,
+        "direction": "raises",
+        "value": 23.4176,
+        "imputed": false
+      }
+    ]
+  },
+  {
+    "iso3": "MKD",
+    "name": "North Macedonia",
+    "currency": "MKD",
+    "anchor": "EUR",
+    "caveat": "de facto EUR peg; reserve-only EMP",
+    "score_date": "2026-07",
+    "probability": 0.382,
+    "percentile": 91.5,
+    "percentile_recent": 90.6,
+    "percentile_gap": -0.9,
+    "percentile_12m_ago": 75.4,
+    "data_age_months": 2,
+    "fx_last": "2026-07",
+    "fx_lag_months": 2,
+    "res_last": "2026-07",
+    "res_lag_months": 2,
+    "defacto_peg": true,
+    "imputed_features": [],
+    "score_quality": "complete",
+    "drivers": [
+      {
+        "feature": "fx_vol_24m",
+        "label": "FX volatility, 24m",
+        "contribution": 0.5658,
+        "direction": "raises",
+        "value": 0.0043,
+        "imputed": false
+      },
+      {
+        "feature": "anchor_eur",
+        "label": "EUR-anchored",
+        "contribution": -0.5534,
+        "direction": "lowers",
+        "value": 1.0,
+        "imputed": false
+      },
+      {
+        "feature": "defacto_peg",
+        "label": "De facto peg",
+        "contribution": -0.413,
+        "direction": "lowers",
+        "value": 1.0,
+        "imputed": false
+      },
+      {
+        "feature": "fx_vol_12m",
+        "label": "FX volatility, 12m",
+        "contribution": 0.2916,
+        "direction": "raises",
+        "value": 0.004,
+        "imputed": false
+      },
+      {
+        "feature": "months_since_regime_flip",
+        "label": "Months in current regime",
+        "contribution": 0.2723,
+        "direction": "raises",
+        "value": 247.0,
+        "imputed": false
+      },
+      {
+        "feature": "fx_vol_rel_region",
+        "label": "FX flexibility vs region",
+        "contribution": -0.2268,
+        "direction": "lowers",
+        "value": 0.5732,
+        "imputed": false
+      }
+    ]
+  },
+  {
+    "iso3": "KGZ",
+    "name": "Kyrgyz Republic",
+    "currency": "KGS",
+    "anchor": "USD",
+    "caveat": null,
+    "score_date": "2026-07",
+    "probability": 0.6127,
+    "percentile": 96.0,
+    "percentile_recent": 89.8,
+    "percentile_gap": -6.2,
+    "percentile_12m_ago": 97.0,
+    "data_age_months": 2,
+    "fx_last": "2026-07",
+    "fx_lag_months": 2,
+    "res_last": "2026-06",
+    "res_lag_months": 3,
+    "defacto_peg": false,
+    "imputed_features": [],
+    "score_quality": "complete",
+    "drivers": [
+      {
+        "feature": "res_vs_24m_max",
+        "label": "Reserves vs 24m peak",
+        "contribution": 1.2871,
+        "direction": "raises",
+        "value": -0.3928,
+        "imputed": false
+      },
+      {
+        "feature": "res_vol_12m",
+        "label": "Reserve volatility, 12m",
+        "contribution": -0.417,
+        "direction": "lowers",
+        "value": 0.1334,
+        "imputed": false
+      },
+      {
+        "feature": "defacto_peg",
+        "label": "De facto peg",
+        "contribution": -0.413,
+        "direction": "lowers",
+        "value": 1.0,
+        "imputed": false
+      },
+      {
+        "feature": "fx_vol_24m",
+        "label": "FX volatility, 24m",
+        "contribution": 0.3849,
+        "direction": "raises",
+        "value": 0.0096,
+        "imputed": false
+      },
+      {
+        "feature": "fx_vol_12m",
+        "label": "FX volatility, 12m",
+        "contribution": 0.3716,
+        "direction": "raises",
+        "value": 0.0004,
+        "imputed": false
+      },
+      {
+        "feature": "res_vs_36m_mean",
+        "label": "Reserves vs 36m average",
+        "contribution": -0.3624,
+        "direction": "lowers",
+        "value": -0.0927,
+        "imputed": false
+      }
+    ]
+  },
+  {
+    "iso3": "ARM",
+    "name": "Armenia",
+    "currency": "AMD",
+    "anchor": "USD",
+    "caveat": null,
+    "score_date": "2026-08",
+    "probability": 0.5413,
+    "percentile": 75.2,
+    "percentile_recent": 85.9,
+    "percentile_gap": 10.7,
+    "percentile_12m_ago": 79.4,
+    "data_age_months": 1,
+    "fx_last": "2026-08",
+    "fx_lag_months": 1,
+    "res_last": "2026-08",
+    "res_lag_months": 1,
+    "defacto_peg": false,
+    "imputed_features": [],
+    "score_quality": "complete",
+    "drivers": [
+      {
+        "feature": "res_vs_24m_max",
+        "label": "Reserves vs 24m peak",
+        "contribution": -0.5453,
+        "direction": "lowers",
+        "value": 0.0,
+        "imputed": false
+      },
+      {
+        "feature": "fx_vol_24m",
+        "label": "FX volatility, 24m",
+        "contribution": 0.4791,
+        "direction": "raises",
+        "value": 0.0068,
+        "imputed": false
+      },
+      {
+        "feature": "defacto_peg",
+        "label": "De facto peg",
+        "contribution": -0.413,
+        "direction": "lowers",
+        "value": 1.0,
+        "imputed": false
+      },
+      {
+        "feature": "fx_chg_12m",
+        "label": "FX change, 12m",
+        "contribution": -0.3423,
+        "direction": "lowers",
+        "value": -0.0419,
+        "imputed": false
+      },
+      {
+        "feature": "fx_vol_12m",
+        "label": "FX volatility, 12m",
+        "contribution": 0.2656,
+        "direction": "raises",
+        "value": 0.0051,
+        "imputed": false
+      },
+      {
+        "feature": "res_vs_36m_mean",
+        "label": "Reserves vs 36m average",
+        "contribution": 0.2645,
+        "direction": "raises",
+        "value": 0.3831,
+        "imputed": false
+      }
+    ]
+  },
+  {
+    "iso3": "ALB",
+    "name": "Albania",
+    "currency": "ALL",
+    "anchor": "EUR",
+    "caveat": null,
+    "score_date": "2026-08",
+    "probability": 0.2962,
+    "percentile": 73.1,
+    "percentile_recent": 76.6,
+    "percentile_gap": 3.5,
+    "percentile_12m_ago": 96.9,
+    "data_age_months": 1,
+    "fx_last": "2026-08",
+    "fx_lag_months": 1,
+    "res_last": "2026-07",
+    "res_lag_months": 2,
+    "defacto_peg": false,
+    "imputed_features": [],
+    "score_quality": "complete",
+    "drivers": [
+      {
+        "feature": "anchor_eur",
+        "label": "EUR-anchored",
+        "contribution": -0.5534,
+        "direction": "lowers",
+        "value": 1.0,
+        "imputed": false
+      },
+      {
+        "feature": "res_vs_24m_max",
+        "label": "Reserves vs 24m peak",
+        "contribution": -0.5453,
+        "direction": "lowers",
+        "value": 0.0,
+        "imputed": false
+      },
+      {
+        "feature": "fx_vol_24m",
+        "label": "FX volatility, 24m",
+        "contribution": 0.471,
+        "direction": "raises",
+        "value": 0.0071,
+        "imputed": false
+      },
+      {
+        "feature": "defacto_peg",
+        "label": "De facto peg",
+        "contribution": -0.413,
+        "direction": "lowers",
+        "value": 1.0,
+        "imputed": false
+      },
+      {
+        "feature": "fx_vol_12m",
+        "label": "FX volatility, 12m",
+        "contribution": 0.2964,
+        "direction": "raises",
+        "value": 0.0038,
+        "imputed": false
+      },
+      {
+        "feature": "fx_chg_12m",
+        "label": "FX change, 12m",
+        "contribution": -0.2915,
+        "direction": "lowers",
+        "value": -0.0305,
+        "imputed": false
+      }
+    ]
+  },
+  {
+    "iso3": "UZB",
+    "name": "Uzbekistan",
+    "currency": "UZS",
+    "anchor": "USD",
+    "caveat": "2017 FX liberalisation; pre-1999 reserves unusable",
+    "score_date": "2026-07",
+    "probability": 0.6017,
+    "percentile": 68.0,
+    "percentile_recent": 68.0,
+    "percentile_gap": 0.0,
+    "percentile_12m_ago": 20.8,
+    "data_age_months": 2,
+    "fx_last": "2026-05",
+    "fx_lag_months": 4,
+    "res_last": "2026-07",
+    "res_lag_months": 2,
+    "defacto_peg": true,
+    "imputed_features": [],
+    "score_quality": "complete",
+    "drivers": [
+      {
+        "feature": "res_vs_24m_max",
+        "label": "Reserves vs 24m peak",
+        "contribution": 0.6504,
+        "direction": "raises",
+        "value": -0.2563,
+        "imputed": false
+      },
+      {
+        "feature": "fx_chg_12m",
+        "label": "FX change, 12m",
+        "contribution": -0.4993,
+        "direction": "lowers",
+        "value": -0.077,
+        "imputed": false
+      },
+      {
+        "feature": "fx_vol_24m",
+        "label": "FX volatility, 24m",
+        "contribution": 0.3556,
+        "direction": "raises",
+        "value": 0.0105,
+        "imputed": false
+      },
+      {
+        "feature": "res_vs_36m_mean",
+        "label": "Reserves vs 36m average",
+        "contribution": -0.2828,
+        "direction": "lowers",
+        "value": -0.0323,
+        "imputed": false
+      },
+      {
+        "feature": "defacto_peg",
+        "label": "De facto peg",
+        "contribution": 0.2779,
+        "direction": "raises",
+        "value": 0.0,
+        "imputed": false
+      },
+      {
+        "feature": "anchor_eur",
+        "label": "EUR-anchored",
+        "contribution": 0.2253,
+        "direction": "raises",
+        "value": 0.0,
+        "imputed": false
+      }
+    ]
+  },
+  {
+    "iso3": "AZE",
+    "name": "Azerbaijan",
+    "currency": "AZN",
+    "anchor": "USD",
+    "caveat": "peg broke 2015; pressure hides in reserves",
+    "score_date": "2026-07",
+    "probability": 0.5204,
+    "percentile": 54.4,
+    "percentile_recent": 61.4,
+    "percentile_gap": 7.0,
+    "percentile_12m_ago": 70.8,
+    "data_age_months": 2,
+    "fx_last": "2026-07",
+    "fx_lag_months": 2,
+    "res_last": "2026-07",
+    "res_lag_months": 2,
+    "defacto_peg": true,
+    "imputed_features": [],
+    "score_quality": "complete",
+    "drivers": [
+      {
+        "feature": "fx_vol_24m",
+        "label": "FX volatility, 24m",
+        "contribution": 0.7099,
+        "direction": "raises",
+        "value": 0.0,
+        "imputed": false
+      },
+      {
+        "feature": "res_vs_24m_max",
+        "label": "Reserves vs 24m peak",
+        "contribution": -0.5453,
+        "direction": "lowers",
+        "value": 0.0,
+        "imputed": false
+      },
+      {
+        "feature": "defacto_peg",
+        "label": "De facto peg",
+        "contribution": -0.413,
+        "direction": "lowers",
+        "value": 1.0,
+        "imputed": false
+      },
+      {
+        "feature": "fx_vol_rel_region",
+        "label": "FX flexibility vs region",
+        "contribution": -0.4086,
+        "direction": "lowers",
+        "value": 0.0,
+        "imputed": false
+      },
+      {
+        "feature": "fx_vol_12m",
+        "label": "FX volatility, 12m",
+        "contribution": 0.3809,
+        "direction": "raises",
+        "value": 0.0,
+        "imputed": false
+      },
+      {
+        "feature": "log_res_usd",
+        "label": "Reserve base (log USD)",
+        "contribution": 0.2919,
+        "direction": "raises",
+        "value": 23.4531,
+        "imputed": false
+      }
+    ]
+  },
+  {
+    "iso3": "MNG",
+    "name": "Mongolia",
+    "currency": "MNT",
+    "anchor": "USD",
+    "caveat": null,
+    "score_date": "2026-04",
+    "probability": 0.5326,
+    "percentile": 57.9,
+    "percentile_recent": 56.5,
+    "percentile_gap": -1.4,
+    "percentile_12m_ago": 45.0,
+    "data_age_months": 5,
+    "fx_last": "2026-08",
+    "fx_lag_months": 1,
+    "res_last": "2026-01",
+    "res_lag_months": 8,
+    "defacto_peg": true,
+    "imputed_features": [],
+    "score_quality": "complete",
+    "drivers": [
+      {
+        "feature": "fx_vol_24m",
+        "label": "FX volatility, 24m",
+        "contribution": 0.5107,
+        "direction": "raises",
+        "value": 0.0059,
+        "imputed": false
+      },
+      {
+        "feature": "defacto_peg",
+        "label": "De facto peg",
+        "contribution": -0.413,
+        "direction": "lowers",
+        "value": 1.0,
+        "imputed": false
+      },
+      {
+        "feature": "anchor_eur",
+        "label": "EUR-anchored",
+        "contribution": 0.2253,
+        "direction": "raises",
+        "value": 0.0,
+        "imputed": false
+      },
+      {
+        "feature": "fx_vol_12m",
+        "label": "FX volatility, 12m",
+        "contribution": 0.2115,
+        "direction": "raises",
+        "value": 0.0076,
+        "imputed": false
+      },
+      {
+        "feature": "fx_vol_rel_region",
+        "label": "FX flexibility vs region",
+        "contribution": -0.1927,
+        "direction": "lowers",
+        "value": 0.6806,
+        "imputed": false
+      },
+      {
+        "feature": "res_vs_24m_max",
+        "label": "Reserves vs 24m peak",
+        "contribution": -0.1493,
+        "direction": "lowers",
+        "value": -0.0849,
+        "imputed": false
+      }
+    ]
+  },
+  {
+    "iso3": "SRB",
+    "name": "Serbia",
+    "currency": "RSD",
+    "anchor": "EUR",
+    "caveat": null,
+    "score_date": "2026-08",
+    "probability": 0.3568,
+    "percentile": 48.6,
+    "percentile_recent": 52.3,
+    "percentile_gap": 3.7,
+    "percentile_12m_ago": 71.4,
+    "data_age_months": 1,
+    "fx_last": "2026-08",
+    "fx_lag_months": 1,
+    "res_last": "2026-07",
+    "res_lag_months": 2,
+    "defacto_peg": true,
+    "imputed_features": [],
+    "score_quality": "complete",
+    "drivers": [
+      {
+        "feature": "fx_vol_24m",
+        "label": "FX volatility, 24m",
+        "contribution": 0.6428,
+        "direction": "raises",
+        "value": 0.002,
+        "imputed": false
+      },
+      {
+        "feature": "anchor_eur",
+        "label": "EUR-anchored",
+        "contribution": -0.5534,
+        "direction": "lowers",
+        "value": 1.0,
+        "imputed": false
+      },
+      {
+        "feature": "log_res_usd",
+        "label": "Reserve base (log USD)",
+        "contribution": 0.4205,
+        "direction": "raises",
+        "value": 24.0137,
+        "imputed": false
+      },
+      {
+        "feature": "defacto_peg",
+        "label": "De facto peg",
+        "contribution": -0.413,
+        "direction": "lowers",
+        "value": 1.0,
+        "imputed": false
+      },
+      {
+        "feature": "res_vs_24m_max",
+        "label": "Reserves vs 24m peak",
+        "contribution": -0.3967,
+        "direction": "lowers",
+        "value": -0.0319,
+        "imputed": false
+      },
+      {
+        "feature": "fx_vol_12m",
+        "label": "FX volatility, 12m",
+        "contribution": 0.3412,
+        "direction": "raises",
+        "value": 0.0018,
+        "imputed": false
+      }
+    ]
+  },
+  {
+    "iso3": "RUS",
+    "name": "Russia",
+    "currency": "RUB",
+    "anchor": "USD",
+    "caveat": "sanctioned; reserves reporting lags ~10 months",
+    "score_date": "2026-02",
+    "probability": 0.4313,
+    "percentile": 21.3,
+    "percentile_recent": 34.4,
+    "percentile_gap": 13.1,
+    "percentile_12m_ago": 50.9,
+    "data_age_months": 7,
+    "fx_last": "2026-07",
+    "fx_lag_months": 2,
+    "res_last": "2025-11",
+    "res_lag_months": 10,
+    "defacto_peg": false,
+    "imputed_features": [],
+    "score_quality": "complete",
+    "drivers": [
+      {
+        "feature": "fx_chg_12m",
+        "label": "FX change, 12m",
+        "contribution": -1.5867,
+        "direction": "lowers",
+        "value": -0.3201,
+        "imputed": false
+      },
+      {
+        "feature": "fx_vol_rel_region",
+        "label": "FX flexibility vs region",
+        "contribution": 1.063,
+        "direction": "raises",
+        "value": 4.6381,
+        "imputed": false
+      },
+      {
+        "feature": "log_res_usd",
+        "label": "Reserve base (log USD)",
+        "contribution": 1.0535,
+        "direction": "raises",
+        "value": 26.7711,
+        "imputed": false
+      },
+      {
+        "feature": "fx_vol_24m",
+        "label": "FX volatility, 24m",
+        "contribution": -0.7926,
+        "direction": "lowers",
+        "value": 0.0443,
+        "imputed": false
+      },
+      {
+        "feature": "fx_vol_12m",
+        "label": "FX volatility, 12m",
+        "contribution": -0.5125,
+        "direction": "lowers",
+        "value": 0.0398,
+        "imputed": false
+      },
+      {
+        "feature": "fx_vs_36m_trend",
+        "label": "FX vs 36m trend",
+        "contribution": 0.3678,
+        "direction": "raises",
+        "value": -0.0997,
+        "imputed": false
+      }
+    ]
+  },
+  {
+    "iso3": "TJK",
+    "name": "Tajikistan",
+    "currency": "TJS",
+    "anchor": "USD",
+    "caveat": "small reserve base; reporting breaks to 2017",
+    "score_date": "2026-03",
+    "probability": 0.4217,
+    "percentile": 41.9,
+    "percentile_recent": 33.3,
+    "percentile_gap": -8.6,
+    "percentile_12m_ago": 65.8,
+    "data_age_months": 6,
+    "fx_last": "2026-06",
+    "fx_lag_months": 3,
+    "res_last": "2025-12",
+    "res_lag_months": 9,
+    "defacto_peg": false,
+    "imputed_features": [],
+    "score_quality": "complete",
+    "drivers": [
+      {
+        "feature": "fx_chg_12m",
+        "label": "FX change, 12m",
+        "contribution": -0.9018,
+        "direction": "lowers",
+        "value": -0.167,
+        "imputed": false
+      },
+      {
+        "feature": "res_vs_24m_max",
+        "label": "Reserves vs 24m peak",
+        "contribution": -0.5453,
+        "direction": "lowers",
+        "value": 0.0,
+        "imputed": false
+      },
+      {
+        "feature": "fx_vs_36m_trend",
+        "label": "FX vs 36m trend",
+        "contribution": 0.4328,
+        "direction": "raises",
+        "value": -0.1292,
+        "imputed": false
+      },
+      {
+        "feature": "defacto_peg",
+        "label": "De facto peg",
+        "contribution": 0.2779,
+        "direction": "raises",
+        "value": 0.0,
+        "imputed": false
+      },
+      {
+        "feature": "anchor_eur",
+        "label": "EUR-anchored",
+        "contribution": 0.2253,
+        "direction": "raises",
+        "value": 0.0,
+        "imputed": false
+      },
+      {
+        "feature": "fx_vol_rel_region",
+        "label": "FX flexibility vs region",
+        "contribution": 0.1935,
+        "direction": "raises",
+        "value": 1.8977,
+        "imputed": false
+      }
+    ]
+  },
+  {
+    "iso3": "MDA",
+    "name": "Moldova",
+    "currency": "MDL",
+    "anchor": "EUR",
+    "caveat": null,
+    "score_date": "2026-07",
+    "probability": 0.2296,
+    "percentile": 22.9,
+    "percentile_recent": 11.8,
+    "percentile_gap": -11.1,
+    "percentile_12m_ago": 96.6,
+    "data_age_months": 2,
+    "fx_last": "2026-07",
+    "fx_lag_months": 2,
+    "res_last": "2026-07",
+    "res_lag_months": 2,
+    "defacto_peg": false,
+    "imputed_features": [],
+    "score_quality": "complete",
+    "drivers": [
+      {
+        "feature": "anchor_eur",
+        "label": "EUR-anchored",
+        "contribution": -0.5534,
+        "direction": "lowers",
+        "value": 1.0,
+        "imputed": false
+      },
+      {
+        "feature": "res_vs_24m_max",
+        "label": "Reserves vs 24m peak",
+        "contribution": -0.5453,
+        "direction": "lowers",
+        "value": 0.0,
+        "imputed": false
+      },
+      {
+        "feature": "fx_vol_24m",
+        "label": "FX volatility, 24m",
+        "contribution": 0.4755,
+        "direction": "raises",
+        "value": 0.0069,
+        "imputed": false
+      },
+      {
+        "feature": "defacto_peg",
+        "label": "De facto peg",
+        "contribution": -0.413,
+        "direction": "lowers",
+        "value": 1.0,
+        "imputed": false
+      },
+      {
+        "feature": "fx_vol_12m",
+        "label": "FX volatility, 12m",
+        "contribution": 0.206,
+        "direction": "raises",
+        "value": 0.0078,
+        "imputed": false
+      },
+      {
+        "feature": "res_vol_12m",
+        "label": "Reserve volatility, 12m",
+        "contribution": 0.1777,
+        "direction": "raises",
+        "value": 0.0302,
+        "imputed": false
+      }
+    ]
+  },
+  {
+    "iso3": "TKM",
+    "name": "Turkmenistan",
+    "currency": "TMT",
+    "anchor": "USD",
+    "caveat": "no IMF data after 2001",
+    "score_date": null,
+    "probability": null,
+    "percentile": null,
+    "percentile_recent": null,
+    "percentile_gap": null,
+    "percentile_12m_ago": null,
+    "data_age_months": null,
+    "fx_last": null,
+    "fx_lag_months": null,
+    "res_last": null,
+    "res_lag_months": null,
+    "defacto_peg": null,
+    "imputed_features": [],
+    "score_quality": "unavailable",
+    "drivers": [],
+    "excluded_reason": "Insufficient IMF data to score"
+  }
+]
