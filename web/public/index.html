@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Frontier EWS — CIS &amp; Caucasus currency crisis monitor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --page:#eceeea; --shell:#ffffff; --panel:#ffffff; --soft:#f6f7f4;
+    --line:#e6e8e3; --line2:#d9ddd4;
+    --ink:#161a17; --muted:#6f766e; --dim:#9aa197;
+    --g900:#0d3a22; --g800:#12482b; --g700:#166534; --g600:#1b7a43;
+    --g500:#22a35a; --g300:#7fd4a2; --g100:#dcf3e5; --g50:#f906fa;
+    --g-tint:#eef8f1;
+    --hot:#c94a3d; --warm:#d98a2b; --mid:#bfa32a; --cool:#3f7fa6; --calm:#1b7a43;
+    --mono:"SF Mono",ui-monospace,Menlo,Consolas,monospace;
+    --r:14px;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--page);color:var(--ink);
+       font-family:Montserrat,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+       font-size:14px;line-height:1.55;-webkit-font-smoothing:antialiased}
+  h1,h2,h3,h4{margin:0;font-weight:600;letter-spacing:-.2px}
+
+  .app{max-width:1360px;margin:22px auto;background:var(--shell);
+       border-radius:22px;display:grid;grid-template-columns:232px 1fr;
+       overflow:hidden;box-shadow:0 1px 3px rgba(20,30,20,.06),0 12px 40px rgba(20,30,20,.06)}
+
+  /* sidebar */
+  .side{border-right:1px solid var(--line);padding:22px 16px;display:flex;
+        flex-direction:column;gap:6px;min-height:820px}
+  .brand{display:flex;align-items:center;gap:9px;padding:0 6px 22px}
+  .mark{width:30px;height:30px;border-radius:9px;background:var(--g700);
+        display:grid;place-items:center;color:#fff;font-weight:700;font-size:13px}
+  .brand b{font-size:16px;font-weight:700;letter-spacing:-.3px}
+  .slab{font-size:10px;letter-spacing:.8px;color:var(--dim);font-weight:600;
+        padding:14px 8px 6px;text-transform:uppercase}
+  .nav{display:flex;align-items:center;gap:10px;padding:9px 11px;border-radius:9px;
+       color:var(--muted);cursor:pointer;font-size:13.5px;font-weight:500;
+       border-left:3px solid transparent;transition:background .12s,color .12s}
+  .nav:hover{background:var(--soft);color:var(--ink)}
+  .nav.on{background:var(--g-tint);color:var(--g700);font-weight:600;border-left-color:var(--g600)}
+  .nav .ic{width:15px;height:15px;flex:none;opacity:.85}
+  .nav .cnt{margin-left:auto;font-size:10.5px;background:var(--g100);color:var(--g700);
+            padding:1px 6px;border-radius:20px;font-weight:600}
+  .promo{margin-top:auto;background:var(--g900);border-radius:var(--r);padding:16px;color:#fff}
+  .promo h4{font-size:13.5px;color:#fff;margin-bottom:5px}
+  .promo p{margin:0 0 11px;font-size:11.5px;color:#a8c4b3;line-height:1.5}
+  .promo a{display:block;text-align:center;background:var(--g500);color:#fff;
+           text-decoration:none;font-size:12px;font-weight:600;padding:8px;border-radius:8px}
+
+  /* main */
+  .main{padding:20px 26px 40px;min-width:0}
+  .top{display:flex;align-items:center;gap:14px;padding-bottom:18px;border-bottom:1px solid var(--line)}
+  .search{flex:1;max-width:400px;position:relative}
+  .search input{width:100%;background:var(--soft);border:1px solid var(--line);
+       border-radius:10px;padding:9px 12px 9px 34px;font-family:inherit;font-size:13px;color:var(--ink)}
+  .search input:focus{outline:none;border-color:var(--g300);background:#fff}
+  .search svg{position:absolute;left:11px;top:10px;opacity:.4}
+  .stamp{margin-left:auto;font-family:var(--mono);font-size:11px;color:var(--dim);text-align:right}
+
+  .head{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;margin:22px 0 6px}
+  .head h1{font-size:23px}
+  .head p{margin:5px 0 0;color:var(--muted);font-size:13px;max-width:620px}
+  .ctrl{display:flex;gap:8px;align-items:center;flex:none}
+  select{background:#fff;border:1px solid var(--line2);border-radius:9px;padding:8px 10px;
+         font-family:inherit;font-size:12.5px;color:var(--ink);font-weight:500}
+
+  .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:18px 0 20px}
+  .kpi{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:15px 16px}
+  .kpi.lead{background:var(--g700);border-color:var(--g700);color:#fff}
+  .kpi .k{font-size:11.5px;color:var(--muted);font-weight:500;display:flex;
+          justify-content:space-between;align-items:center}
+  .kpi.lead .k{color:#b9d9c6}
+  .kpi .v{font-size:27px;font-weight:700;margin:9px 0 3px;letter-spacing:-.8px}
+  .kpi .s{font-size:11px;color:var(--dim)}
+  .kpi.lead .s{color:#9dcdb0}
+  .arw{width:22px;height:22px;border-radius:50%;background:var(--soft);display:grid;
+       place-items:center;font-size:11px;color:var(--muted)}
+  .kpi.lead .arw{background:rgba(255,255,255,.16);color:#fff}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);
+        padding:14px;cursor:pointer;transition:border-color .13s,box-shadow .13s,transform .13s}
+  .card:hover{border-color:var(--g300);box-shadow:0 4px 14px rgba(20,60,35,.07);transform:translateY(-1px)}
+  .card.stale{background:var(--soft)}
+  .crow{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+  .cname{font-weight:600;font-size:14px}
+  .ccy{color:var(--dim);font-family:var(--mono);font-size:10.5px}
+  .score{font-size:29px;font-weight:700;margin:9px 0 1px;letter-spacing:-1px}
+  .scorelab{color:var(--dim);font-size:10px;text-transform:uppercase;letter-spacing:.5px;font-weight:600}
+  .track{height:6px;background:var(--soft);border-radius:4px;margin:10px 0 8px;overflow:hidden}
+  .fill{height:100%;border-radius:4px}
+  .meta{display:flex;justify-content:space-between;color:var(--muted);font-size:11px}
+  .tag{display:inline-block;font-size:10px;padding:2px 7px;border-radius:5px;
+       background:var(--soft);color:var(--muted);border:1px solid var(--line);font-weight:500}
+  .tag.g{background:var(--g100);color:var(--g700);border-color:#c6e8d3}
+  .tag.w{background:#fbf0dd;color:#9a6512;border-color:#f0dcb8}
+  .spark{margin-top:9px;display:block;width:100%;height:30px}
+
+  .sec{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);
+       padding:18px 20px;margin-top:20px}
+  .sec h3{font-size:15px;margin-bottom:4px}
+  .sec .sub{color:var(--muted);font-size:12.5px;max-width:760px}
+  table{width:100%;border-collapse:collapse;font-size:12.5px;margin-top:8px}
+  th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line)}
+  th{color:var(--dim);font-weight:600;font-size:10.5px;text-transform:uppercase;letter-spacing:.4px}
+  td.n{font-family:var(--mono);text-align:right}
+  ul.notes{color:var(--muted);font-size:12.5px;padding-left:18px;margin:10px 0 0}
+  ul.notes li{margin:6px 0}
+
+  dialog{background:var(--panel);color:var(--ink);border:1px solid var(--line);
+         border-radius:18px;padding:0;max-width:740px;width:calc(100% - 32px);
+         font-family:Montserrat,sans-serif;box-shadow:0 20px 60px rgba(20,40,25,.2)}
+  dialog::backdrop{background:rgba(22,30,24,.4);backdrop-filter:blur(2px)}
+  .dhead{padding:20px 22px 15px;border-bottom:1px solid var(--line);
+         display:flex;justify-content:space-between;align-items:flex-start;gap:14px}
+  .dbody{padding:16px 22px 24px}
+  .close{background:var(--soft);border:none;color:var(--muted);width:28px;height:28px;
+         border-radius:8px;font-size:17px;cursor:pointer;line-height:1}
+  .grow{display:grid;grid-template-columns:150px 1fr 64px;gap:10px;align-items:center;
+        padding:6px 0;font-size:12.5px;font-weight:500}
+  .gbarwrap{background:var(--soft);height:16px;border-radius:5px;position:relative}
+  .gbar{position:absolute;top:0;height:100%;border-radius:4px}
+  .gval{font-family:var(--mono);font-size:11.5px;text-align:right;color:var(--muted)}
+  .items{margin:1px 0 12px;padding:9px 11px;background:var(--soft);border-radius:9px;
+         font-size:11.5px;color:var(--muted)}
+  .items div{display:flex;justify-content:space-between;padding:2px 0}
+  .items span:last-child{font-family:var(--mono)}
+  .err{background:#fdf0ee;border:1px solid #f2d4ce;padding:15px;border-radius:var(--r);
+       color:#9c3a2d;font-size:13px;margin-top:16px}
+  @media(max-width:900px){.app{grid-template-columns:1fr}.side{display:none}
+    .kpis{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<div class="app">
+  <aside class="side">
+    <div class="brand"><div class="mark">EW</div><b>Frontier EWS</b></div>
+
+    <div class="slab">Monitor</div>
+    <div class="nav on" data-filt="all"><span class="ic">◆</span>All countries<span class="cnt" id="n-all">–</span></div>
+    <div class="nav" data-filt="fresh"><span class="ic">◷</span>Fresh data<span class="cnt" id="n-fresh">–</span></div>
+    <div class="nav" data-filt="hot"><span class="ic">▲</span>Elevated<span class="cnt" id="n-hot">–</span></div>
+
+    <div class="slab">Regime</div>
+    <div class="nav" data-filt="peg"><span class="ic">▬</span>Pegged</div>
+    <div class="nav" data-filt="float"><span class="ic">∿</span>Floating</div>
+
+    <div class="slab">General</div>
+    <div class="nav" onclick="document.getElementById('method').scrollIntoView({behavior:'smooth'})"><span class="ic">✎</span>Method</div>
+    <div class="nav" onclick="document.getElementById('regional-sec').scrollIntoView({behavior:'smooth'})"><span class="ic">▤</span>Regional stress</div>
+
+    <div class="promo">
+      <h4>Data sources</h4>
+      <p>IMF SDMX 3.0 — exchange rates and international liquidity, refreshed daily.</p>
+      <a href="https://data.imf.org" target="_blank" rel="noopener">IMF Data Portal</a>
+    </div>
+  </aside>
+
+  <main class="main">
+    <div class="top">
+      <div class="search">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        <input type="search" id="q" placeholder="Search country…">
+      </div>
+      <div class="stamp" id="stamp">loading…</div>
+    </div>
+
+    <div class="head">
+      <div>
+        <h1>Currency crisis monitor</h1>
+        <p>Probability that a currency crisis begins within 12 months across 18 frontier
+           economies, from IMF data available three months prior.</p>
+      </div>
+      <div class="ctrl">
+        <select id="rank">
+          <option value="percentile_recent">Percentile, since 2016</option>
+          <option value="percentile">Percentile, full history</option>
+          <option value="probability">Raw probability</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="err"></div>
+    <div class="kpis" id="kpis"></div>
+    <div class="grid" id="grid"></div>
+
+    <div class="sec" id="regional-sec">
+      <h3>Regional stress by year</h3>
+      <div class="sub">Share of the panel scoring above its own 90th percentile. Peaks in 2008
+        and 2014–15 coincide with the region's known crisis waves — the model's main sanity check.</div>
+      <svg id="regional" width="100%" height="120" style="margin-top:10px"></svg>
+    </div>
+
+    <div class="sec" id="method">
+      <h3>Method, validation and limitations</h3>
+      <div class="sub" id="methodtop"></div>
+      <ul class="notes" id="caveats"></ul>
+      <h4 style="margin:20px 0 0;font-size:13px">Model coefficients</h4>
+      <table id="coefs"><thead><tr><th>Feature</th><th style="text-align:right">Coefficient</th></tr></thead><tbody></tbody></table>
+    </div>
+  </main>
+</div>
+
+<dialog id="dlg"><div class="dhead">
+  <div><div id="dname" style="font-weight:700;font-size:17px"></div>
+       <div id="dmeta" style="font-size:12px;color:var(--muted);margin-top:3px"></div></div>
+  <button class="close" onclick="dlg.close()">×</button>
+</div><div class="dbody" id="dbody"></div></dialog>
+
+<script>
+const dlg=document.getElementById('dlg');
+let DATA=[],META=null,HIST={},FILT='all';
+
+const colour=p=>p==null?'#c8cec6'
+ :p>=90?'var(--hot)':p>=75?'var(--warm)':p>=50?'var(--mid)':p>=25?'var(--cool)':'var(--calm)';
+
+async function load(){
+  try{
+    const [c,m,h]=await Promise.all([
+      fetch('data/countries.json').then(r=>r.json()),
+      fetch('data/meta.json').then(r=>r.json()),
+      fetch('data/history.json').then(r=>r.json())]);
+    DATA=c;META=m;
+    h.forEach(r=>(HIST[r.iso3]||=[]).push(r));
+    document.getElementById('stamp').innerHTML=
+      `as of ${m.as_of_month} · generated ${m.generated_utc.slice(0,10)}<br>`+
+      `CV AUC ${m.validation.mean_auc} (sd ${m.validation.sd_auc}, ${m.validation.folds} folds)`;
+    document.getElementById('methodtop').textContent=
+      `${m.model}, ${m.features} features, ${m.horizon_months}-month horizon. Trained on `+
+      `${m.training_rows.toLocaleString()} country-months with ${m.training_positives} positive `+
+      `observations from ${m.crisis_episodes} crisis episodes. Blocked-fold cross-validation over `+
+      `${m.validation.fold_span}: mean AUC ${m.validation.mean_auc}, minimum ${m.validation.min_auc}, `+
+      `average precision ${m.validation.mean_ap} against a ${m.validation.mean_base_rate} base rate.`;
+    document.getElementById('caveats').innerHTML=m.caveats.map(x=>`<li>${x}</li>`).join('');
+    document.getElementById('coefs').querySelector('tbody').innerHTML=
+      m.coefficients.map(c=>`<tr><td>${c.label}</td><td class="n">${c.coefficient>0?'+':''}${c.coefficient}</td></tr>`).join('');
+    const sc=DATA.filter(x=>x.probability!=null);
+    document.getElementById('n-all').textContent=DATA.length;
+    document.getElementById('n-fresh').textContent=sc.filter(x=>x.data_age_months<=3).length;
+    document.getElementById('n-hot').textContent=sc.filter(x=>(x.percentile_recent??0)>=90).length;
+    drawRegional(m.regional_stress_by_year);
+    kpis(sc,m);render();
+  }catch(e){
+    document.getElementById('err').innerHTML=
+      `<div class="err">Could not load data. Serve this folder over HTTP
+       (<code>python -m http.server</code>) — browsers block fetch on <code>file://</code>. (${e.message})</div>`;
+  }
+}
+
+function kpis(sc,m){
+  const top=sc.reduce((a,b)=>(b.percentile_recent??0)>(a.percentile_recent??0)?b:a);
+  const hot=sc.filter(x=>(x.percentile_recent??0)>=90).length;
+  const rs=m.regional_stress_by_year.slice(-1)[0];
+  document.getElementById('kpis').innerHTML=`
+   <div class="kpi lead"><div class="k">Highest reading<span class="arw">↗</span></div>
+     <div class="v">${(top.percentile_recent).toFixed(0)}</div>
+     <div class="s">${top.name} · ${top.score_date}</div></div>
+   <div class="kpi"><div class="k">Countries elevated<span class="arw">↗</span></div>
+     <div class="v">${hot}</div><div class="s">above own 90th percentile</div></div>
+   <div class="kpi"><div class="k">Regional stress ${rs.year}<span class="arw">↗</span></div>
+     <div class="v">${(rs.share_above_p90*100).toFixed(0)}%</div>
+     <div class="s">of panel above own p90</div></div>
+   <div class="kpi"><div class="k">Validated AUC<span class="arw">↗</span></div>
+     <div class="v">${m.validation.mean_auc}</div>
+     <div class="s">${m.validation.folds} folds to ${m.validation.last_validated}</div></div>`;
+}
+
+function sparkline(iso){
+  const h=(HIST[iso]||[]).slice(-120);
+  if(h.length<8)return'';
+  const v=h.map(r=>r.probability),lo=Math.min(...v),hi=Math.max(...v),rng=(hi-lo)||1;
+  const pts=v.map((y,i)=>`${(i/(v.length-1)*100).toFixed(2)},${(28-(y-lo)/rng*26).toFixed(2)}`).join(' ');
+  const mk=h.map((r,i)=>r.crisis?`<circle cx="${(i/(v.length-1)*100).toFixed(2)}" cy="14" r="1.7" fill="var(--hot)"/>`:'').join('');
+  return `<svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none">
+    <polyline points="${pts}" fill="none" stroke="var(--g500)" stroke-width="1.4"
+     vector-effect="non-scaling-stroke" opacity=".7"/>${mk}</svg>`;
+}
+
+function render(){
+  const key=document.getElementById('rank').value;
+  const q=document.getElementById('q').value.toLowerCase();
+  let rows=DATA.filter(c=>c.name.toLowerCase().includes(q));
+  if(FILT==='fresh')rows=rows.filter(c=>c.data_age_months!=null&&c.data_age_months<=3);
+  if(FILT==='hot')  rows=rows.filter(c=>(c.percentile_recent??0)>=90);
+  if(FILT==='peg')  rows=rows.filter(c=>c.defacto_peg===true);
+  if(FILT==='float')rows=rows.filter(c=>c.defacto_peg===false);
+  rows.sort((a,b)=>(b[key]??-1)-(a[key]??-1));
+
+  document.getElementById('grid').innerHTML=rows.map(c=>{
+    if(c.probability==null)return`<div class="card stale">
+      <div class="crow"><span class="cname">${c.name}</span><span class="ccy">${c.currency}</span></div>
+      <div class="score" style="color:var(--dim);font-size:16px">Not scored</div>
+      <div class="meta"><span>${c.excluded_reason||''}</span></div></div>`;
+    const p=c[key==='probability'?'percentile_recent':key]??c.percentile;
+    const shown=key==='probability'?(c.probability*100).toFixed(0)+'%':p.toFixed(0);
+    const lab=key==='probability'?'model probability':key==='percentile'?'pctile, full history':'pctile, since 2016';
+    const stale=c.data_age_months>3;
+    const d=c.percentile_12m_ago==null?'':(c.percentile-c.percentile_12m_ago>=0?'▲ ':'▼ ')+
+      Math.abs(c.percentile-c.percentile_12m_ago).toFixed(0)+' vs 12m';
+    return`<div class="card ${stale?'stale':''}" onclick="open_('${c.iso3}')">
+      <div class="crow"><span class="cname">${c.name}</span><span class="ccy">${c.currency}</span></div>
+      <div class="score" style="color:${colour(p)}">${shown}</div>
+      <div class="scorelab">${lab}</div>
+      <div class="track"><div class="fill" style="width:${Math.max(2,p)}%;background:${colour(p)}"></div></div>
+      ${sparkline(c.iso3)}
+      <div class="meta"><span>${c.score_date}</span><span>${d}</span></div>
+      <div style="margin-top:8px;display:flex;gap:5px;flex-wrap:wrap">
+        <span class="tag g">${c.anchor}</span>
+        ${c.defacto_peg?'<span class="tag">peg</span>':''}
+        ${stale?`<span class="tag w">${c.data_age_months}m old</span>`:''}
+      </div></div>`;
+  }).join('')||'<div class="sub">No countries match.</div>';
+}
+
+function open_(iso){
+  const c=DATA.find(x=>x.iso3===iso);
+  document.getElementById('dname').textContent=c.name;
+  document.getElementById('dmeta').textContent=
+    `${c.currency} · ${c.anchor}-anchored · ${c.defacto_peg?'de facto peg':'floating or managed'} · scored ${c.score_date}`;
+  const max=Math.max(...c.groups.map(g=>Math.abs(g.contribution)),0.01);
+  const bars=c.groups.map(g=>{
+    const w=Math.abs(g.contribution)/max*50,pos=g.contribution>0;
+    const items=g.items.filter(i=>Math.abs(i.contribution)>0.005)
+      .map(i=>`<div><span>${i.label}${i.imputed?' (imputed)':''}</span>
+        <span>${i.contribution>0?'+':''}${i.contribution.toFixed(3)}</span></div>`).join('');
+    return`<div class="grow"><div>${g.group}</div>
+      <div class="gbarwrap"><div style="position:absolute;left:50%;top:0;bottom:0;width:1px;background:var(--line2)"></div>
+      <div class="gbar" style="${pos?`left:50%;width:${w}%`:`right:50%;width:${w}%`};
+        background:${pos?'var(--hot)':'var(--calm)'};opacity:.8"></div></div>
+      <div class="gval">${g.contribution>0?'+':''}${g.contribution.toFixed(3)}</div></div>
+      <div class="items">${items}</div>`;
+  }).join('');
+  document.getElementById('dbody').innerHTML=`
+    <table><tbody>
+      <tr><td>Model probability</td><td class="n">${(c.probability*100).toFixed(1)}%</td></tr>
+      <tr><td>Percentile, since ${META.recent_window_start.slice(0,4)}</td><td class="n">${c.percentile_recent??'—'}</td></tr>
+      <tr><td>Percentile, full history</td><td class="n">${c.percentile}</td></tr>
+      <tr><td>Percentile, 12 months ago</td><td class="n">${c.percentile_12m_ago??'—'}</td></tr>
+      <tr><td>FX data through</td><td class="n">${c.fx_last} (${c.fx_lag_months}m lag)</td></tr>
+      <tr><td>Reserves data through</td><td class="n">${c.res_last} (${c.res_lag_months}m lag)</td></tr>
+      <tr><td>Score quality</td><td class="n">${c.score_quality}</td></tr>
+    </tbody></table>
+    ${c.caveat?`<div class="items" style="margin-top:12px;color:#9a6512">${c.caveat}</div>`:''}
+    <h4 style="margin:20px 0 3px;font-size:13.5px">What drives this score</h4>
+    <div style="font-size:11.5px;color:var(--muted);margin-bottom:9px">
+      Contributions to log-odds, grouped. Total ${c.contribution_total>0?'+':''}${c.contribution_total}
+      plus intercept ${META.intercept} gives ${c.log_odds}. Regularisation spreads signal across
+      correlated features, so groups are more meaningful than individual drivers.</div>
+    ${bars}`;
+  dlg.showModal();
+}
+
+function drawRegional(rs){
+  if(!rs||!rs.length)return;
+  const max=Math.max(...rs.map(r=>r.share_above_p90),.05),bw=100/rs.length;
+  const bars=rs.map((r,i)=>{const bh=r.share_above_p90/max*84;
+    return`<rect x="${(i*bw).toFixed(2)}%" y="${(92-bh).toFixed(1)}" width="${(bw*.7).toFixed(2)}%"
+      height="${bh.toFixed(1)}" rx="2" fill="${bh>56?'var(--hot)':bh>32?'var(--warm)':'var(--g300)'}"/>`;}).join('');
+  const labs=rs.map((r,i)=>r.year%5===0?
+    `<text x="${(i*bw+bw*.35).toFixed(2)}%" y="108" font-size="9.5" fill="#9aa197"
+     text-anchor="middle" font-family="Montserrat">${r.year}</text>`:'').join('');
+  document.getElementById('regional').innerHTML=bars+labs;
+}
+
+document.querySelectorAll('.nav[data-filt]').forEach(n=>n.onclick=()=>{
+  document.querySelectorAll('.nav[data-filt]').forEach(x=>x.classList.remove('on'));
+  n.classList.add('on');FILT=n.dataset.filt;render();});
+['rank','q'].forEach(id=>document.getElementById(id).addEventListener('input',render));
+load();
+</script>
+</body>
+</html>

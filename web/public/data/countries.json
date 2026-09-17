@@ -19,54 +19,168 @@
     "defacto_peg": false,
     "imputed_features": [],
     "score_quality": "complete",
-    "drivers": [
+    "log_odds": 0.8735,
+    "contribution_total": 1.1819,
+    "groups": [
       {
-        "feature": "fx_vol_rel_region",
-        "label": "FX flexibility vs region",
-        "contribution": 0.8627,
+        "group": "Volatility",
+        "contribution": 0.6671,
         "direction": "raises",
-        "value": 4.0069,
-        "imputed": false
+        "items": [
+          {
+            "label": "FX flexibility vs region",
+            "contribution": 0.8627,
+            "value": 4.0069,
+            "imputed": false
+          },
+          {
+            "label": "FX volatility, 24m",
+            "contribution": -0.2978,
+            "value": 0.0297,
+            "imputed": false
+          },
+          {
+            "label": "Reserve volatility, 12m",
+            "contribution": 0.1963,
+            "value": 0.027,
+            "imputed": false
+          },
+          {
+            "label": "FX volatility, 12m",
+            "contribution": -0.0942,
+            "value": 0.0212,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "res_vs_24m_max",
-        "label": "Reserves vs 24m peak",
-        "contribution": -0.5088,
-        "direction": "lowers",
-        "value": -0.0078,
-        "imputed": false
-      },
-      {
-        "feature": "fx_chg_12m",
-        "label": "FX change, 12m",
-        "contribution": -0.5026,
-        "direction": "lowers",
-        "value": -0.0777,
-        "imputed": false
-      },
-      {
-        "feature": "fx_vs_36m_trend",
-        "label": "FX vs 36m trend",
-        "contribution": 0.3627,
+        "group": "Exchange rate regime",
+        "contribution": 0.5944,
         "direction": "raises",
-        "value": -0.0973,
-        "imputed": false
+        "items": [
+          {
+            "label": "De facto peg",
+            "contribution": 0.2779,
+            "value": 0.0,
+            "imputed": false
+          },
+          {
+            "label": "EUR-anchored",
+            "contribution": 0.2253,
+            "value": 0.0,
+            "imputed": false
+          },
+          {
+            "label": "Months in current regime",
+            "contribution": 0.0911,
+            "value": 136.0,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "fx_vol_24m",
-        "label": "FX volatility, 24m",
-        "contribution": -0.2978,
+        "group": "Currency pressure",
+        "contribution": -0.1197,
         "direction": "lowers",
-        "value": 0.0297,
-        "imputed": false
+        "items": [
+          {
+            "label": "FX change, 12m",
+            "contribution": -0.5026,
+            "value": -0.0777,
+            "imputed": false
+          },
+          {
+            "label": "FX vs 36m trend",
+            "contribution": 0.3627,
+            "value": -0.0973,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 6m avg",
+            "contribution": -0.0605,
+            "value": -0.0099,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 3m",
+            "contribution": 0.0515,
+            "value": -0.0094,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 6m",
+            "contribution": 0.0305,
+            "value": -0.0532,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 3m avg",
+            "contribution": -0.0109,
+            "value": -0.0054,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 12m avg",
+            "contribution": 0.0097,
+            "value": -0.0136,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "defacto_peg",
-        "label": "De facto peg",
-        "contribution": 0.2779,
+        "group": "Reserve adequacy",
+        "contribution": 0.0401,
         "direction": "raises",
-        "value": 0.0,
-        "imputed": false
+        "items": [
+          {
+            "label": "Reserves vs 24m peak",
+            "contribution": -0.5088,
+            "value": -0.0078,
+            "imputed": false
+          },
+          {
+            "label": "Reserves vs 36m average",
+            "contribution": 0.2227,
+            "value": 0.3514,
+            "imputed": false
+          },
+          {
+            "label": "FX share of reserves",
+            "contribution": 0.1209,
+            "value": 0.8062,
+            "imputed": false
+          },
+          {
+            "label": "Reserve base (log USD)",
+            "contribution": 0.1207,
+            "value": 22.7074,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 12m",
+            "contribution": 0.0907,
+            "value": 0.3328,
+            "imputed": false
+          },
+          {
+            "label": "FX share change, 6m",
+            "contribution": -0.0094,
+            "value": 0.0124,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 6m",
+            "contribution": 0.0037,
+            "value": 0.0723,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 3m",
+            "contribution": -0.0004,
+            "value": 0.0295,
+            "imputed": false
+          }
+        ]
       }
     ]
   },
@@ -90,54 +204,168 @@
     "defacto_peg": false,
     "imputed_features": [],
     "score_quality": "complete",
-    "drivers": [
+    "log_odds": 1.5896,
+    "contribution_total": 1.898,
+    "groups": [
       {
-        "feature": "res_vs_24m_max",
-        "label": "Reserves vs 24m peak",
-        "contribution": 2.2686,
+        "group": "Reserve adequacy",
+        "contribution": 1.6782,
         "direction": "raises",
-        "value": -0.6032,
-        "imputed": false
+        "items": [
+          {
+            "label": "Reserves vs 24m peak",
+            "contribution": 2.2686,
+            "value": -0.6032,
+            "imputed": false
+          },
+          {
+            "label": "Reserves vs 36m average",
+            "contribution": -0.7411,
+            "value": -0.3801,
+            "imputed": false
+          },
+          {
+            "label": "Reserve base (log USD)",
+            "contribution": 0.5776,
+            "value": 24.6978,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 6m",
+            "contribution": -0.3027,
+            "value": -0.3509,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 12m",
+            "contribution": -0.1877,
+            "value": -0.2745,
+            "imputed": false
+          },
+          {
+            "label": "FX share of reserves",
+            "contribution": 0.0816,
+            "value": 0.8553,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 3m",
+            "contribution": -0.0525,
+            "value": -0.3217,
+            "imputed": false
+          },
+          {
+            "label": "FX share change, 6m",
+            "contribution": 0.0344,
+            "value": -0.0436,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "res_vs_36m_mean",
-        "label": "Reserves vs 36m average",
-        "contribution": -0.7411,
+        "group": "Currency pressure",
+        "contribution": 0.4361,
+        "direction": "raises",
+        "items": [
+          {
+            "label": "FX change, 12m",
+            "contribution": 0.5405,
+            "value": 0.1554,
+            "imputed": false
+          },
+          {
+            "label": "FX vs 36m trend",
+            "contribution": -0.4165,
+            "value": 0.2563,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 6m avg",
+            "contribution": 0.2717,
+            "value": 0.0311,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 3m avg",
+            "contribution": 0.2008,
+            "value": 0.0517,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 3m",
+            "contribution": -0.1166,
+            "value": 0.041,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 6m",
+            "contribution": -0.0282,
+            "value": 0.0745,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 12m avg",
+            "contribution": -0.0157,
+            "value": 0.017,
+            "imputed": false
+          }
+        ]
+      },
+      {
+        "group": "Exchange rate regime",
+        "contribution": -0.312,
         "direction": "lowers",
-        "value": -0.3801,
-        "imputed": false
+        "items": [
+          {
+            "label": "De facto peg",
+            "contribution": -0.413,
+            "value": 1.0,
+            "imputed": false
+          },
+          {
+            "label": "EUR-anchored",
+            "contribution": 0.2253,
+            "value": 0.0,
+            "imputed": false
+          },
+          {
+            "label": "Months in current regime",
+            "contribution": -0.1244,
+            "value": 4.0,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "res_vol_12m",
-        "label": "Reserve volatility, 12m",
-        "contribution": -0.6079,
-        "direction": "lowers",
-        "value": 0.1665,
-        "imputed": false
-      },
-      {
-        "feature": "log_res_usd",
-        "label": "Reserve base (log USD)",
-        "contribution": 0.5776,
+        "group": "Volatility",
+        "contribution": 0.0957,
         "direction": "raises",
-        "value": 24.6978,
-        "imputed": false
-      },
-      {
-        "feature": "fx_chg_12m",
-        "label": "FX change, 12m",
-        "contribution": 0.5405,
-        "direction": "raises",
-        "value": 0.1554,
-        "imputed": false
-      },
-      {
-        "feature": "fx_vol_24m",
-        "label": "FX volatility, 24m",
-        "contribution": 0.4701,
-        "direction": "raises",
-        "value": 0.0071,
-        "imputed": false
+        "items": [
+          {
+            "label": "Reserve volatility, 12m",
+            "contribution": -0.6079,
+            "value": 0.1665,
+            "imputed": false
+          },
+          {
+            "label": "FX volatility, 24m",
+            "contribution": 0.4701,
+            "value": 0.0071,
+            "imputed": false
+          },
+          {
+            "label": "FX volatility, 12m",
+            "contribution": 0.3182,
+            "value": 0.0028,
+            "imputed": false
+          },
+          {
+            "label": "FX flexibility vs region",
+            "contribution": -0.0847,
+            "value": 1.0211,
+            "imputed": false
+          }
+        ]
       }
     ]
   },
@@ -161,54 +389,168 @@
     "defacto_peg": false,
     "imputed_features": [],
     "score_quality": "complete",
-    "drivers": [
+    "log_odds": 0.8431,
+    "contribution_total": 1.1515,
+    "groups": [
       {
-        "feature": "res_vs_24m_max",
-        "label": "Reserves vs 24m peak",
-        "contribution": 0.592,
+        "group": "Reserve adequacy",
+        "contribution": 0.6043,
         "direction": "raises",
-        "value": -0.2438,
-        "imputed": false
+        "items": [
+          {
+            "label": "Reserves vs 24m peak",
+            "contribution": 0.592,
+            "value": -0.2438,
+            "imputed": false
+          },
+          {
+            "label": "Reserve base (log USD)",
+            "contribution": 0.5225,
+            "value": 24.4578,
+            "imputed": false
+          },
+          {
+            "label": "Reserves vs 36m average",
+            "contribution": -0.2069,
+            "value": 0.0253,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 6m",
+            "contribution": -0.1928,
+            "value": -0.1991,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 12m",
+            "contribution": -0.0593,
+            "value": 0.0055,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 3m",
+            "contribution": -0.0317,
+            "value": -0.1815,
+            "imputed": false
+          },
+          {
+            "label": "FX share of reserves",
+            "contribution": -0.0254,
+            "value": 0.9892,
+            "imputed": false
+          },
+          {
+            "label": "FX share change, 6m",
+            "contribution": 0.0059,
+            "value": -0.0072,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "log_res_usd",
-        "label": "Reserve base (log USD)",
-        "contribution": 0.5225,
+        "group": "Volatility",
+        "contribution": 0.6026,
         "direction": "raises",
-        "value": 24.4578,
-        "imputed": false
+        "items": [
+          {
+            "label": "FX volatility, 24m",
+            "contribution": 0.4878,
+            "value": 0.0066,
+            "imputed": false
+          },
+          {
+            "label": "FX volatility, 12m",
+            "contribution": 0.2222,
+            "value": 0.0071,
+            "imputed": false
+          },
+          {
+            "label": "FX flexibility vs region",
+            "contribution": -0.1086,
+            "value": 0.9457,
+            "imputed": false
+          },
+          {
+            "label": "Reserve volatility, 12m",
+            "contribution": 0.0012,
+            "value": 0.0608,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "fx_vol_24m",
-        "label": "FX volatility, 24m",
-        "contribution": 0.4878,
-        "direction": "raises",
-        "value": 0.0066,
-        "imputed": false
-      },
-      {
-        "feature": "defacto_peg",
-        "label": "De facto peg",
-        "contribution": -0.413,
+        "group": "Exchange rate regime",
+        "contribution": -0.3104,
         "direction": "lowers",
-        "value": 1.0,
-        "imputed": false
+        "items": [
+          {
+            "label": "De facto peg",
+            "contribution": -0.413,
+            "value": 1.0,
+            "imputed": false
+          },
+          {
+            "label": "EUR-anchored",
+            "contribution": 0.2253,
+            "value": 0.0,
+            "imputed": false
+          },
+          {
+            "label": "Months in current regime",
+            "contribution": -0.1227,
+            "value": 5.0,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "anchor_eur",
-        "label": "EUR-anchored",
-        "contribution": 0.2253,
+        "group": "Currency pressure",
+        "contribution": 0.2549,
         "direction": "raises",
-        "value": 0.0,
-        "imputed": false
-      },
-      {
-        "feature": "fx_vol_12m",
-        "label": "FX volatility, 12m",
-        "contribution": 0.2222,
-        "direction": "raises",
-        "value": 0.0071,
-        "imputed": false
+        "items": [
+          {
+            "label": "Market pressure, 6m avg",
+            "contribution": 0.1511,
+            "value": 0.0162,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 12m",
+            "contribution": 0.1307,
+            "value": 0.0638,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 3m avg",
+            "contribution": 0.1025,
+            "value": 0.0252,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 3m",
+            "contribution": -0.0606,
+            "value": 0.0242,
+            "imputed": false
+          },
+          {
+            "label": "FX vs 36m trend",
+            "contribution": -0.0483,
+            "value": 0.0892,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 6m",
+            "contribution": -0.016,
+            "value": 0.048,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 12m avg",
+            "contribution": -0.0044,
+            "value": 0.0034,
+            "imputed": false
+          }
+        ]
       }
     ]
   },
@@ -232,54 +574,168 @@
     "defacto_peg": false,
     "imputed_features": [],
     "score_quality": "complete",
-    "drivers": [
+    "log_odds": 0.9755,
+    "contribution_total": 1.2838,
+    "groups": [
       {
-        "feature": "res_vs_24m_max",
-        "label": "Reserves vs 24m peak",
-        "contribution": -0.5453,
+        "group": "Volatility",
+        "contribution": 0.8604,
+        "direction": "raises",
+        "items": [
+          {
+            "label": "FX volatility, 24m",
+            "contribution": 0.304,
+            "value": 0.012,
+            "imputed": false
+          },
+          {
+            "label": "FX volatility, 12m",
+            "contribution": 0.2692,
+            "value": 0.005,
+            "imputed": false
+          },
+          {
+            "label": "Reserve volatility, 12m",
+            "contribution": 0.1475,
+            "value": 0.0354,
+            "imputed": false
+          },
+          {
+            "label": "FX flexibility vs region",
+            "contribution": 0.1398,
+            "value": 1.7283,
+            "imputed": false
+          }
+        ]
+      },
+      {
+        "group": "Exchange rate regime",
+        "contribution": 0.6042,
+        "direction": "raises",
+        "items": [
+          {
+            "label": "De facto peg",
+            "contribution": 0.2779,
+            "value": 0.0,
+            "imputed": false
+          },
+          {
+            "label": "EUR-anchored",
+            "contribution": 0.2253,
+            "value": 0.0,
+            "imputed": false
+          },
+          {
+            "label": "Months in current regime",
+            "contribution": 0.1009,
+            "value": 142.0,
+            "imputed": false
+          }
+        ]
+      },
+      {
+        "group": "Currency pressure",
+        "contribution": -0.1064,
         "direction": "lowers",
-        "value": 0.0,
-        "imputed": false
+        "items": [
+          {
+            "label": "FX change, 12m",
+            "contribution": -0.261,
+            "value": -0.0237,
+            "imputed": false
+          },
+          {
+            "label": "FX vs 36m trend",
+            "contribution": 0.1865,
+            "value": -0.0174,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 6m avg",
+            "contribution": -0.0597,
+            "value": -0.0098,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 3m",
+            "contribution": 0.0284,
+            "value": -0.0025,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 3m avg",
+            "contribution": -0.0194,
+            "value": -0.0077,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 6m",
+            "contribution": 0.0118,
+            "value": -0.0125,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 12m avg",
+            "contribution": 0.007,
+            "value": -0.0104,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "fx_vol_24m",
-        "label": "FX volatility, 24m",
-        "contribution": 0.304,
-        "direction": "raises",
-        "value": 0.012,
-        "imputed": false
-      },
-      {
-        "feature": "defacto_peg",
-        "label": "De facto peg",
-        "contribution": 0.2779,
-        "direction": "raises",
-        "value": 0.0,
-        "imputed": false
-      },
-      {
-        "feature": "fx_vol_12m",
-        "label": "FX volatility, 12m",
-        "contribution": 0.2692,
-        "direction": "raises",
-        "value": 0.005,
-        "imputed": false
-      },
-      {
-        "feature": "fx_chg_12m",
-        "label": "FX change, 12m",
-        "contribution": -0.261,
+        "group": "Reserve adequacy",
+        "contribution": -0.0743,
         "direction": "lowers",
-        "value": -0.0237,
-        "imputed": false
-      },
-      {
-        "feature": "anchor_eur",
-        "label": "EUR-anchored",
-        "contribution": 0.2253,
-        "direction": "raises",
-        "value": 0.0,
-        "imputed": false
+        "items": [
+          {
+            "label": "Reserves vs 24m peak",
+            "contribution": -0.5453,
+            "value": 0.0,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 12m",
+            "contribution": 0.1408,
+            "value": 0.442,
+            "imputed": false
+          },
+          {
+            "label": "Reserves vs 36m average",
+            "contribution": 0.1306,
+            "value": 0.2814,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 6m",
+            "contribution": 0.1003,
+            "value": 0.2057,
+            "imputed": false
+          },
+          {
+            "label": "Reserve base (log USD)",
+            "contribution": 0.0751,
+            "value": 22.5088,
+            "imputed": false
+          },
+          {
+            "label": "FX share of reserves",
+            "contribution": 0.0295,
+            "value": 0.9206,
+            "imputed": false
+          },
+          {
+            "label": "FX share change, 6m",
+            "contribution": -0.0134,
+            "value": 0.0176,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 3m",
+            "contribution": 0.0083,
+            "value": 0.088,
+            "imputed": false
+          }
+        ]
       }
     ]
   },
@@ -303,54 +759,168 @@
     "defacto_peg": true,
     "imputed_features": [],
     "score_quality": "complete",
-    "drivers": [
+    "log_odds": -0.4454,
+    "contribution_total": -0.137,
+    "groups": [
       {
-        "feature": "fx_vol_24m",
-        "label": "FX volatility, 24m",
-        "contribution": 0.5684,
+        "group": "Volatility",
+        "contribution": 0.792,
         "direction": "raises",
-        "value": 0.0042,
-        "imputed": false
+        "items": [
+          {
+            "label": "FX volatility, 24m",
+            "contribution": 0.5684,
+            "value": 0.0042,
+            "imputed": false
+          },
+          {
+            "label": "FX volatility, 12m",
+            "contribution": 0.2804,
+            "value": 0.0045,
+            "imputed": false
+          },
+          {
+            "label": "FX flexibility vs region",
+            "contribution": -0.2798,
+            "value": 0.4061,
+            "imputed": false
+          },
+          {
+            "label": "Reserve volatility, 12m",
+            "contribution": 0.223,
+            "value": 0.0224,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "anchor_eur",
-        "label": "EUR-anchored",
-        "contribution": -0.5534,
+        "group": "Exchange rate regime",
+        "contribution": -0.5586,
         "direction": "lowers",
-        "value": 1.0,
-        "imputed": false
+        "items": [
+          {
+            "label": "EUR-anchored",
+            "contribution": -0.5534,
+            "value": 1.0,
+            "imputed": false
+          },
+          {
+            "label": "De facto peg",
+            "contribution": -0.413,
+            "value": 1.0,
+            "imputed": false
+          },
+          {
+            "label": "Months in current regime",
+            "contribution": 0.4078,
+            "value": 330.0,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "defacto_peg",
-        "label": "De facto peg",
-        "contribution": -0.413,
+        "group": "Reserve adequacy",
+        "contribution": -0.4924,
         "direction": "lowers",
-        "value": 1.0,
-        "imputed": false
+        "items": [
+          {
+            "label": "Reserves vs 24m peak",
+            "contribution": -0.2869,
+            "value": -0.0554,
+            "imputed": false
+          },
+          {
+            "label": "Reserves vs 36m average",
+            "contribution": -0.1956,
+            "value": 0.0339,
+            "imputed": false
+          },
+          {
+            "label": "Reserve base (log USD)",
+            "contribution": 0.1692,
+            "value": 22.9189,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 6m",
+            "contribution": -0.0887,
+            "value": -0.0554,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 12m",
+            "contribution": -0.05,
+            "value": 0.0259,
+            "imputed": false
+          },
+          {
+            "label": "FX share of reserves",
+            "contribution": -0.0337,
+            "value": 0.9996,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 3m",
+            "contribution": -0.0071,
+            "value": -0.0156,
+            "imputed": false
+          },
+          {
+            "label": "FX share change, 6m",
+            "contribution": 0.0004,
+            "value": -0.0001,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "months_since_regime_flip",
-        "label": "Months in current regime",
-        "contribution": 0.4078,
+        "group": "Currency pressure",
+        "contribution": 0.122,
         "direction": "raises",
-        "value": 330.0,
-        "imputed": false
-      },
-      {
-        "feature": "res_vs_24m_max",
-        "label": "Reserves vs 24m peak",
-        "contribution": -0.2869,
-        "direction": "lowers",
-        "value": -0.0554,
-        "imputed": false
-      },
-      {
-        "feature": "fx_vol_12m",
-        "label": "FX volatility, 12m",
-        "contribution": 0.2804,
-        "direction": "raises",
-        "value": 0.0045,
-        "imputed": false
+        "items": [
+          {
+            "label": "FX change, 12m",
+            "contribution": -0.1474,
+            "value": 0.0017,
+            "imputed": false
+          },
+          {
+            "label": "FX vs 36m trend",
+            "contribution": 0.1425,
+            "value": 0.0026,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 6m avg",
+            "contribution": 0.0945,
+            "value": 0.0092,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 3m avg",
+            "contribution": 0.0283,
+            "value": 0.0052,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 6m",
+            "contribution": 0.0068,
+            "value": -0.0017,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 3m",
+            "contribution": -0.003,
+            "value": 0.0069,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 12m avg",
+            "contribution": 0.0002,
+            "value": -0.0022,
+            "imputed": false
+          }
+        ]
       }
     ]
   },
@@ -374,54 +944,168 @@
     "defacto_peg": false,
     "imputed_features": [],
     "score_quality": "complete",
-    "drivers": [
+    "log_odds": 1.5478,
+    "contribution_total": 1.8561,
+    "groups": [
       {
-        "feature": "res_vs_24m_max",
-        "label": "Reserves vs 24m peak",
-        "contribution": 1.3573,
+        "group": "Reserve adequacy",
+        "contribution": 0.905,
         "direction": "raises",
-        "value": -0.4078,
-        "imputed": false
+        "items": [
+          {
+            "label": "Reserves vs 24m peak",
+            "contribution": 1.3573,
+            "value": -0.4078,
+            "imputed": false
+          },
+          {
+            "label": "Reserves vs 36m average",
+            "contribution": -0.458,
+            "value": -0.1653,
+            "imputed": false
+          },
+          {
+            "label": "Reserve base (log USD)",
+            "contribution": 0.2837,
+            "value": 23.4176,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 12m",
+            "contribution": -0.2157,
+            "value": -0.3356,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 6m",
+            "contribution": -0.1593,
+            "value": -0.1528,
+            "imputed": false
+          },
+          {
+            "label": "FX share of reserves",
+            "contribution": 0.0908,
+            "value": 0.8438,
+            "imputed": false
+          },
+          {
+            "label": "FX share change, 6m",
+            "contribution": 0.0186,
+            "value": -0.0234,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 3m",
+            "contribution": -0.0124,
+            "value": -0.0511,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "fx_vol_rel_region",
-        "label": "FX flexibility vs region",
-        "contribution": 0.8603,
+        "group": "Exchange rate regime",
+        "contribution": 0.6123,
         "direction": "raises",
-        "value": 3.9994,
-        "imputed": false
+        "items": [
+          {
+            "label": "De facto peg",
+            "contribution": 0.2779,
+            "value": 0.0,
+            "imputed": false
+          },
+          {
+            "label": "EUR-anchored",
+            "contribution": 0.2253,
+            "value": 0.0,
+            "imputed": false
+          },
+          {
+            "label": "Months in current regime",
+            "contribution": 0.1091,
+            "value": 147.0,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "res_vs_36m_mean",
-        "label": "Reserves vs 36m average",
-        "contribution": -0.458,
-        "direction": "lowers",
-        "value": -0.1653,
-        "imputed": false
-      },
-      {
-        "feature": "fx_chg_12m",
-        "label": "FX change, 12m",
-        "contribution": -0.378,
-        "direction": "lowers",
-        "value": -0.0499,
-        "imputed": false
-      },
-      {
-        "feature": "fx_vol_12m",
-        "label": "FX volatility, 12m",
-        "contribution": -0.286,
-        "direction": "lowers",
-        "value": 0.0297,
-        "imputed": false
-      },
-      {
-        "feature": "log_res_usd",
-        "label": "Reserve base (log USD)",
-        "contribution": 0.2837,
+        "group": "Volatility",
+        "contribution": 0.3936,
         "direction": "raises",
-        "value": 23.4176,
-        "imputed": false
+        "items": [
+          {
+            "label": "FX flexibility vs region",
+            "contribution": 0.8603,
+            "value": 3.9994,
+            "imputed": false
+          },
+          {
+            "label": "FX volatility, 12m",
+            "contribution": -0.286,
+            "value": 0.0297,
+            "imputed": false
+          },
+          {
+            "label": "FX volatility, 24m",
+            "contribution": -0.2295,
+            "value": 0.0277,
+            "imputed": false
+          },
+          {
+            "label": "Reserve volatility, 12m",
+            "contribution": 0.0488,
+            "value": 0.0526,
+            "imputed": false
+          }
+        ]
+      },
+      {
+        "group": "Currency pressure",
+        "contribution": -0.0548,
+        "direction": "lowers",
+        "items": [
+          {
+            "label": "FX change, 12m",
+            "contribution": -0.378,
+            "value": -0.0499,
+            "imputed": false
+          },
+          {
+            "label": "FX vs 36m trend",
+            "contribution": 0.151,
+            "value": -0.0012,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 3m",
+            "contribution": 0.099,
+            "value": -0.0236,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 6m avg",
+            "contribution": 0.0394,
+            "value": 0.0024,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 6m",
+            "contribution": 0.0305,
+            "value": -0.0533,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 3m avg",
+            "contribution": 0.0103,
+            "value": 0.0003,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 12m avg",
+            "contribution": -0.0069,
+            "value": 0.0064,
+            "imputed": false
+          }
+        ]
       }
     ]
   },
@@ -445,54 +1129,168 @@
     "defacto_peg": true,
     "imputed_features": [],
     "score_quality": "complete",
-    "drivers": [
+    "log_odds": -0.4809,
+    "contribution_total": -0.1726,
+    "groups": [
       {
-        "feature": "fx_vol_24m",
-        "label": "FX volatility, 24m",
-        "contribution": 0.5658,
-        "direction": "raises",
-        "value": 0.0043,
-        "imputed": false
-      },
-      {
-        "feature": "anchor_eur",
-        "label": "EUR-anchored",
-        "contribution": -0.5534,
+        "group": "Exchange rate regime",
+        "contribution": -0.6941,
         "direction": "lowers",
-        "value": 1.0,
-        "imputed": false
+        "items": [
+          {
+            "label": "EUR-anchored",
+            "contribution": -0.5534,
+            "value": 1.0,
+            "imputed": false
+          },
+          {
+            "label": "De facto peg",
+            "contribution": -0.413,
+            "value": 1.0,
+            "imputed": false
+          },
+          {
+            "label": "Months in current regime",
+            "contribution": 0.2723,
+            "value": 247.0,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "defacto_peg",
-        "label": "De facto peg",
-        "contribution": -0.413,
-        "direction": "lowers",
-        "value": 1.0,
-        "imputed": false
-      },
-      {
-        "feature": "fx_vol_12m",
-        "label": "FX volatility, 12m",
-        "contribution": 0.2916,
+        "group": "Volatility",
+        "contribution": 0.6819,
         "direction": "raises",
-        "value": 0.004,
-        "imputed": false
+        "items": [
+          {
+            "label": "FX volatility, 24m",
+            "contribution": 0.5658,
+            "value": 0.0043,
+            "imputed": false
+          },
+          {
+            "label": "FX volatility, 12m",
+            "contribution": 0.2916,
+            "value": 0.004,
+            "imputed": false
+          },
+          {
+            "label": "FX flexibility vs region",
+            "contribution": -0.2268,
+            "value": 0.5732,
+            "imputed": false
+          },
+          {
+            "label": "Reserve volatility, 12m",
+            "contribution": 0.0513,
+            "value": 0.0521,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "months_since_regime_flip",
-        "label": "Months in current regime",
-        "contribution": 0.2723,
-        "direction": "raises",
-        "value": 247.0,
-        "imputed": false
-      },
-      {
-        "feature": "fx_vol_rel_region",
-        "label": "FX flexibility vs region",
-        "contribution": -0.2268,
+        "group": "Reserve adequacy",
+        "contribution": -0.223,
         "direction": "lowers",
-        "value": 0.5732,
-        "imputed": false
+        "items": [
+          {
+            "label": "Reserves vs 24m peak",
+            "contribution": -0.1213,
+            "value": -0.0909,
+            "imputed": false
+          },
+          {
+            "label": "Reserves vs 36m average",
+            "contribution": -0.0671,
+            "value": 0.1314,
+            "imputed": false
+          },
+          {
+            "label": "Reserve base (log USD)",
+            "contribution": 0.0379,
+            "value": 22.3467,
+            "imputed": false
+          },
+          {
+            "label": "FX share of reserves",
+            "contribution": -0.0333,
+            "value": 0.9991,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 12m",
+            "contribution": -0.0269,
+            "value": 0.0762,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 3m",
+            "contribution": -0.0183,
+            "value": -0.0909,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 6m",
+            "contribution": 0.0056,
+            "value": 0.0749,
+            "imputed": false
+          },
+          {
+            "label": "FX share change, 6m",
+            "contribution": 0.0003,
+            "value": 0.0001,
+            "imputed": false
+          }
+        ]
+      },
+      {
+        "group": "Currency pressure",
+        "contribution": 0.0627,
+        "direction": "raises",
+        "items": [
+          {
+            "label": "FX change, 12m",
+            "contribution": -0.1518,
+            "value": 0.0007,
+            "imputed": false
+          },
+          {
+            "label": "FX vs 36m trend",
+            "contribution": 0.1438,
+            "value": 0.002,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 3m avg",
+            "contribution": 0.1214,
+            "value": 0.0303,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 6m avg",
+            "contribution": -0.0811,
+            "value": -0.0125,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 3m",
+            "contribution": 0.0213,
+            "value": -0.0003,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 6m",
+            "contribution": 0.0054,
+            "value": 0.0013,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 12m avg",
+            "contribution": 0.0036,
+            "value": -0.0064,
+            "imputed": false
+          }
+        ]
       }
     ]
   },
@@ -516,54 +1314,168 @@
     "defacto_peg": false,
     "imputed_features": [],
     "score_quality": "complete",
-    "drivers": [
+    "log_odds": 0.4585,
+    "contribution_total": 0.7668,
+    "groups": [
       {
-        "feature": "res_vs_24m_max",
-        "label": "Reserves vs 24m peak",
-        "contribution": 1.2871,
+        "group": "Reserve adequacy",
+        "contribution": 0.4148,
         "direction": "raises",
-        "value": -0.3928,
-        "imputed": false
+        "items": [
+          {
+            "label": "Reserves vs 24m peak",
+            "contribution": 1.2871,
+            "value": -0.3928,
+            "imputed": false
+          },
+          {
+            "label": "Reserves vs 36m average",
+            "contribution": -0.3624,
+            "value": -0.0927,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 6m",
+            "contribution": -0.3235,
+            "value": -0.3796,
+            "imputed": false
+          },
+          {
+            "label": "Reserve base (log USD)",
+            "contribution": -0.2104,
+            "value": 21.2652,
+            "imputed": false
+          },
+          {
+            "label": "FX share of reserves",
+            "contribution": 0.1129,
+            "value": 0.8161,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 12m",
+            "contribution": -0.0929,
+            "value": -0.0678,
+            "imputed": false
+          },
+          {
+            "label": "FX share change, 6m",
+            "contribution": 0.058,
+            "value": -0.0738,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 3m",
+            "contribution": -0.054,
+            "value": -0.3316,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "res_vol_12m",
-        "label": "Reserve volatility, 12m",
-        "contribution": -0.417,
-        "direction": "lowers",
-        "value": 0.1334,
-        "imputed": false
-      },
-      {
-        "feature": "defacto_peg",
-        "label": "De facto peg",
-        "contribution": -0.413,
-        "direction": "lowers",
-        "value": 1.0,
-        "imputed": false
-      },
-      {
-        "feature": "fx_vol_24m",
-        "label": "FX volatility, 24m",
-        "contribution": 0.3849,
+        "group": "Volatility",
+        "contribution": 0.3409,
         "direction": "raises",
-        "value": 0.0096,
-        "imputed": false
+        "items": [
+          {
+            "label": "Reserve volatility, 12m",
+            "contribution": -0.417,
+            "value": 0.1334,
+            "imputed": false
+          },
+          {
+            "label": "FX volatility, 24m",
+            "contribution": 0.3849,
+            "value": 0.0096,
+            "imputed": false
+          },
+          {
+            "label": "FX volatility, 12m",
+            "contribution": 0.3716,
+            "value": 0.0004,
+            "imputed": false
+          },
+          {
+            "label": "FX flexibility vs region",
+            "contribution": 0.0015,
+            "value": 1.2925,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "fx_vol_12m",
-        "label": "FX volatility, 12m",
-        "contribution": 0.3716,
+        "group": "Currency pressure",
+        "contribution": 0.3167,
         "direction": "raises",
-        "value": 0.0004,
-        "imputed": false
+        "items": [
+          {
+            "label": "Market pressure, 6m avg",
+            "contribution": 0.1702,
+            "value": 0.0186,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 12m",
+            "contribution": -0.1559,
+            "value": -0.0002,
+            "imputed": false
+          },
+          {
+            "label": "FX vs 36m trend",
+            "contribution": 0.1488,
+            "value": -0.0002,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 3m avg",
+            "contribution": 0.1295,
+            "value": 0.0325,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 3m",
+            "contribution": 0.021,
+            "value": -0.0002,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 6m",
+            "contribution": 0.0061,
+            "value": -0.0002,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 12m avg",
+            "contribution": -0.003,
+            "value": 0.0016,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "res_vs_36m_mean",
-        "label": "Reserves vs 36m average",
-        "contribution": -0.3624,
+        "group": "Exchange rate regime",
+        "contribution": -0.3055,
         "direction": "lowers",
-        "value": -0.0927,
-        "imputed": false
+        "items": [
+          {
+            "label": "De facto peg",
+            "contribution": -0.413,
+            "value": 1.0,
+            "imputed": false
+          },
+          {
+            "label": "EUR-anchored",
+            "contribution": 0.2253,
+            "value": 0.0,
+            "imputed": false
+          },
+          {
+            "label": "Months in current regime",
+            "contribution": -0.1178,
+            "value": 8.0,
+            "imputed": false
+          }
+        ]
       }
     ]
   },
@@ -587,54 +1499,168 @@
     "defacto_peg": false,
     "imputed_features": [],
     "score_quality": "complete",
-    "drivers": [
+    "log_odds": 0.1656,
+    "contribution_total": 0.4739,
+    "groups": [
       {
-        "feature": "res_vs_24m_max",
-        "label": "Reserves vs 24m peak",
-        "contribution": -0.5453,
-        "direction": "lowers",
-        "value": 0.0,
-        "imputed": false
-      },
-      {
-        "feature": "fx_vol_24m",
-        "label": "FX volatility, 24m",
-        "contribution": 0.4791,
+        "group": "Volatility",
+        "contribution": 0.8388,
         "direction": "raises",
-        "value": 0.0068,
-        "imputed": false
+        "items": [
+          {
+            "label": "FX volatility, 24m",
+            "contribution": 0.4791,
+            "value": 0.0068,
+            "imputed": false
+          },
+          {
+            "label": "FX volatility, 12m",
+            "contribution": 0.2656,
+            "value": 0.0051,
+            "imputed": false
+          },
+          {
+            "label": "Reserve volatility, 12m",
+            "contribution": 0.191,
+            "value": 0.0279,
+            "imputed": false
+          },
+          {
+            "label": "FX flexibility vs region",
+            "contribution": -0.0968,
+            "value": 0.9827,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "defacto_peg",
-        "label": "De facto peg",
-        "contribution": -0.413,
+        "group": "Exchange rate regime",
+        "contribution": -0.3055,
         "direction": "lowers",
-        "value": 1.0,
-        "imputed": false
+        "items": [
+          {
+            "label": "De facto peg",
+            "contribution": -0.413,
+            "value": 1.0,
+            "imputed": false
+          },
+          {
+            "label": "EUR-anchored",
+            "contribution": 0.2253,
+            "value": 0.0,
+            "imputed": false
+          },
+          {
+            "label": "Months in current regime",
+            "contribution": -0.1178,
+            "value": 8.0,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "fx_chg_12m",
-        "label": "FX change, 12m",
-        "contribution": -0.3423,
+        "group": "Currency pressure",
+        "contribution": -0.0718,
         "direction": "lowers",
-        "value": -0.0419,
-        "imputed": false
+        "items": [
+          {
+            "label": "FX change, 12m",
+            "contribution": -0.3423,
+            "value": -0.0419,
+            "imputed": false
+          },
+          {
+            "label": "FX vs 36m trend",
+            "contribution": 0.2643,
+            "value": -0.0527,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 3m",
+            "contribution": 0.0993,
+            "value": -0.0237,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 6m avg",
+            "contribution": -0.0918,
+            "value": -0.0138,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 3m avg",
+            "contribution": -0.0306,
+            "value": -0.0107,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 6m",
+            "contribution": 0.0223,
+            "value": -0.0354,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 12m avg",
+            "contribution": 0.0071,
+            "value": -0.0106,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "fx_vol_12m",
-        "label": "FX volatility, 12m",
-        "contribution": 0.2656,
+        "group": "Reserve adequacy",
+        "contribution": 0.0124,
         "direction": "raises",
-        "value": 0.0051,
-        "imputed": false
-      },
-      {
-        "feature": "res_vs_36m_mean",
-        "label": "Reserves vs 36m average",
-        "contribution": 0.2645,
-        "direction": "raises",
-        "value": 0.3831,
-        "imputed": false
+        "items": [
+          {
+            "label": "Reserves vs 24m peak",
+            "contribution": -0.5453,
+            "value": 0.0,
+            "imputed": false
+          },
+          {
+            "label": "Reserves vs 36m average",
+            "contribution": 0.2645,
+            "value": 0.3831,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 12m",
+            "contribution": 0.1254,
+            "value": 0.4085,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 6m",
+            "contribution": 0.1254,
+            "value": 0.2404,
+            "imputed": false
+          },
+          {
+            "label": "Reserve base (log USD)",
+            "contribution": 0.0712,
+            "value": 22.4919,
+            "imputed": false
+          },
+          {
+            "label": "FX share of reserves",
+            "contribution": -0.0319,
+            "value": 0.9974,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 3m",
+            "contribution": 0.0041,
+            "value": 0.0601,
+            "imputed": false
+          },
+          {
+            "label": "FX share change, 6m",
+            "contribution": -0.001,
+            "value": 0.0017,
+            "imputed": false
+          }
+        ]
       }
     ]
   },
@@ -658,54 +1684,168 @@
     "defacto_peg": false,
     "imputed_features": [],
     "score_quality": "complete",
-    "drivers": [
+    "log_odds": -0.8657,
+    "contribution_total": -0.5573,
+    "groups": [
       {
-        "feature": "anchor_eur",
-        "label": "EUR-anchored",
-        "contribution": -0.5534,
+        "group": "Exchange rate regime",
+        "contribution": -1.0875,
         "direction": "lowers",
-        "value": 1.0,
-        "imputed": false
+        "items": [
+          {
+            "label": "EUR-anchored",
+            "contribution": -0.5534,
+            "value": 1.0,
+            "imputed": false
+          },
+          {
+            "label": "De facto peg",
+            "contribution": -0.413,
+            "value": 1.0,
+            "imputed": false
+          },
+          {
+            "label": "Months in current regime",
+            "contribution": -0.1211,
+            "value": 6.0,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "res_vs_24m_max",
-        "label": "Reserves vs 24m peak",
-        "contribution": -0.5453,
-        "direction": "lowers",
-        "value": 0.0,
-        "imputed": false
-      },
-      {
-        "feature": "fx_vol_24m",
-        "label": "FX volatility, 24m",
-        "contribution": 0.471,
+        "group": "Volatility",
+        "contribution": 0.8633,
         "direction": "raises",
-        "value": 0.0071,
-        "imputed": false
+        "items": [
+          {
+            "label": "FX volatility, 24m",
+            "contribution": 0.471,
+            "value": 0.0071,
+            "imputed": false
+          },
+          {
+            "label": "FX volatility, 12m",
+            "contribution": 0.2964,
+            "value": 0.0038,
+            "imputed": false
+          },
+          {
+            "label": "Reserve volatility, 12m",
+            "contribution": 0.1819,
+            "value": 0.0295,
+            "imputed": false
+          },
+          {
+            "label": "FX flexibility vs region",
+            "contribution": -0.0859,
+            "value": 1.0173,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "defacto_peg",
-        "label": "De facto peg",
-        "contribution": -0.413,
+        "group": "Reserve adequacy",
+        "contribution": -0.3241,
         "direction": "lowers",
-        "value": 1.0,
-        "imputed": false
+        "items": [
+          {
+            "label": "Reserves vs 24m peak",
+            "contribution": -0.5453,
+            "value": 0.0,
+            "imputed": false
+          },
+          {
+            "label": "Reserve base (log USD)",
+            "contribution": 0.1537,
+            "value": 22.8512,
+            "imputed": false
+          },
+          {
+            "label": "Reserves vs 36m average",
+            "contribution": 0.0596,
+            "value": 0.2276,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 6m",
+            "contribution": 0.0123,
+            "value": 0.0842,
+            "imputed": false
+          },
+          {
+            "label": "FX share of reserves",
+            "contribution": -0.0041,
+            "value": 0.9625,
+            "imputed": false
+          },
+          {
+            "label": "FX share change, 6m",
+            "contribution": -0.0021,
+            "value": 0.0032,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 12m",
+            "contribution": 0.001,
+            "value": 0.137,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 3m",
+            "contribution": 0.0008,
+            "value": 0.0378,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "fx_vol_12m",
-        "label": "FX volatility, 12m",
-        "contribution": 0.2964,
-        "direction": "raises",
-        "value": 0.0038,
-        "imputed": false
-      },
-      {
-        "feature": "fx_chg_12m",
-        "label": "FX change, 12m",
-        "contribution": -0.2915,
+        "group": "Currency pressure",
+        "contribution": -0.009,
         "direction": "lowers",
-        "value": -0.0305,
-        "imputed": false
+        "items": [
+          {
+            "label": "FX change, 12m",
+            "contribution": -0.2915,
+            "value": -0.0305,
+            "imputed": false
+          },
+          {
+            "label": "FX vs 36m trend",
+            "contribution": 0.2466,
+            "value": -0.0447,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 3m",
+            "contribution": 0.0497,
+            "value": -0.0088,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 6m avg",
+            "contribution": -0.017,
+            "value": -0.0046,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 6m",
+            "contribution": 0.0109,
+            "value": -0.0107,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 3m avg",
+            "contribution": -0.01,
+            "value": -0.0051,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 12m avg",
+            "contribution": 0.0022,
+            "value": -0.0046,
+            "imputed": false
+          }
+        ]
       }
     ]
   },
@@ -729,54 +1869,168 @@
     "defacto_peg": true,
     "imputed_features": [],
     "score_quality": "complete",
-    "drivers": [
+    "log_odds": 0.4126,
+    "contribution_total": 0.721,
+    "groups": [
       {
-        "feature": "res_vs_24m_max",
-        "label": "Reserves vs 24m peak",
-        "contribution": 0.6504,
+        "group": "Exchange rate regime",
+        "contribution": 0.3723,
         "direction": "raises",
-        "value": -0.2563,
-        "imputed": false
+        "items": [
+          {
+            "label": "De facto peg",
+            "contribution": 0.2779,
+            "value": 0.0,
+            "imputed": false
+          },
+          {
+            "label": "EUR-anchored",
+            "contribution": 0.2253,
+            "value": 0.0,
+            "imputed": false
+          },
+          {
+            "label": "Months in current regime",
+            "contribution": -0.1309,
+            "value": 0.0,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "fx_chg_12m",
-        "label": "FX change, 12m",
-        "contribution": -0.4993,
+        "group": "Volatility",
+        "contribution": 0.2669,
+        "direction": "raises",
+        "items": [
+          {
+            "label": "FX volatility, 24m",
+            "contribution": 0.3556,
+            "value": 0.0105,
+            "imputed": false
+          },
+          {
+            "label": "Reserve volatility, 12m",
+            "contribution": -0.2159,
+            "value": 0.0985,
+            "imputed": false
+          },
+          {
+            "label": "FX volatility, 12m",
+            "contribution": 0.0888,
+            "value": 0.013,
+            "imputed": false
+          },
+          {
+            "label": "FX flexibility vs region",
+            "contribution": 0.0384,
+            "value": 1.4088,
+            "imputed": false
+          }
+        ]
+      },
+      {
+        "group": "Reserve adequacy",
+        "contribution": 0.1881,
+        "direction": "raises",
+        "items": [
+          {
+            "label": "Reserves vs 24m peak",
+            "contribution": 0.6504,
+            "value": -0.2563,
+            "imputed": false
+          },
+          {
+            "label": "Reserves vs 36m average",
+            "contribution": -0.2828,
+            "value": -0.0323,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 6m",
+            "contribution": -0.2015,
+            "value": -0.2112,
+            "imputed": false
+          },
+          {
+            "label": "Reserve base (log USD)",
+            "contribution": 0.1771,
+            "value": 22.9531,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 12m",
+            "contribution": -0.1633,
+            "value": -0.2214,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 3m",
+            "contribution": -0.0171,
+            "value": -0.083,
+            "imputed": false
+          },
+          {
+            "label": "FX share of reserves",
+            "contribution": 0.0155,
+            "value": 0.9381,
+            "imputed": false
+          },
+          {
+            "label": "FX share change, 6m",
+            "contribution": 0.0099,
+            "value": -0.0123,
+            "imputed": false
+          }
+        ]
+      },
+      {
+        "group": "Currency pressure",
+        "contribution": -0.1064,
         "direction": "lowers",
-        "value": -0.077,
-        "imputed": false
-      },
-      {
-        "feature": "fx_vol_24m",
-        "label": "FX volatility, 24m",
-        "contribution": 0.3556,
-        "direction": "raises",
-        "value": 0.0105,
-        "imputed": false
-      },
-      {
-        "feature": "res_vs_36m_mean",
-        "label": "Reserves vs 36m average",
-        "contribution": -0.2828,
-        "direction": "lowers",
-        "value": -0.0323,
-        "imputed": false
-      },
-      {
-        "feature": "defacto_peg",
-        "label": "De facto peg",
-        "contribution": 0.2779,
-        "direction": "raises",
-        "value": 0.0,
-        "imputed": false
-      },
-      {
-        "feature": "anchor_eur",
-        "label": "EUR-anchored",
-        "contribution": 0.2253,
-        "direction": "raises",
-        "value": 0.0,
-        "imputed": false
+        "items": [
+          {
+            "label": "FX change, 12m",
+            "contribution": -0.4993,
+            "value": -0.077,
+            "imputed": false
+          },
+          {
+            "label": "FX vs 36m trend",
+            "contribution": 0.2225,
+            "value": -0.0337,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 3m",
+            "contribution": 0.0822,
+            "value": -0.0186,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 6m avg",
+            "contribution": 0.0539,
+            "value": 0.0042,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 3m avg",
+            "contribution": 0.0257,
+            "value": 0.0045,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 6m",
+            "contribution": 0.008,
+            "value": -0.0042,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 12m avg",
+            "contribution": 0.0007,
+            "value": -0.0028,
+            "imputed": false
+          }
+        ]
       }
     ]
   },
@@ -800,54 +2054,168 @@
     "defacto_peg": true,
     "imputed_features": [],
     "score_quality": "complete",
-    "drivers": [
+    "log_odds": 0.0816,
+    "contribution_total": 0.3899,
+    "groups": [
       {
-        "feature": "fx_vol_24m",
-        "label": "FX volatility, 24m",
-        "contribution": 0.7099,
+        "group": "Volatility",
+        "contribution": 0.8308,
         "direction": "raises",
-        "value": 0.0,
-        "imputed": false
+        "items": [
+          {
+            "label": "FX volatility, 24m",
+            "contribution": 0.7099,
+            "value": 0.0,
+            "imputed": false
+          },
+          {
+            "label": "FX flexibility vs region",
+            "contribution": -0.4086,
+            "value": 0.0,
+            "imputed": false
+          },
+          {
+            "label": "FX volatility, 12m",
+            "contribution": 0.3809,
+            "value": 0.0,
+            "imputed": false
+          },
+          {
+            "label": "Reserve volatility, 12m",
+            "contribution": 0.1486,
+            "value": 0.0353,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "res_vs_24m_max",
-        "label": "Reserves vs 24m peak",
-        "contribution": -0.5453,
+        "group": "Reserve adequacy",
+        "contribution": -0.2652,
         "direction": "lowers",
-        "value": 0.0,
-        "imputed": false
+        "items": [
+          {
+            "label": "Reserves vs 24m peak",
+            "contribution": -0.5453,
+            "value": 0.0,
+            "imputed": false
+          },
+          {
+            "label": "Reserve base (log USD)",
+            "contribution": 0.2919,
+            "value": 23.4531,
+            "imputed": false
+          },
+          {
+            "label": "Reserves vs 36m average",
+            "contribution": -0.0203,
+            "value": 0.1669,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 12m",
+            "contribution": 0.0194,
+            "value": 0.1773,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 6m",
+            "contribution": -0.013,
+            "value": 0.0492,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 3m",
+            "contribution": 0.0089,
+            "value": 0.0921,
+            "imputed": false
+          },
+          {
+            "label": "FX share change, 6m",
+            "contribution": -0.0036,
+            "value": 0.0051,
+            "imputed": false
+          },
+          {
+            "label": "FX share of reserves",
+            "contribution": -0.003,
+            "value": 0.9612,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "defacto_peg",
-        "label": "De facto peg",
-        "contribution": -0.413,
+        "group": "Exchange rate regime",
+        "contribution": -0.1782,
         "direction": "lowers",
-        "value": 1.0,
-        "imputed": false
+        "items": [
+          {
+            "label": "De facto peg",
+            "contribution": -0.413,
+            "value": 1.0,
+            "imputed": false
+          },
+          {
+            "label": "EUR-anchored",
+            "contribution": 0.2253,
+            "value": 0.0,
+            "imputed": false
+          },
+          {
+            "label": "Months in current regime",
+            "contribution": 0.0095,
+            "value": 86.0,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "fx_vol_rel_region",
-        "label": "FX flexibility vs region",
-        "contribution": -0.4086,
-        "direction": "lowers",
-        "value": 0.0,
-        "imputed": false
-      },
-      {
-        "feature": "fx_vol_12m",
-        "label": "FX volatility, 12m",
-        "contribution": 0.3809,
+        "group": "Currency pressure",
+        "contribution": 0.0024,
         "direction": "raises",
-        "value": 0.0,
-        "imputed": false
-      },
-      {
-        "feature": "log_res_usd",
-        "label": "Reserve base (log USD)",
-        "contribution": 0.2919,
-        "direction": "raises",
-        "value": 23.4531,
-        "imputed": false
+        "items": [
+          {
+            "label": "FX change, 12m",
+            "contribution": -0.1548,
+            "value": 0.0,
+            "imputed": false
+          },
+          {
+            "label": "FX vs 36m trend",
+            "contribution": 0.1482,
+            "value": 0.0,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 3m avg",
+            "contribution": -0.0211,
+            "value": -0.0081,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 3m",
+            "contribution": 0.0202,
+            "value": 0.0,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 6m",
+            "contribution": 0.006,
+            "value": 0.0,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 6m avg",
+            "contribution": 0.0023,
+            "value": -0.0022,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 12m avg",
+            "contribution": 0.0016,
+            "value": -0.0039,
+            "imputed": false
+          }
+        ]
       }
     ]
   },
@@ -871,54 +2239,168 @@
     "defacto_peg": true,
     "imputed_features": [],
     "score_quality": "complete",
-    "drivers": [
+    "log_odds": 0.1308,
+    "contribution_total": 0.4391,
+    "groups": [
       {
-        "feature": "fx_vol_24m",
-        "label": "FX volatility, 24m",
-        "contribution": 0.5107,
+        "group": "Volatility",
+        "contribution": 0.5255,
         "direction": "raises",
-        "value": 0.0059,
-        "imputed": false
+        "items": [
+          {
+            "label": "FX volatility, 24m",
+            "contribution": 0.5107,
+            "value": 0.0059,
+            "imputed": false
+          },
+          {
+            "label": "FX volatility, 12m",
+            "contribution": 0.2115,
+            "value": 0.0076,
+            "imputed": false
+          },
+          {
+            "label": "FX flexibility vs region",
+            "contribution": -0.1927,
+            "value": 0.6806,
+            "imputed": false
+          },
+          {
+            "label": "Reserve volatility, 12m",
+            "contribution": -0.004,
+            "value": 0.0617,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "defacto_peg",
-        "label": "De facto peg",
-        "contribution": -0.413,
+        "group": "Exchange rate regime",
+        "contribution": -0.2924,
         "direction": "lowers",
-        "value": 1.0,
-        "imputed": false
+        "items": [
+          {
+            "label": "De facto peg",
+            "contribution": -0.413,
+            "value": 1.0,
+            "imputed": false
+          },
+          {
+            "label": "EUR-anchored",
+            "contribution": 0.2253,
+            "value": 0.0,
+            "imputed": false
+          },
+          {
+            "label": "Months in current regime",
+            "contribution": -0.1048,
+            "value": 16.0,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "anchor_eur",
-        "label": "EUR-anchored",
-        "contribution": 0.2253,
+        "group": "Reserve adequacy",
+        "contribution": 0.1091,
         "direction": "raises",
-        "value": 0.0,
-        "imputed": false
+        "items": [
+          {
+            "label": "Reserves vs 24m peak",
+            "contribution": -0.1493,
+            "value": -0.0849,
+            "imputed": false
+          },
+          {
+            "label": "Reserves vs 36m average",
+            "contribution": 0.0946,
+            "value": 0.2541,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 6m",
+            "contribution": 0.0715,
+            "value": 0.1659,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 12m",
+            "contribution": 0.054,
+            "value": 0.2527,
+            "imputed": false
+          },
+          {
+            "label": "Reserve base (log USD)",
+            "contribution": 0.0535,
+            "value": 22.4147,
+            "imputed": false
+          },
+          {
+            "label": "FX share of reserves",
+            "contribution": -0.0198,
+            "value": 0.9822,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 3m",
+            "contribution": 0.0069,
+            "value": 0.0785,
+            "imputed": false
+          },
+          {
+            "label": "FX share change, 6m",
+            "contribution": -0.0023,
+            "value": 0.0034,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "fx_vol_12m",
-        "label": "FX volatility, 12m",
-        "contribution": 0.2115,
+        "group": "Currency pressure",
+        "contribution": 0.097,
         "direction": "raises",
-        "value": 0.0076,
-        "imputed": false
-      },
-      {
-        "feature": "fx_vol_rel_region",
-        "label": "FX flexibility vs region",
-        "contribution": -0.1927,
-        "direction": "lowers",
-        "value": 0.6806,
-        "imputed": false
-      },
-      {
-        "feature": "res_vs_24m_max",
-        "label": "Reserves vs 24m peak",
-        "contribution": -0.1493,
-        "direction": "lowers",
-        "value": -0.0849,
-        "imputed": false
+        "items": [
+          {
+            "label": "FX vs 36m trend",
+            "contribution": 0.0888,
+            "value": 0.027,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 3m",
+            "contribution": 0.04,
+            "value": -0.0059,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 6m avg",
+            "contribution": -0.0212,
+            "value": -0.0051,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 3m avg",
+            "contribution": -0.0117,
+            "value": -0.0056,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 6m",
+            "contribution": 0.009,
+            "value": -0.0065,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 12m",
+            "contribution": -0.007,
+            "value": 0.033,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 12m avg",
+            "contribution": -0.0009,
+            "value": -0.0008,
+            "imputed": false
+          }
+        ]
       }
     ]
   },
@@ -942,54 +2424,168 @@
     "defacto_peg": true,
     "imputed_features": [],
     "score_quality": "complete",
-    "drivers": [
+    "log_odds": -0.5892,
+    "contribution_total": -0.2809,
+    "groups": [
       {
-        "feature": "fx_vol_24m",
-        "label": "FX volatility, 24m",
-        "contribution": 0.6428,
-        "direction": "raises",
-        "value": 0.002,
-        "imputed": false
-      },
-      {
-        "feature": "anchor_eur",
-        "label": "EUR-anchored",
-        "contribution": -0.5534,
+        "group": "Exchange rate regime",
+        "contribution": -0.8834,
         "direction": "lowers",
-        "value": 1.0,
-        "imputed": false
+        "items": [
+          {
+            "label": "EUR-anchored",
+            "contribution": -0.5534,
+            "value": 1.0,
+            "imputed": false
+          },
+          {
+            "label": "De facto peg",
+            "contribution": -0.413,
+            "value": 1.0,
+            "imputed": false
+          },
+          {
+            "label": "Months in current regime",
+            "contribution": 0.083,
+            "value": 131.0,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "log_res_usd",
-        "label": "Reserve base (log USD)",
-        "contribution": 0.4205,
+        "group": "Volatility",
+        "contribution": 0.8249,
         "direction": "raises",
-        "value": 24.0137,
-        "imputed": false
+        "items": [
+          {
+            "label": "FX volatility, 24m",
+            "contribution": 0.6428,
+            "value": 0.002,
+            "imputed": false
+          },
+          {
+            "label": "FX volatility, 12m",
+            "contribution": 0.3412,
+            "value": 0.0018,
+            "imputed": false
+          },
+          {
+            "label": "FX flexibility vs region",
+            "contribution": -0.3179,
+            "value": 0.286,
+            "imputed": false
+          },
+          {
+            "label": "Reserve volatility, 12m",
+            "contribution": 0.1588,
+            "value": 0.0335,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "defacto_peg",
-        "label": "De facto peg",
-        "contribution": -0.413,
+        "group": "Reserve adequacy",
+        "contribution": -0.2712,
         "direction": "lowers",
-        "value": 1.0,
-        "imputed": false
+        "items": [
+          {
+            "label": "Reserve base (log USD)",
+            "contribution": 0.4205,
+            "value": 24.0137,
+            "imputed": false
+          },
+          {
+            "label": "Reserves vs 24m peak",
+            "contribution": -0.3967,
+            "value": -0.0319,
+            "imputed": false
+          },
+          {
+            "label": "Reserves vs 36m average",
+            "contribution": -0.1743,
+            "value": 0.0501,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 6m",
+            "contribution": -0.0517,
+            "value": -0.0043,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 12m",
+            "contribution": -0.0442,
+            "value": 0.0384,
+            "imputed": false
+          },
+          {
+            "label": "FX share of reserves",
+            "contribution": -0.0277,
+            "value": 0.9921,
+            "imputed": false
+          },
+          {
+            "label": "FX share change, 6m",
+            "contribution": 0.0043,
+            "value": -0.005,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 3m",
+            "contribution": -0.0014,
+            "value": 0.0228,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "res_vs_24m_max",
-        "label": "Reserves vs 24m peak",
-        "contribution": -0.3967,
-        "direction": "lowers",
-        "value": -0.0319,
-        "imputed": false
-      },
-      {
-        "feature": "fx_vol_12m",
-        "label": "FX volatility, 12m",
-        "contribution": 0.3412,
+        "group": "Currency pressure",
+        "contribution": 0.0489,
         "direction": "raises",
-        "value": 0.0018,
-        "imputed": false
+        "items": [
+          {
+            "label": "FX vs 36m trend",
+            "contribution": 0.1443,
+            "value": 0.0018,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 12m",
+            "contribution": -0.143,
+            "value": 0.0026,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 6m avg",
+            "contribution": 0.0236,
+            "value": 0.0005,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 3m",
+            "contribution": 0.018,
+            "value": 0.0006,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 6m",
+            "contribution": 0.005,
+            "value": 0.0022,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 3m avg",
+            "contribution": 0.0019,
+            "value": -0.0019,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 12m avg",
+            "contribution": -0.001,
+            "value": -0.0007,
+            "imputed": false
+          }
+        ]
       }
     ]
   },
@@ -1013,54 +2609,168 @@
     "defacto_peg": false,
     "imputed_features": [],
     "score_quality": "complete",
-    "drivers": [
+    "log_odds": -0.2765,
+    "contribution_total": 0.0318,
+    "groups": [
       {
-        "feature": "fx_chg_12m",
-        "label": "FX change, 12m",
-        "contribution": -1.5867,
+        "group": "Currency pressure",
+        "contribution": -1.0564,
         "direction": "lowers",
-        "value": -0.3201,
-        "imputed": false
+        "items": [
+          {
+            "label": "FX change, 12m",
+            "contribution": -1.5867,
+            "value": -0.3201,
+            "imputed": false
+          },
+          {
+            "label": "FX vs 36m trend",
+            "contribution": 0.3678,
+            "value": -0.0997,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 3m",
+            "contribution": 0.1087,
+            "value": -0.0265,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 6m avg",
+            "contribution": 0.0287,
+            "value": 0.0011,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 12m avg",
+            "contribution": 0.0104,
+            "value": -0.0146,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 6m",
+            "contribution": 0.0083,
+            "value": -0.005,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 3m avg",
+            "contribution": 0.0063,
+            "value": -0.0007,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "fx_vol_rel_region",
-        "label": "FX flexibility vs region",
-        "contribution": 1.063,
+        "group": "Exchange rate regime",
+        "contribution": 0.7119,
         "direction": "raises",
-        "value": 4.6381,
-        "imputed": false
+        "items": [
+          {
+            "label": "De facto peg",
+            "contribution": 0.2779,
+            "value": 0.0,
+            "imputed": false
+          },
+          {
+            "label": "EUR-anchored",
+            "contribution": 0.2253,
+            "value": 0.0,
+            "imputed": false
+          },
+          {
+            "label": "Months in current regime",
+            "contribution": 0.2087,
+            "value": 208.0,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "log_res_usd",
-        "label": "Reserve base (log USD)",
-        "contribution": 1.0535,
+        "group": "Reserve adequacy",
+        "contribution": 0.3487,
         "direction": "raises",
-        "value": 26.7711,
-        "imputed": false
+        "items": [
+          {
+            "label": "Reserve base (log USD)",
+            "contribution": 1.0535,
+            "value": 26.7711,
+            "imputed": false
+          },
+          {
+            "label": "Reserves vs 24m peak",
+            "contribution": -0.337,
+            "value": -0.0447,
+            "imputed": false
+          },
+          {
+            "label": "Reserves vs 36m average",
+            "contribution": -0.263,
+            "value": -0.0173,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 6m",
+            "contribution": -0.0627,
+            "value": -0.0194,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 12m",
+            "contribution": -0.0558,
+            "value": 0.0132,
+            "imputed": false
+          },
+          {
+            "label": "FX share of reserves",
+            "contribution": 0.0206,
+            "value": 0.9317,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 3m",
+            "contribution": -0.0085,
+            "value": -0.0248,
+            "imputed": false
+          },
+          {
+            "label": "FX share change, 6m",
+            "contribution": 0.0015,
+            "value": -0.0015,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "fx_vol_24m",
-        "label": "FX volatility, 24m",
-        "contribution": -0.7926,
-        "direction": "lowers",
-        "value": 0.0443,
-        "imputed": false
-      },
-      {
-        "feature": "fx_vol_12m",
-        "label": "FX volatility, 12m",
-        "contribution": -0.5125,
-        "direction": "lowers",
-        "value": 0.0398,
-        "imputed": false
-      },
-      {
-        "feature": "fx_vs_36m_trend",
-        "label": "FX vs 36m trend",
-        "contribution": 0.3678,
+        "group": "Volatility",
+        "contribution": 0.0276,
         "direction": "raises",
-        "value": -0.0997,
-        "imputed": false
+        "items": [
+          {
+            "label": "FX flexibility vs region",
+            "contribution": 1.063,
+            "value": 4.6381,
+            "imputed": false
+          },
+          {
+            "label": "FX volatility, 24m",
+            "contribution": -0.7926,
+            "value": 0.0443,
+            "imputed": false
+          },
+          {
+            "label": "FX volatility, 12m",
+            "contribution": -0.5125,
+            "value": 0.0398,
+            "imputed": false
+          },
+          {
+            "label": "Reserve volatility, 12m",
+            "contribution": 0.2697,
+            "value": 0.0143,
+            "imputed": false
+          }
+        ]
       }
     ]
   },
@@ -1084,54 +2794,168 @@
     "defacto_peg": false,
     "imputed_features": [],
     "score_quality": "complete",
-    "drivers": [
+    "log_odds": -0.3159,
+    "contribution_total": -0.0076,
+    "groups": [
       {
-        "feature": "fx_chg_12m",
-        "label": "FX change, 12m",
-        "contribution": -0.9018,
+        "group": "Volatility",
+        "contribution": 0.4515,
+        "direction": "raises",
+        "items": [
+          {
+            "label": "FX flexibility vs region",
+            "contribution": 0.1935,
+            "value": 1.8977,
+            "imputed": false
+          },
+          {
+            "label": "Reserve volatility, 12m",
+            "contribution": 0.1669,
+            "value": 0.0321,
+            "imputed": false
+          },
+          {
+            "label": "FX volatility, 24m",
+            "contribution": 0.151,
+            "value": 0.0165,
+            "imputed": false
+          },
+          {
+            "label": "FX volatility, 12m",
+            "contribution": -0.0598,
+            "value": 0.0197,
+            "imputed": false
+          }
+        ]
+      },
+      {
+        "group": "Currency pressure",
+        "contribution": -0.4472,
         "direction": "lowers",
-        "value": -0.167,
-        "imputed": false
+        "items": [
+          {
+            "label": "FX change, 12m",
+            "contribution": -0.9018,
+            "value": -0.167,
+            "imputed": false
+          },
+          {
+            "label": "FX vs 36m trend",
+            "contribution": 0.4328,
+            "value": -0.1292,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 6m avg",
+            "contribution": -0.0806,
+            "value": -0.0124,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 3m",
+            "contribution": 0.0728,
+            "value": -0.0158,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 6m",
+            "contribution": 0.0372,
+            "value": -0.0678,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 3m avg",
+            "contribution": -0.0175,
+            "value": -0.0072,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 12m avg",
+            "contribution": 0.0099,
+            "value": -0.014,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "res_vs_24m_max",
-        "label": "Reserves vs 24m peak",
-        "contribution": -0.5453,
+        "group": "Reserve adequacy",
+        "contribution": -0.3957,
         "direction": "lowers",
-        "value": 0.0,
-        "imputed": false
+        "items": [
+          {
+            "label": "Reserves vs 24m peak",
+            "contribution": -0.5453,
+            "value": 0.0,
+            "imputed": false
+          },
+          {
+            "label": "Reserves vs 36m average",
+            "contribution": 0.0673,
+            "value": 0.2334,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 6m",
+            "contribution": 0.0515,
+            "value": 0.1382,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 12m",
+            "contribution": 0.0168,
+            "value": 0.1715,
+            "imputed": false
+          },
+          {
+            "label": "FX share of reserves",
+            "contribution": 0.014,
+            "value": 0.9399,
+            "imputed": false
+          },
+          {
+            "label": "FX share change, 6m",
+            "contribution": -0.0068,
+            "value": 0.0091,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 3m",
+            "contribution": 0.0063,
+            "value": 0.0748,
+            "imputed": false
+          },
+          {
+            "label": "Reserve base (log USD)",
+            "contribution": 0.0006,
+            "value": 22.1842,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "fx_vs_36m_trend",
-        "label": "FX vs 36m trend",
-        "contribution": 0.4328,
+        "group": "Exchange rate regime",
+        "contribution": 0.3838,
         "direction": "raises",
-        "value": -0.1292,
-        "imputed": false
-      },
-      {
-        "feature": "defacto_peg",
-        "label": "De facto peg",
-        "contribution": 0.2779,
-        "direction": "raises",
-        "value": 0.0,
-        "imputed": false
-      },
-      {
-        "feature": "anchor_eur",
-        "label": "EUR-anchored",
-        "contribution": 0.2253,
-        "direction": "raises",
-        "value": 0.0,
-        "imputed": false
-      },
-      {
-        "feature": "fx_vol_rel_region",
-        "label": "FX flexibility vs region",
-        "contribution": 0.1935,
-        "direction": "raises",
-        "value": 1.8977,
-        "imputed": false
+        "items": [
+          {
+            "label": "De facto peg",
+            "contribution": 0.2779,
+            "value": 0.0,
+            "imputed": false
+          },
+          {
+            "label": "EUR-anchored",
+            "contribution": 0.2253,
+            "value": 0.0,
+            "imputed": false
+          },
+          {
+            "label": "Months in current regime",
+            "contribution": -0.1195,
+            "value": 7.0,
+            "imputed": false
+          }
+        ]
       }
     ]
   },
@@ -1155,54 +2979,168 @@
     "defacto_peg": false,
     "imputed_features": [],
     "score_quality": "complete",
-    "drivers": [
+    "log_odds": -1.2104,
+    "contribution_total": -0.902,
+    "groups": [
       {
-        "feature": "anchor_eur",
-        "label": "EUR-anchored",
-        "contribution": -0.5534,
+        "group": "Exchange rate regime",
+        "contribution": -1.0809,
         "direction": "lowers",
-        "value": 1.0,
-        "imputed": false
+        "items": [
+          {
+            "label": "EUR-anchored",
+            "contribution": -0.5534,
+            "value": 1.0,
+            "imputed": false
+          },
+          {
+            "label": "De facto peg",
+            "contribution": -0.413,
+            "value": 1.0,
+            "imputed": false
+          },
+          {
+            "label": "Months in current regime",
+            "contribution": -0.1146,
+            "value": 10.0,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "res_vs_24m_max",
-        "label": "Reserves vs 24m peak",
-        "contribution": -0.5453,
+        "group": "Volatility",
+        "contribution": 0.7464,
+        "direction": "raises",
+        "items": [
+          {
+            "label": "FX volatility, 24m",
+            "contribution": 0.4755,
+            "value": 0.0069,
+            "imputed": false
+          },
+          {
+            "label": "FX volatility, 12m",
+            "contribution": 0.206,
+            "value": 0.0078,
+            "imputed": false
+          },
+          {
+            "label": "Reserve volatility, 12m",
+            "contribution": 0.1777,
+            "value": 0.0302,
+            "imputed": false
+          },
+          {
+            "label": "FX flexibility vs region",
+            "contribution": -0.1128,
+            "value": 0.9324,
+            "imputed": false
+          }
+        ]
+      },
+      {
+        "group": "Reserve adequacy",
+        "contribution": -0.6636,
         "direction": "lowers",
-        "value": 0.0,
-        "imputed": false
+        "items": [
+          {
+            "label": "Reserves vs 24m peak",
+            "contribution": -0.5453,
+            "value": 0.0,
+            "imputed": false
+          },
+          {
+            "label": "Reserves vs 36m average",
+            "contribution": -0.1056,
+            "value": 0.1022,
+            "imputed": false
+          },
+          {
+            "label": "Reserve base (log USD)",
+            "contribution": 0.0799,
+            "value": 22.5295,
+            "imputed": false
+          },
+          {
+            "label": "FX share of reserves",
+            "contribution": -0.0325,
+            "value": 0.9982,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 6m",
+            "contribution": -0.0325,
+            "value": 0.0223,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 12m",
+            "contribution": -0.0236,
+            "value": 0.0835,
+            "imputed": false
+          },
+          {
+            "label": "Reserves change, 3m",
+            "contribution": -0.004,
+            "value": 0.005,
+            "imputed": false
+          },
+          {
+            "label": "FX share change, 6m",
+            "contribution": 0.0001,
+            "value": 0.0003,
+            "imputed": false
+          }
+        ]
       },
       {
-        "feature": "fx_vol_24m",
-        "label": "FX volatility, 24m",
-        "contribution": 0.4755,
+        "group": "Currency pressure",
+        "contribution": 0.0962,
         "direction": "raises",
-        "value": 0.0069,
-        "imputed": false
-      },
-      {
-        "feature": "defacto_peg",
-        "label": "De facto peg",
-        "contribution": -0.413,
-        "direction": "lowers",
-        "value": 1.0,
-        "imputed": false
-      },
-      {
-        "feature": "fx_vol_12m",
-        "label": "FX volatility, 12m",
-        "contribution": 0.206,
-        "direction": "raises",
-        "value": 0.0078,
-        "imputed": false
-      },
-      {
-        "feature": "res_vol_12m",
-        "label": "Reserve volatility, 12m",
-        "contribution": 0.1777,
-        "direction": "raises",
-        "value": 0.0302,
-        "imputed": false
+        "items": [
+          {
+            "label": "FX vs 36m trend",
+            "contribution": 0.0689,
+            "value": 0.036,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 6m avg",
+            "contribution": 0.0334,
+            "value": 0.0017,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 3m avg",
+            "contribution": 0.0125,
+            "value": 0.0009,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 12m",
+            "contribution": -0.0084,
+            "value": 0.0327,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 6m",
+            "contribution": -0.0064,
+            "value": 0.0271,
+            "imputed": false
+          },
+          {
+            "label": "FX change, 3m",
+            "contribution": -0.0027,
+            "value": 0.0069,
+            "imputed": false
+          },
+          {
+            "label": "Market pressure, 12m avg",
+            "contribution": -0.0011,
+            "value": -0.0006,
+            "imputed": false
+          }
+        ]
       }
     ]
   },
@@ -1226,7 +3164,9 @@
     "defacto_peg": null,
     "imputed_features": [],
     "score_quality": "unavailable",
-    "drivers": [],
+    "log_odds": null,
+    "contribution_total": null,
+    "groups": [],
     "excluded_reason": "Insufficient IMF data to score"
   }
 ]

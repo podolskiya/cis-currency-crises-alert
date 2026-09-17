@@ -1,8 +1,9 @@
 {
-  "generated_utc": "2026-09-17T22:57:54+00:00",
+  "generated_utc": "2026-09-17T23:00:58+00:00",
   "as_of_month": "2026-09",
   "model": "Logistic regression (L2, C=0.1, balanced class weights)",
   "features": 22,
+  "intercept": -0.3084,
   "horizon_months": 12,
   "publication_lag_months": 3,
   "recent_window_start": "2016-01",
@@ -251,7 +252,8 @@
     "No crisis onset has been detected in the panel since July 2022, so the most recent validated test window ends March 2023. Readings after that date are extrapolation.",
     "Probabilities are not calibrated to observed frequencies. Percentile rank against the country's own history is the more reliable signal.",
     "Fitted probabilities drift mildly upward over time, so the 2016-01-onward percentile is the fairer current comparison.",
+    "Regularisation spreads signal across correlated features. Contributions are shown grouped because no single driver carries a score.",
     "Data freshness varies by country. Check the lag fields before acting on any single reading.",
-    "This is a research tool, not investment advice."
+    "Research tool, not investment advice."
   ]
 }
