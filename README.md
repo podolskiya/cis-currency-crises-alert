@@ -4,7 +4,8 @@
 
 **Currency crisis probabilities for 18 frontier economies across Central Asia, the Caucasus, Eastern Europe and the Western Balkans**
 
-*A Kaminsky–Reinhart–Végh signal model rebuilt for the post-Soviet space, with regime conditioning and honest out-of-sample validation.*
+*A Kaminsky–Reinhart–Végh signal model rebuilt for the post-Soviet space, with regime conditioning and honest out-of-sample validation.*<img width="1491" height="782" alt="Screenshot 2026-09-17 191005" src="https://github.com/user-attachments/assets/77b7561a-4d5d-4bb6-89ec-3e2de1039e50" />
+
 
 </div>
 
@@ -154,7 +155,3 @@ pip install -r requirements.txt
 ```
 
 ---
-
-<div align="center">
-<sub>Built with IMF public data · Not affiliated with the IMF · MIT licensed</sub>
-</div>
