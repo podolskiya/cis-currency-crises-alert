@@ -4,11 +4,6 @@
 
 **Currency crisis probabilities for 18 frontier economies across Central Asia, the Caucasus, Eastern Europe and the Western Balkans**
 
-[![Live dashboard](https://img.shields.io/badge/dashboard-live-1b7a43?style=flat-square)](https://your-project.vercel.app)
-[![Python](https://img.shields.io/badge/python-3.12-166534?style=flat-square)](https://www.python.org)
-[![Data](https://img.shields.io/badge/data-IMF%20SDMX%203.0-22a35a?style=flat-square)](https://data.imf.org)
-[![License](https://img.shields.io/badge/license-MIT-6f766e?style=flat-square)](LICENSE)
-
 *A Kaminsky–Reinhart–Végh signal model rebuilt for the post-Soviet space, with regime conditioning and honest out-of-sample validation.*
 
 </div>
