@@ -59,6 +59,7 @@ Expanding-window folds with a 12-month purge gap, because a label at month *t* e
 | **Idiosyncratic** | Belarus 2011 (65% devaluation), Turkey 2001 and 2018, Mongolia 2016 |
 
 > Bosnia's October 2008 episode fires on a 16.4% reserve drawdown with the currency board holding at **exactly 0.0% FX movement** — a pressure event the standard index is structurally incapable of detecting.
+<img width="1223" height="285" alt="image" src="https://github.com/user-attachments/assets/5fb9bb75-8aef-4a61-b2a0-a1a49585ab8a" />
 
 ---
 
