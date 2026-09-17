@@ -1,4 +1,3 @@
-"""Feature construction. Every column uses only information available at month t."""
 import pathlib, sys
 import numpy as np, pandas as pd
 
@@ -81,8 +80,6 @@ COUNTRY_FEATURES = [c for c in p.columns if any(
                               "res_vol", "res_vs", "fx_share_chg", "fx_vs_36"))] + ["fx_share"]
 FEATURES = COUNTRY_FEATURES + REGIME + CONTAGION + REER
 
-# Blocks with structural gaps (short CPI series, own-country contagion nulls) are
-# imputed cross-sectionally rather than gating row inclusion.
 for c in CONTAGION + REER + ["fx_vol_rel_region", "months_since_regime_flip"]:
     p[c] = p[c].fillna(p.groupby("date")[c].transform("median")).fillna(0.0)
 

@@ -1,12 +1,3 @@
-"""Exchange market pressure index — regime-aware, anchor-aware.
-
-Weighting: inverse standard deviation per country (Kaminsky-Reinhart-Vegh),
-so components are comparable across economies that absorb pressure differently.
-Moments: expanding and lagged, so every label uses only information a
-contemporary analyst would have had.
-Currency-board countries use a reserve-only variant, because their FX term is
-degenerate by construction and would otherwise dominate the inverse-SD weight.
-"""
 import pathlib, sys
 import numpy as np, pandas as pd
 
@@ -17,8 +8,8 @@ from src.config import (PANEL_START, COUNTRY_START_OVERRIDE, EXCLUDE_FROM_MODEL,
 MIN_OBS = 24
 THRESHOLD_SD = 2.5
 WINDOW_EXCL = 18
-MIN_FX_MOVE = 0.02          # corroboration filter for FX-bearing countries
-MIN_RES_DROP = -0.05        # corroboration for reserve-only countries
+MIN_FX_MOVE = 0.02          
+MIN_RES_DROP = -0.05       
 
 p = pd.read_parquet("data/processed/panel_monthly.parquet")
 p = p[~p["COUNTRY"].isin(EXCLUDE_FROM_MODEL)].copy()
@@ -36,7 +27,6 @@ p["reserve_only"] = p["COUNTRY"].isin(RESERVE_ONLY_EMP)
 sd = p.groupby("COUNTRY")[["fx_ret", "res_ret"]].std()
 inv = 1 / sd
 w = inv.div(inv.sum(axis=1), axis=0).rename(columns={"fx_ret": "w_fx", "res_ret": "w_res"})
-# Currency boards: all weight on reserves
 w.loc[w.index.isin(RESERVE_ONLY_EMP), ["w_fx", "w_res"]] = [0.0, 1.0]
 p = p.merge(w, left_on="COUNTRY", right_index=True)
 

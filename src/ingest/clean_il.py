@@ -1,4 +1,3 @@
-"""Tidy the IL pull and merge with the FX panel."""
 import pathlib, sys
 import numpy as np, pandas as pd
 

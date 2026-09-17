@@ -1,9 +1,3 @@
-"""Real exchange rate and inflation-differential features.
-
-Real rate = nominal (domestic per anchor) x anchor CPI / domestic CPI.
-Rising = real depreciation. Deviation from trailing trend is the classic
-overvaluation signal that precedes currency crises.
-"""
 import pathlib, sys
 import numpy as np, pandas as pd
 
